@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Burmese Keyboard</string>
+    <string name="action_settings">Settings</string>
+    <string name="sybtype_en_US">Burmese</string>
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Go</string>
+    <string name="custom_label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+    <!-- Labels for subtype -->
+    <string name="label_subtype_generic">Burmese</string>
+    <string name="label_subtype_en_GB">Burmese Language</string>
+    <!-- Titles for ImePreference -->
+    <string name="settings_name">Keyboard Settings</string>
+    <string name="language_selection_title">Input languages</string>
+    <string name="select_language">Select input languages</string>
+    <string name="general_category">General</string>
+    <!-- Database strings -->
+    <string name="best_app_db_name">database.sqlite</string>
+    <string name="en_table_name">en_table</string>
+    <string name="pa_table_name">pa_table</string>
+    <string name="fa_table_name">fa_table</string>
+    <string name="freq_column">freq</string>
+    <string name="word_column">word</string>
+    <string name="show_suggestions">Suggestion CheckBox</string>
+    <string name="please_wait_for_a_while">Please wait For a while</string>
+    <string name="exit">Exit</string>
+    <string name="rate_us">Rate us</string>
+    <string name="would_you_like_to_rateus">Would you like to rate us?</string>
+    <string name="terms_title">Burmese Keyboard - End User License Agreement</string>
+    <string name="terms_details">
+        Burmese Keyboard - Burmese Typing &amp; Emoji app is useful to write
+        Burmese language characters quickly and easily. Beautiful and multiple background themes
+        are also included that will decorate your keyboard. You can insert stylish emoji in your
+        message to make your message clearer to understand. Word suggestions will also appear while typing,
+        this feature is used to write more characters in less time. Burmese Keyboard - BurmeseTyping &amp; Emoji
+        is used to write a message, email, post, blog.\n\n\n
+        <b>Permissions:</b>\n\n
+        Internet\n\n
+        Record Audio\n\n
+        Information we get from your use of the application is primarily non-personally identifying
+        information of the sort that service like Google Analytics typically make available, such as the operating
+        system name and version, device manufacturer,device model and identifier etc.\n\nWe may use this data to
+        analyze how the application is being used. Other non-identifying information that we might have access
+        to includes how you use the application.\n\nIn order to help support further development of the application
+        we might include some non intrusive ads from AdMob. Please be advised that any data collected by AdMob is
+        only used to prevent you with better ads.\n\n
+    </string>
+    <string name="english" translatable="false">English</string>
+    <string name="Burmese" translatable="false">Burmese</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="test_keyboard">Test Keyboard</string>
+    <string name="enable_keyboard">Enable Keyboard</string>
+    <string name="select_keyboard">Select Keyboard</string>
+    <string name="themes">Themes</string>
+    <string name="change_language">Change Language</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="theme_applied">Theme applied successfully</string>
+    <string name="recomendation">\nLet me recommend you this application\n</string>
+    <string name="typehere">Type here…</string>
+
+    <!-- new updates -->
+    <string name="dialog_text">Voice Recognition</string>
+    <string name="premium">Premium</string>
+    <string name="how_to_use">How to use</string>
+    <string name="keyboard_themes">Keyboard Themes</string>
+    <string name="help">Help</string>
+    <string name="is_purchsed" translatable="false">IS_PURCHASED</string>
+    <string name="MY_PREF" translatable="false">MY_PREF</string>
+    <string name="why_do_you_see_ads">Why do you see ads?</string>
+    <string name="revenue_from_adds">Revenue from ads help us to continuously improve our app for you. After buying premium, ads will remove from your app</string>
+    <string name="support_us">Support us</string>
+    <string name="no_ads">No Ads</string>
+    <string name="buy_premium">Buy premium here for removing ads forever</string>
+    <string name="unlock_premium">Unlock Premium</string>
+    <string name="ad_will_display_hare">Loading Ad</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="feedback">Feedback</string>
+    <string name="moreapps">More Apps</string>
+    <string name="loading_ad">Loading Ad Please wait</string>
+    <string name="_3_change_language">3: Change Language</string>
+    <string name="_1_enable_keyboard">1: Enable Keyboard</string>
+    <string name="_2_select_keyboard">2: Select Keyboard</string>
+    <string name="_4_change_themes">4: Change Themes</string>
+    <string name="_5_voice_to_text">5: Voice to Text</string>
+    <string name="colors">Colors</string>
+    <string name="select_the_keyboard">Keyboard already enabled\nPlease select keyboard by pressing select keyboard</string>
+    <string name="title_enable_keyboard">Enable Keyboard</string>
+    <string name="please_first_enable_keyboard">Please First Enable KeyBoard By clicking on Enable Keyboard</string>
+    <string name="enable_dialog">Enable</string>
+    <string name="cancel_dialog">Cancel</string>
+    <string name="you_must_allow_permission">You Must Allow Permission</string>
+    <string name="otherwise_application_will_not_work">\nOtherwise Application Will not Work Properly\n</string>
+    <string name="go_to_settings_and_allow">Go To Settings And Allow Permission You Denied\n\n</string>
+    <string name="if_you_cancel_application_cloase">If You cancel Application Will Be close</string>
+    <string name="title_permission_required_dialog">Permissions Required</string>
+    <string name="go_to_settings">Setting</string>
+    <string name="you_force_fully_denied_permissions">You have forcefully denied some of the required permissions</string>
+    <string name="open_settings_and_allow_themall">for this action. Please open settings, go to permissions and allow them.</string>
+    <string name="install_failed">Installation Failed!</string>
+</resources>
