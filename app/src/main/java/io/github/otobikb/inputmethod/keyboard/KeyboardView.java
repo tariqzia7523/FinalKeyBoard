@@ -17,8 +17,10 @@
 package io.github.otobikb.inputmethod.keyboard;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -26,8 +28,10 @@ import android.graphics.Paint.Align;
 import android.graphics.PorterDuff;
 import android.graphics.Rect;
 import android.graphics.Typeface;
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.NinePatchDrawable;
+import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
@@ -36,6 +40,7 @@ import io.github.otobikb.inputmethod.keyboard.internal.KeyDrawParams;
 import io.github.otobikb.inputmethod.keyboard.internal.KeyVisualAttributes;
 import io.github.otobikb.inputmethod.latin.R;
 import io.github.otobikb.inputmethod.latin.common.Constants;
+import io.github.otobikb.inputmethod.latin.settings.Settings;
 import io.github.otobikb.inputmethod.latin.utils.TypefaceUtils;
 
 import java.util.HashSet;
@@ -95,7 +100,7 @@ public class KeyboardView extends View {
     private final float mSpacebarIconWidthRatio;
     private final Rect mKeyBackgroundPadding = new Rect();
     private static final float KET_TEXT_SHADOW_RADIUS_DISABLED = -1.0f;
-
+    public int mCustomColor = 0;
     // The maximum key label width in the proportion to the key width.
     private static final float MAX_LABEL_RATIO = 0.90f;
 
@@ -194,6 +199,8 @@ public class KeyboardView extends View {
         final int keyHeight = keyboard.mMostCommonKeyHeight - keyboard.mVerticalGap;
         mKeyDrawParams.updateParams(keyHeight, mKeyVisualAttributes);
         mKeyDrawParams.updateParams(keyHeight, keyboard.mKeyVisualAttributes);
+        final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getContext());
+        mCustomColor = Settings.readKeyboardColor(prefs, getContext());
         invalidateAllKeys();
         requestLayout();
     }
@@ -278,52 +285,120 @@ public class KeyboardView extends View {
         }
     }
 
-    private void onDrawKeyboard(@Nonnull final Canvas canvas) {
-        final Keyboard keyboard = getKeyboard();
-        if (keyboard == null) {
-            return;
-        }
-
-        final Paint paint = mPaint;
-        final Drawable background = getBackground();
-        // Calculate clip region and set.
-        final boolean drawAllKeys = mInvalidateAllKeys || mInvalidatedKeys.isEmpty();
-        final boolean isHardwareAccelerated = canvas.isHardwareAccelerated();
-        // TODO: Confirm if it's really required to draw all keys when hardware acceleration is on.
-        if (drawAllKeys || isHardwareAccelerated) {
-            if (!isHardwareAccelerated && background != null) {
-                // Need to draw keyboard background on {@link #mOffscreenBuffer}.
-                canvas.drawColor(Color.BLACK, PorterDuff.Mode.CLEAR);
-                background.draw(canvas);
-            }
-            // Draw all keys.
-            for (final Key key : keyboard.getSortedKeys()) {
-                onDrawKey(key, canvas, paint);
-            }
-        } else {
-            for (final Key key : mInvalidatedKeys) {
-                if (!keyboard.hasKey(key)) {
-                    continue;
-                }
-                if (background != null) {
-                    // Need to redraw key's background on {@link #mOffscreenBuffer}.
-                    final int x = key.getX() + getPaddingLeft();
-                    final int y = key.getY() + getPaddingTop();
-                    mClipRect.set(x, y, x + key.getWidth(), y + key.getHeight());
-                    canvas.save();
-                    canvas.clipRect(mClipRect);
-                    canvas.drawColor(Color.BLACK, PorterDuff.Mode.CLEAR);
-                    background.draw(canvas);
-                    canvas.restore();
-                }
-                onDrawKey(key, canvas, paint);
-            }
-        }
-
-        mInvalidatedKeys.clear();
-        mInvalidateAllKeys = false;
+//    private void onDrawKeyboard(@Nonnull final Canvas canvas) {
+//        final Keyboard keyboard = getKeyboard();
+//        if (keyboard == null) {
+//            return;
+//        }
+//
+//        final Paint paint = mPaint;
+//        final Drawable background = getBackground();
+//        // Calculate clip region and set.
+//        final boolean drawAllKeys = mInvalidateAllKeys || mInvalidatedKeys.isEmpty();
+//        final boolean isHardwareAccelerated = canvas.isHardwareAccelerated();
+//        // TODO: Confirm if it's really required to draw all keys when hardware acceleration is on.
+//        if (drawAllKeys || isHardwareAccelerated) {
+//            if (!isHardwareAccelerated && background != null) {
+//                // Need to draw keyboard background on {@link #mOffscreenBuffer}.
+//                canvas.drawColor(Color.BLACK, PorterDuff.Mode.CLEAR);
+//                background.draw(canvas);
+//            }
+//            // Draw all keys.
+//            for (final Key key : keyboard.getSortedKeys()) {
+//                onDrawKey(key, canvas, paint);
+//            }
+//        } else {
+//            for (final Key key : mInvalidatedKeys) {
+//                if (!keyboard.hasKey(key)) {
+//                    continue;
+//                }
+//                if (background != null) {
+//                    // Need to redraw key's background on {@link #mOffscreenBuffer}.
+//                    final int x = key.getX() + getPaddingLeft();
+//                    final int y = key.getY() + getPaddingTop();
+//                    mClipRect.set(x, y, x + key.getWidth(), y + key.getHeight());
+//                    canvas.save();
+//                    canvas.clipRect(mClipRect);
+//                    canvas.drawColor(Color.BLACK, PorterDuff.Mode.CLEAR);
+//                    background.draw(canvas);
+//                    canvas.restore();
+//                }
+//                onDrawKey(key, canvas, paint);
+//            }
+//        }
+//
+//        mInvalidatedKeys.clear();
+//        mInvalidateAllKeys = false;
+//    }
+    private void onDrawKeyboard(final Canvas canvas) {
+    final Keyboard keyboard = getKeyboard();
+    if (keyboard == null) {
+        return;
     }
 
+    final Paint paint = mPaint;
+    final Drawable background = getBackground();
+    if (keyboard.getKey(Constants.CODE_SPACE) != null) {
+        setBackgroundColor(mCustomColor);
+    }
+    try{
+        final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getContext());
+        int themeType = Settings.getBgImageType(prefs);
+        if(themeType == 1){//file path
+            String filePath = Settings.getBgImageFilePath(prefs);
+            BitmapFactory.Options bmOptions = new BitmapFactory.Options();
+            Bitmap bitmap = BitmapFactory.decodeFile(filePath,bmOptions);
+            Drawable d = new BitmapDrawable(getResources(), bitmap);
+            setBackground(d);
+        }else if(themeType == 2){//resource
+            try{
+                setBackgroundResource(Settings.getBgImageResource(prefs));
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+
+    }catch (Exception e){
+        e.printStackTrace();
+    }
+//        setBackgroundResource(R.drawable.theme_1);
+    // Calculate clip region and set.
+    final boolean drawAllKeys = mInvalidateAllKeys || mInvalidatedKeys.isEmpty();
+    final boolean isHardwareAccelerated = canvas.isHardwareAccelerated();
+    // TODO: Confirm if it's really required to draw all keys when hardware acceleration is on.
+    if (drawAllKeys || isHardwareAccelerated) {
+        if (!isHardwareAccelerated && background != null) {
+            // Need to draw keyboard background on {@link #mOffscreenBuffer}.
+            canvas.drawColor(Color.BLACK, PorterDuff.Mode.CLEAR);
+            background.draw(canvas);
+        }
+        // Draw all keys.
+        for (final Key key : keyboard.getSortedKeys()) {
+            onDrawKey(key, canvas, paint);
+        }
+    } else {
+        for (final Key key : mInvalidatedKeys) {
+            if (!keyboard.hasKey(key)) {
+                continue;
+            }
+            if (background != null) {
+                // Need to redraw key's background on {@link #mOffscreenBuffer}.
+                final int x = key.getX() + getPaddingLeft();
+                final int y = key.getY() + getPaddingTop();
+                mClipRect.set(x, y, x + key.getWidth(), y + key.getHeight());
+                canvas.save();
+                canvas.clipRect(mClipRect);
+                canvas.drawColor(Color.BLACK, PorterDuff.Mode.CLEAR);
+                background.draw(canvas);
+                canvas.restore();
+            }
+            onDrawKey(key, canvas, paint);
+        }
+    }
+
+    mInvalidatedKeys.clear();
+    mInvalidateAllKeys = false;
+}
     private void onDrawKey(@Nonnull final Key key, @Nonnull final Canvas canvas,
             @Nonnull final Paint paint) {
         final int keyDrawX = key.getDrawX() + getPaddingLeft();

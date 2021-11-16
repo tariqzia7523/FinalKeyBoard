@@ -16,6 +16,7 @@
 
 package io.github.otobikb.inputmethod.latin.setup;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.ContentResolver;
 import android.content.Intent;
@@ -282,7 +283,7 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
         mNeedsToAdjustStepNumberToSystemState = true;
     }
 
-    void invokeSubtypeEnablerOfThisIme() {
+    public void invokeSubtypeEnablerOfThisIme() {
         final InputMethodInfo imi =
                 UncachedInputMethodManagerUtils.getInputMethodInfoOf(getPackageName(), mImm);
         if (imi == null) {
@@ -374,6 +375,7 @@ public final class SetupWizardActivity extends Activity implements View.OnClickL
         super.onBackPressed();
     }
 
+    @SuppressLint("ResourceType")
     void hideWelcomeVideoAndShowWelcomeImage() {
         mWelcomeVideoView.setVisibility(View.GONE);
         mWelcomeImageView.setImageResource(R.raw.setup_welcome_image);

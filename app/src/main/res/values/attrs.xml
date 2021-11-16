@@ -604,13 +604,32 @@
         <attr name="stepValue" format="integer" />
     </declare-styleable>
 
-
     <declare-styleable name="advDrawerLayout">
-        <attr name="adl_customBehavior" format="boolean" />
-        <attr name="adl_viewScale" format="float" />
-        <attr name="adl_viewScrimColor" format="color" />
-        <attr name="adl_viewElevation" format="dimension" />
-        <attr name="adl_drawerElevation" format="dimension" />
-        <attr name="adl_cardBackgroundColor" format="reference|color" />
+
+    <attr name="adl_customBehavior" format="boolean"/>
+
+    <attr name="adl_viewScale" format="float"/>
+
+    <attr name="adl_viewScrimColor" format="color"/>
+
+    <attr name="adl_viewElevation" format="dimension"/>
+
+    <attr name="adl_drawerElevation" format="dimension"/>
+
+    <attr name="adl_cardBackgroundColor" format="reference|color"/>
+
+</declare-styleable>
+
+    <declare-styleable name="InkPageIndicator">
+        <attr name="dotDiameter" format="dimension" />
+        <attr name="dotGap" format="dimension" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="pageIndicatorColor" format="color" />
+        <attr name="currentPageIndicatorColor" format="color" />
     </declare-styleable>
+
+    <declare-styleable name="ParallaxLayout_Layout">
+        <attr name="layout_parallaxFactor" format="float" />
+    </declare-styleable>
+
 </resources>

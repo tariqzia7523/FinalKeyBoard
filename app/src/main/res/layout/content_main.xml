@@ -23,22 +23,23 @@
             android:src="@drawable/ic_drawer" />
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/setting"
+            android:id="@+id/testBtn"
             android:layout_width="@dimen/_35sdp"
             android:layout_height="@dimen/_35sdp"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="@dimen/_7sdp"
             android:padding="@dimen/_5sdp"
-            android:src="@drawable/setting" />
+            android:src="@drawable/ic_test_keyboard" />
+
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/testBtn"
+            android:id="@+id/setting"
             android:layout_width="@dimen/_35sdp"
             android:layout_height="@dimen/_35sdp"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="@dimen/_47sdp"
             android:padding="@dimen/_5sdp"
-            android:src="@drawable/ic_test_keyboard" />
+            android:src="@drawable/setting" />
     </RelativeLayout>
 
     <LinearLayout
@@ -92,7 +93,6 @@
                             android:layout_marginTop="@dimen/_10sdp"
                             android:layout_weight="1"
                             android:foreground="?selectableItemBackground"
-                            card_view:cardBackgroundColor="@android:color/white"
                             card_view:cardCornerRadius="8dp"
                             card_view:cardElevation="5dp"
                             card_view:cardUseCompatPadding="true">
@@ -121,6 +121,7 @@
                                     android:textSize="5pt" />
                             </LinearLayout>
                         </androidx.cardview.widget.CardView>
+
 
                         <androidx.cardview.widget.CardView
                             android:id="@+id/btn_SetKeyboard"

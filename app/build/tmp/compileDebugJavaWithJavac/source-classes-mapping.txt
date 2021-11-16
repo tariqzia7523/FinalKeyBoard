@@ -1,0 +1,766 @@
+io/github/otobikb/inputmethod/latin/personalization/PersonalizationHelper.java
+ io.github.otobikb.inputmethod.latin.personalization.PersonalizationHelper
+ io.github.otobikb.inputmethod.latin.personalization.PersonalizationHelper$DictFilter
+io/github/otobikb/inputmethod/changes/Splash_Screen_Activity.java
+ io.github.otobikb.inputmethod.changes.Splash_Screen_Activity
+io/github/otobikb/inputmethod/latin/makedict/WeightedString.java
+ io.github.otobikb.inputmethod.latin.makedict.WeightedString
+io/github/otobikb/inputmethod/latin/utils/FeedbackUtils.java
+ io.github.otobikb.inputmethod.latin.utils.FeedbackUtils
+io/github/otobikb/inputmethod/keyboard/internal/ModifierKeyState.java
+ io.github.otobikb.inputmethod.keyboard.internal.ModifierKeyState
+io/github/otobikb/inputmethod/latin/utils/DictionaryInfoUtils.java
+ io.github.otobikb.inputmethod.latin.utils.DictionaryInfoUtils
+ io.github.otobikb.inputmethod.latin.utils.DictionaryInfoUtils$DictionaryInfo
+io/github/otobikb/inputmethod/latin/settings/SettingsValuesForSuggestion.java
+ io.github.otobikb.inputmethod.latin.settings.SettingsValuesForSuggestion
+io/github/otobikb/inputmethod/intro/app/OnNavigationBlockedListener.java
+ io.github.otobikb.inputmethod.intro.app.OnNavigationBlockedListener
+ io.github.otobikb.inputmethod.intro.app.OnNavigationBlockedListener$Direction
+io/github/otobikb/inputmethod/intro/app/OnPositionNavigationBlockedListener.java
+ io.github.otobikb.inputmethod.intro.app.OnPositionNavigationBlockedListener
+io/github/otobikb/inputmethod/changes/AddIds.java
+ io.github.otobikb.inputmethod.changes.AddIds
+io/github/otobikb/inputmethod/latin/Dictionary.java
+ io.github.otobikb.inputmethod.latin.Dictionary
+ io.github.otobikb.inputmethod.latin.Dictionary$PhonyDictionary
+io/github/otobikb/inputmethod/intro/view/InkPageIndicator.java
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$1
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$2
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$3
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$4
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$LeftwardStartPredicate
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$PendingRetreatAnimator
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$PendingRetreatAnimator$1
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$PendingRetreatAnimator$2
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$PendingRetreatAnimator$3
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$PendingRevealAnimator
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$PendingRevealAnimator$1
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$PendingRevealAnimator$2
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$PendingStartAnimator
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$RightwardStartPredicate
+ io.github.otobikb.inputmethod.intro.view.InkPageIndicator$StartPredicate
+io/github/otobikb/inputmethod/latin/makedict/FormatSpec.java
+ io.github.otobikb.inputmethod.latin.makedict.FormatSpec
+ io.github.otobikb.inputmethod.latin.makedict.FormatSpec$DictionaryOptions
+ io.github.otobikb.inputmethod.latin.makedict.FormatSpec$FormatOptions
+io/github/otobikb/inputmethod/latin/spellcheck/SpellCheckerSettingsFragment.java
+ io.github.otobikb.inputmethod.latin.spellcheck.SpellCheckerSettingsFragment
+io/github/otobikb/inputmethod/latin/common/StringUtils.java
+ io.github.otobikb.inputmethod.latin.common.StringUtils
+ io.github.otobikb.inputmethod.latin.common.StringUtils$Stringizer
+io/github/otobikb/inputmethod/latin/suggestions/SuggestionStripViewAccessor.java
+ io.github.otobikb.inputmethod.latin.suggestions.SuggestionStripViewAccessor
+io/github/otobikb/inputmethod/latin/DictionaryCollection.java
+ io.github.otobikb.inputmethod.latin.DictionaryCollection
+io/github/otobikb/inputmethod/keyboard/internal/GestureTrailDrawingPoints.java
+ io.github.otobikb.inputmethod.keyboard.internal.GestureTrailDrawingPoints
+io/github/otobikb/inputmethod/latin/utils/CursorAnchorInfoUtils.java
+ io.github.otobikb.inputmethod.latin.utils.CursorAnchorInfoUtils
+io/github/otobikb/inputmethod/intro/slide/RestorableSlide.java
+ io.github.otobikb.inputmethod.intro.slide.RestorableSlide
+io/github/otobikb/inputmethod/latin/utils/ViewLayoutUtils.java
+ io.github.otobikb.inputmethod.latin.utils.ViewLayoutUtils
+io/github/otobikb/inputmethod/latin/userdictionary/UserDictionaryAddWordFragment.java
+ io.github.otobikb.inputmethod.latin.userdictionary.UserDictionaryAddWordFragment
+io/github/otobikb/inputmethod/latin/UserBinaryDictionary.java
+ io.github.otobikb.inputmethod.latin.UserBinaryDictionary
+ io.github.otobikb.inputmethod.latin.UserBinaryDictionary$1
+io/github/otobikb/inputmethod/keyboard/internal/KeyPreviewView.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyPreviewView
+io/github/otobikb/inputmethod/latin/utils/SuggestionResults.java
+ io.github.otobikb.inputmethod.latin.utils.SuggestionResults
+ io.github.otobikb.inputmethod.latin.utils.SuggestionResults$SuggestedWordInfoComparator
+io/github/otobikb/inputmethod/latin/ContactsDictionaryConstants.java
+ io.github.otobikb.inputmethod.latin.ContactsDictionaryConstants
+io/github/otobikb/inputmethod/intro/view/parallax/ParallaxFragment.java
+ io.github.otobikb.inputmethod.intro.view.parallax.ParallaxFragment
+io/github/otobikb/inputmethod/latin/settings/SettingsValues.java
+ io.github.otobikb.inputmethod.latin.settings.SettingsValues
+io/github/otobikb/inputmethod/keyboard/internal/TouchPositionCorrection.java
+ io.github.otobikb.inputmethod.keyboard.internal.TouchPositionCorrection
+io/github/otobikb/inputmethod/intro/slide/Slide.java
+ io.github.otobikb.inputmethod.intro.slide.Slide
+io/github/otobikb/inputmethod/latin/utils/AsyncResultHolder.java
+ io.github.otobikb.inputmethod.latin.utils.AsyncResultHolder
+io/github/otobikb/inputmethod/latin/makedict/NgramProperty.java
+ io.github.otobikb.inputmethod.latin.makedict.NgramProperty
+io/github/otobikb/inputmethod/latin/utils/TargetPackageInfoGetterTask.java
+ io.github.otobikb.inputmethod.latin.utils.TargetPackageInfoGetterTask
+io/github/otobikb/inputmethod/latin/BinaryDictionaryGetter.java
+ io.github.otobikb.inputmethod.latin.BinaryDictionaryGetter
+ io.github.otobikb.inputmethod.latin.BinaryDictionaryGetter$DictPackSettings
+ io.github.otobikb.inputmethod.latin.BinaryDictionaryGetter$FileAndMatchLevel
+io/github/otobikb/inputmethod/latin/spellcheck/AndroidWordLevelSpellCheckerSession.java
+ io.github.otobikb.inputmethod.latin.spellcheck.AndroidWordLevelSpellCheckerSession
+ io.github.otobikb.inputmethod.latin.spellcheck.AndroidWordLevelSpellCheckerSession$1
+ io.github.otobikb.inputmethod.latin.spellcheck.AndroidWordLevelSpellCheckerSession$Result
+ io.github.otobikb.inputmethod.latin.spellcheck.AndroidWordLevelSpellCheckerSession$SuggestionsCache
+ io.github.otobikb.inputmethod.latin.spellcheck.AndroidWordLevelSpellCheckerSession$SuggestionsParams
+io/github/otobikb/inputmethod/latin/utils/TypefaceUtils.java
+ io.github.otobikb.inputmethod.latin.utils.TypefaceUtils
+io/github/otobikb/inputmethod/latin/AssetFileAddress.java
+ io.github.otobikb.inputmethod.latin.AssetFileAddress
+io/github/otobikb/inputmethod/latin/common/ComposedData.java
+ io.github.otobikb.inputmethod.latin.common.ComposedData
+io/github/otobikb/inputmethod/latin/PunctuationSuggestions.java
+ io.github.otobikb.inputmethod.latin.PunctuationSuggestions
+io/github/otobikb/inputmethod/latin/Suggest.java
+ io.github.otobikb.inputmethod.latin.Suggest
+ io.github.otobikb.inputmethod.latin.Suggest$OnGetSuggestedWordsCallback
+io/github/otobikb/inputmethod/latin/settings/PreferencesSettingsFragment.java
+ io.github.otobikb.inputmethod.latin.settings.PreferencesSettingsFragment
+io/github/otobikb/inputmethod/latin/RichInputMethodSubtype.java
+ io.github.otobikb.inputmethod.latin.RichInputMethodSubtype
+io/github/otobikb/inputmethod/latin/suggestions/SuggestionStripLayoutHelper.java
+ io.github.otobikb.inputmethod.latin.suggestions.SuggestionStripLayoutHelper
+io/github/otobikb/inputmethod/latin/suggestions/SuggestionStripView.java
+ io.github.otobikb.inputmethod.latin.suggestions.SuggestionStripView
+ io.github.otobikb.inputmethod.latin.suggestions.SuggestionStripView$1
+ io.github.otobikb.inputmethod.latin.suggestions.SuggestionStripView$2
+ io.github.otobikb.inputmethod.latin.suggestions.SuggestionStripView$3
+ io.github.otobikb.inputmethod.latin.suggestions.SuggestionStripView$Listener
+ io.github.otobikb.inputmethod.latin.suggestions.SuggestionStripView$StripVisibilityGroup
+io/github/otobikb/inputmethod/changes/HowtoUse.java
+ io.github.otobikb.inputmethod.changes.HowtoUse
+ io.github.otobikb.inputmethod.changes.HowtoUse$1
+io/github/otobikb/inputmethod/latin/utils/ScriptUtils.java
+ io.github.otobikb.inputmethod.latin.utils.ScriptUtils
+io/github/otobikb/inputmethod/latin/common/InputPointers.java
+ io.github.otobikb.inputmethod.latin.common.InputPointers
+io/github/otobikb/inputmethod/latin/utils/CombinedFormatUtils.java
+ io.github.otobikb.inputmethod.latin.utils.CombinedFormatUtils
+io/github/otobikb/inputmethod/latin/setup/SetupWizardActivity.java
+ io.github.otobikb.inputmethod.latin.setup.SetupWizardActivity
+ io.github.otobikb.inputmethod.latin.setup.SetupWizardActivity$1
+ io.github.otobikb.inputmethod.latin.setup.SetupWizardActivity$2
+ io.github.otobikb.inputmethod.latin.setup.SetupWizardActivity$3
+ io.github.otobikb.inputmethod.latin.setup.SetupWizardActivity$4
+ io.github.otobikb.inputmethod.latin.setup.SetupWizardActivity$5
+ io.github.otobikb.inputmethod.latin.setup.SetupWizardActivity$SettingsPoolingHandler
+ io.github.otobikb.inputmethod.latin.setup.SetupWizardActivity$SetupStep
+ io.github.otobikb.inputmethod.latin.setup.SetupWizardActivity$SetupStepGroup
+io/github/otobikb/inputmethod/keyboard/internal/GestureStrokeDrawingPoints.java
+ io.github.otobikb.inputmethod.keyboard.internal.GestureStrokeDrawingPoints
+io/github/otobikb/inputmethod/latin/permissions/PermissionsActivity.java
+ io.github.otobikb.inputmethod.latin.permissions.PermissionsActivity
+io/github/otobikb/inputmethod/latin/settings/CorrectionSettingsFragment.java
+ io.github.otobikb.inputmethod.latin.settings.CorrectionSettingsFragment
+io/github/otobikb/inputmethod/latin/touchinputconsumer/GestureConsumer.java
+ io.github.otobikb.inputmethod.latin.touchinputconsumer.GestureConsumer
+io/github/otobikb/inputmethod/latin/LatinIME.java
+ io.github.otobikb.inputmethod.latin.LatinIME
+ io.github.otobikb.inputmethod.latin.LatinIME$1
+ io.github.otobikb.inputmethod.latin.LatinIME$2
+ io.github.otobikb.inputmethod.latin.LatinIME$HideSoftInputReceiver
+ io.github.otobikb.inputmethod.latin.LatinIME$SubtypeState
+ io.github.otobikb.inputmethod.latin.LatinIME$UIHandler
+io/github/otobikb/inputmethod/latin/userdictionary/UserDictionaryAddWordContents.java
+ io.github.otobikb.inputmethod.latin.userdictionary.UserDictionaryAddWordContents
+ io.github.otobikb.inputmethod.latin.userdictionary.UserDictionaryAddWordContents$LocaleRenderer
+io/github/otobikb/inputmethod/latin/DictionaryFacilitatorLruCache.java
+ io.github.otobikb.inputmethod.latin.DictionaryFacilitatorLruCache
+io/github/otobikb/inputmethod/changes/TestActivity.java
+ io.github.otobikb.inputmethod.changes.TestActivity
+io/github/otobikb/inputmethod/latin/utils/StatsUtilsManager.java
+ io.github.otobikb.inputmethod.latin.utils.StatsUtilsManager
+io/github/otobikb/inputmethod/latin/suggestions/MoreSuggestions.java
+ io.github.otobikb.inputmethod.latin.suggestions.MoreSuggestions
+ io.github.otobikb.inputmethod.latin.suggestions.MoreSuggestions$Builder
+ io.github.otobikb.inputmethod.latin.suggestions.MoreSuggestions$Divider
+ io.github.otobikb.inputmethod.latin.suggestions.MoreSuggestions$MoreSuggestionKey
+ io.github.otobikb.inputmethod.latin.suggestions.MoreSuggestions$MoreSuggestionsParam
+io/github/otobikb/inputmethod/keyboard/KeyboardLayoutSet.java
+ io.github.otobikb.inputmethod.keyboard.KeyboardLayoutSet
+ io.github.otobikb.inputmethod.keyboard.KeyboardLayoutSet$Builder
+ io.github.otobikb.inputmethod.keyboard.KeyboardLayoutSet$ElementParams
+ io.github.otobikb.inputmethod.keyboard.KeyboardLayoutSet$KeyboardLayoutSetException
+ io.github.otobikb.inputmethod.keyboard.KeyboardLayoutSet$Params
+io/github/otobikb/inputmethod/latin/spellcheck/AndroidSpellCheckerService.java
+ io.github.otobikb.inputmethod.latin.spellcheck.AndroidSpellCheckerService
+io/github/otobikb/inputmethod/latin/SystemBroadcastReceiver.java
+ io.github.otobikb.inputmethod.latin.SystemBroadcastReceiver
+io/github/otobikb/inputmethod/latin/settings/ThemeSettingsFragment.java
+ io.github.otobikb.inputmethod.latin.settings.ThemeSettingsFragment
+ io.github.otobikb.inputmethod.latin.settings.ThemeSettingsFragment$KeyboardThemePreference
+io/github/otobikb/inputmethod/latin/settings/GestureSettingsFragment.java
+ io.github.otobikb.inputmethod.latin.settings.GestureSettingsFragment
+io/github/otobikb/inputmethod/keyboard/internal/DrawingProxy.java
+ io.github.otobikb.inputmethod.keyboard.internal.DrawingProxy
+io/github/otobikb/inputmethod/latin/permissions/PermissionsUtil.java
+ io.github.otobikb.inputmethod.latin.permissions.PermissionsUtil
+io/github/otobikb/inputmethod/latin/NgramContext.java
+ io.github.otobikb.inputmethod.latin.NgramContext
+ io.github.otobikb.inputmethod.latin.NgramContext$WordInfo
+io/github/otobikb/inputmethod/latin/settings/SettingsActivity.java
+ io.github.otobikb.inputmethod.latin.settings.SettingsActivity
+io/github/otobikb/inputmethod/latin/utils/RecapitalizeStatus.java
+ io.github.otobikb.inputmethod.latin.utils.RecapitalizeStatus
+io/github/otobikb/inputmethod/intro/slide/ButtonCtaSlide.java
+ io.github.otobikb.inputmethod.intro.slide.ButtonCtaSlide
+io/github/otobikb/inputmethod/latin/utils/ExecutorUtils.java
+ io.github.otobikb.inputmethod.latin.utils.ExecutorUtils
+ io.github.otobikb.inputmethod.latin.utils.ExecutorUtils$1
+ io.github.otobikb.inputmethod.latin.utils.ExecutorUtils$ExecutorFactory
+ io.github.otobikb.inputmethod.latin.utils.ExecutorUtils$ExecutorFactory$1
+ io.github.otobikb.inputmethod.latin.utils.ExecutorUtils$RunnableChain
+io/github/otobikb/inputmethod/latin/BuildConfig.java
+ io.github.otobikb.inputmethod.latin.BuildConfig
+io/github/otobikb/inputmethod/latin/settings/SeekBarDialogPreference.java
+ io.github.otobikb.inputmethod.latin.settings.SeekBarDialogPreference
+ io.github.otobikb.inputmethod.latin.settings.SeekBarDialogPreference$ValueProxy
+io/github/otobikb/inputmethod/latin/utils/NgramContextUtils.java
+ io.github.otobikb.inputmethod.latin.utils.NgramContextUtils
+io/github/otobikb/inputmethod/intro/app/IntroNavigation.java
+ io.github.otobikb.inputmethod.intro.app.IntroNavigation
+io/github/otobikb/inputmethod/keyboard/MoreKeysKeyboardView.java
+ io.github.otobikb.inputmethod.keyboard.MoreKeysKeyboardView
+io/github/otobikb/inputmethod/latin/RichInputConnection.java
+ io.github.otobikb.inputmethod.latin.RichInputConnection
+io/github/otobikb/inputmethod/keyboard/internal/SlidingKeyInputDrawingPreview.java
+ io.github.otobikb.inputmethod.keyboard.internal.SlidingKeyInputDrawingPreview
+io/github/otobikb/inputmethod/latin/common/UnicodeSurrogate.java
+ io.github.otobikb.inputmethod.latin.common.UnicodeSurrogate
+io/github/otobikb/inputmethod/latin/BinaryDictionaryFileDumper.java
+ io.github.otobikb.inputmethod.latin.BinaryDictionaryFileDumper
+io/github/otobikb/inputmethod/keyboard/internal/KeyboardIconsSet.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyboardIconsSet
+io/github/otobikb/inputmethod/latin/DicTraverseSession.java
+ io.github.otobikb.inputmethod.latin.DicTraverseSession
+io/github/otobikb/inputmethod/keyboard/internal/AlphabetShiftState.java
+ io.github.otobikb.inputmethod.keyboard.internal.AlphabetShiftState
+io/github/otobikb/inputmethod/latin/utils/DictionaryHeaderUtils.java
+ io.github.otobikb.inputmethod.latin.utils.DictionaryHeaderUtils
+io/github/otobikb/inputmethod/latin/common/CodePointUtils.java
+ io.github.otobikb.inputmethod.latin.common.CodePointUtils
+io/github/otobikb/inputmethod/keyboard/KeyboardLayout.java
+ io.github.otobikb.inputmethod.keyboard.KeyboardLayout
+io/github/otobikb/inputmethod/latin/ReadOnlyBinaryDictionary.java
+ io.github.otobikb.inputmethod.latin.ReadOnlyBinaryDictionary
+io/github/otobikb/inputmethod/latin/ContactsDictionaryUtils.java
+ io.github.otobikb.inputmethod.latin.ContactsDictionaryUtils
+io/github/otobikb/inputmethod/intro/app/IntroActivity.java
+ io.github.otobikb.inputmethod.intro.app.IntroActivity
+ io.github.otobikb.inputmethod.intro.app.IntroActivity$1
+ io.github.otobikb.inputmethod.intro.app.IntroActivity$2
+ io.github.otobikb.inputmethod.intro.app.IntroActivity$3
+ io.github.otobikb.inputmethod.intro.app.IntroActivity$4
+ io.github.otobikb.inputmethod.intro.app.IntroActivity$5
+ io.github.otobikb.inputmethod.intro.app.IntroActivity$6
+ io.github.otobikb.inputmethod.intro.app.IntroActivity$ButtonBackFunction
+ io.github.otobikb.inputmethod.intro.app.IntroActivity$ButtonCtaClickListener
+ io.github.otobikb.inputmethod.intro.app.IntroActivity$ButtonCtaTintMode
+ io.github.otobikb.inputmethod.intro.app.IntroActivity$ButtonNextFunction
+ io.github.otobikb.inputmethod.intro.app.IntroActivity$IntroPageChangeListener
+io/github/otobikb/inputmethod/latin/personalization/UserHistoryDictionary.java
+ io.github.otobikb.inputmethod.latin.personalization.UserHistoryDictionary
+io/github/otobikb/inputmethod/keyboard/internal/KeyboardCodesSet.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyboardCodesSet
+io/github/otobikb/inputmethod/keyboard/internal/BogusMoveEventDetector.java
+ io.github.otobikb.inputmethod.keyboard.internal.BogusMoveEventDetector
+io/github/otobikb/inputmethod/keyboard/internal/HermiteInterpolator.java
+ io.github.otobikb.inputmethod.keyboard.internal.HermiteInterpolator
+io/github/otobikb/inputmethod/keyboard/KeyboardActionListener.java
+ io.github.otobikb.inputmethod.keyboard.KeyboardActionListener
+ io.github.otobikb.inputmethod.keyboard.KeyboardActionListener$Adapter
+io/github/otobikb/inputmethod/latin/utils/StatsUtils.java
+ io.github.otobikb.inputmethod.latin.utils.StatsUtils
+io/github/otobikb/inputmethod/latin/settings/AppearanceSettingsFragment.java
+ io.github.otobikb.inputmethod.latin.settings.AppearanceSettingsFragment
+ io.github.otobikb.inputmethod.latin.settings.AppearanceSettingsFragment$1
+io/github/otobikb/inputmethod/latin/common/Constants.java
+ io.github.otobikb.inputmethod.latin.common.Constants
+ io.github.otobikb.inputmethod.latin.common.Constants$Color
+ io.github.otobikb.inputmethod.latin.common.Constants$ImeOption
+ io.github.otobikb.inputmethod.latin.common.Constants$Subtype
+ io.github.otobikb.inputmethod.latin.common.Constants$Subtype$ExtraValue
+ io.github.otobikb.inputmethod.latin.common.Constants$TextUtils
+io/github/otobikb/inputmethod/latin/utils/DebugLogUtils.java
+ io.github.otobikb.inputmethod.latin.utils.DebugLogUtils
+io/github/otobikb/inputmethod/keyboard/internal/KeyPreviewDrawParams.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyPreviewDrawParams
+io/github/otobikb/inputmethod/latin/utils/XmlParseUtils.java
+ io.github.otobikb.inputmethod.latin.utils.XmlParseUtils
+ io.github.otobikb.inputmethod.latin.utils.XmlParseUtils$IllegalAttribute
+ io.github.otobikb.inputmethod.latin.utils.XmlParseUtils$IllegalEndTag
+ io.github.otobikb.inputmethod.latin.utils.XmlParseUtils$IllegalStartTag
+ io.github.otobikb.inputmethod.latin.utils.XmlParseUtils$NonEmptyTag
+ io.github.otobikb.inputmethod.latin.utils.XmlParseUtils$ParseException
+io/github/otobikb/inputmethod/latin/SuggestedWords.java
+ io.github.otobikb.inputmethod.latin.SuggestedWords
+ io.github.otobikb.inputmethod.latin.SuggestedWords$SuggestedWordInfo
+io/github/otobikb/inputmethod/latin/settings/LocalSettingsConstants.java
+ io.github.otobikb.inputmethod.latin.settings.LocalSettingsConstants
+io/github/otobikb/inputmethod/keyboard/MainKeyboardView.java
+ io.github.otobikb.inputmethod.keyboard.MainKeyboardView
+io/github/otobikb/inputmethod/latin/ExpandableBinaryDictionary.java
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$1
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$10
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$11
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$12
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$13
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$14
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$15
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$16
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$17
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$2
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$3
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$4
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$5
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$6
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$7
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$8
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$9
+ io.github.otobikb.inputmethod.latin.ExpandableBinaryDictionary$UpdateEntriesForInputEventsCallback
+io/github/otobikb/inputmethod/latin/spellcheck/SpellCheckerSettingsActivity.java
+ io.github.otobikb.inputmethod.latin.spellcheck.SpellCheckerSettingsActivity
+io/github/otobikb/inputmethod/keyboard/MoreKeysKeyboard.java
+ io.github.otobikb.inputmethod.keyboard.MoreKeysKeyboard
+ io.github.otobikb.inputmethod.keyboard.MoreKeysKeyboard$Builder
+ io.github.otobikb.inputmethod.keyboard.MoreKeysKeyboard$MoreKeyDivider
+ io.github.otobikb.inputmethod.keyboard.MoreKeysKeyboard$MoreKeysKeyboardParams
+io/github/otobikb/inputmethod/latin/InputAttributes.java
+ io.github.otobikb.inputmethod.latin.InputAttributes
+io/github/otobikb/inputmethod/changes/Premium.java
+ io.github.otobikb.inputmethod.changes.Premium
+ io.github.otobikb.inputmethod.changes.Premium$1
+ io.github.otobikb.inputmethod.changes.Premium$2
+ io.github.otobikb.inputmethod.changes.Premium$3
+ io.github.otobikb.inputmethod.changes.Premium$4
+ io.github.otobikb.inputmethod.changes.Premium$4$1
+io/github/otobikb/inputmethod/latin/inputlogic/SpaceState.java
+ io.github.otobikb.inputmethod.latin.inputlogic.SpaceState
+io/github/otobikb/inputmethod/keyboard/KeyboardId.java
+ io.github.otobikb.inputmethod.keyboard.KeyboardId
+io/github/otobikb/inputmethod/latin/utils/IntentUtils.java
+ io.github.otobikb.inputmethod.latin.utils.IntentUtils
+io/github/otobikb/inputmethod/latin/spellcheck/AndroidSpellCheckerSession.java
+ io.github.otobikb.inputmethod.latin.spellcheck.AndroidSpellCheckerSession
+io/github/otobikb/inputmethod/keyboard/PointerTracker.java
+ io.github.otobikb.inputmethod.keyboard.PointerTracker
+ io.github.otobikb.inputmethod.keyboard.PointerTracker$PointerTrackerParams
+io/github/otobikb/inputmethod/latin/BinaryDictionary.java
+ io.github.otobikb.inputmethod.latin.BinaryDictionary
+ io.github.otobikb.inputmethod.latin.BinaryDictionary$GetNextWordPropertyResult
+io/github/otobikb/inputmethod/keyboard/internal/GestureEnabler.java
+ io.github.otobikb.inputmethod.keyboard.internal.GestureEnabler
+io/github/otobikb/inputmethod/keyboard/MoreKeysDetector.java
+ io.github.otobikb.inputmethod.keyboard.MoreKeysDetector
+io/github/otobikb/inputmethod/latin/settings/TestFragmentActivity.java
+ io.github.otobikb.inputmethod.latin.settings.TestFragmentActivity
+io/github/otobikb/inputmethod/keyboard/internal/PointerTrackerQueue.java
+ io.github.otobikb.inputmethod.keyboard.internal.PointerTrackerQueue
+ io.github.otobikb.inputmethod.keyboard.internal.PointerTrackerQueue$Element
+io/github/otobikb/inputmethod/latin/ContactsContentObserver.java
+ io.github.otobikb.inputmethod.latin.ContactsContentObserver
+ io.github.otobikb.inputmethod.latin.ContactsContentObserver$1
+io/github/otobikb/inputmethod/keyboard/internal/GestureStrokeRecognitionPoints.java
+ io.github.otobikb.inputmethod.keyboard.internal.GestureStrokeRecognitionPoints
+io/github/otobikb/inputmethod/keyboard/internal/KeyboardRow.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyboardRow
+ io.github.otobikb.inputmethod.keyboard.internal.KeyboardRow$RowAttributes
+io/github/otobikb/inputmethod/latin/DictionaryStats.java
+ io.github.otobikb.inputmethod.latin.DictionaryStats
+io/github/otobikb/inputmethod/intro/slide/SlideAdapter.java
+ io.github.otobikb.inputmethod.intro.slide.SlideAdapter
+io/github/otobikb/inputmethod/latin/utils/InputTypeUtils.java
+ io.github.otobikb.inputmethod.latin.utils.InputTypeUtils
+io/github/otobikb/inputmethod/keyboard/internal/KeyStylesSet.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyStylesSet
+ io.github.otobikb.inputmethod.keyboard.internal.KeyStylesSet$DeclaredKeyStyle
+ io.github.otobikb.inputmethod.keyboard.internal.KeyStylesSet$EmptyKeyStyle
+io/github/otobikb/inputmethod/changes/Main_Activity.java
+ io.github.otobikb.inputmethod.changes.Main_Activity
+ io.github.otobikb.inputmethod.changes.Main_Activity$1
+ io.github.otobikb.inputmethod.changes.Main_Activity$2
+ io.github.otobikb.inputmethod.changes.Main_Activity$3
+io/github/otobikb/inputmethod/latin/ContactsBinaryDictionary.java
+ io.github.otobikb.inputmethod.latin.ContactsBinaryDictionary
+io/github/otobikb/inputmethod/intro/view/parallax/ParallaxRelativeLayout.java
+ io.github.otobikb.inputmethod.intro.view.parallax.ParallaxRelativeLayout
+ io.github.otobikb.inputmethod.intro.view.parallax.ParallaxRelativeLayout$LayoutParams
+io/github/otobikb/inputmethod/latin/utils/LanguageOnSpacebarUtils.java
+ io.github.otobikb.inputmethod.latin.utils.LanguageOnSpacebarUtils
+io/github/otobikb/inputmethod/latin/inputlogic/PrivateCommandPerformer.java
+ io.github.otobikb.inputmethod.latin.inputlogic.PrivateCommandPerformer
+io/github/otobikb/inputmethod/keyboard/emoji/EmojiPalettesAdapter.java
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiPalettesAdapter
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiPalettesAdapter$ViewHolder
+io/github/otobikb/inputmethod/latin/utils/FragmentUtils.java
+ io.github.otobikb.inputmethod.latin.utils.FragmentUtils
+io/github/otobikb/inputmethod/latin/userdictionary/UserDictionaryLocalePicker.java
+ io.github.otobikb.inputmethod.latin.userdictionary.UserDictionaryLocalePicker
+ io.github.otobikb.inputmethod.latin.userdictionary.UserDictionaryLocalePicker$LocationChangedListener
+io/github/otobikb/inputmethod/latin/utils/SpannableStringUtils.java
+ io.github.otobikb.inputmethod.latin.utils.SpannableStringUtils
+io/github/otobikb/inputmethod/keyboard/internal/TypingTimeRecorder.java
+ io.github.otobikb.inputmethod.keyboard.internal.TypingTimeRecorder
+io/github/otobikb/inputmethod/latin/settings/DebugSettings.java
+ io.github.otobikb.inputmethod.latin.settings.DebugSettings
+io/github/otobikb/inputmethod/latin/define/DebugFlags.java
+ io.github.otobikb.inputmethod.latin.define.DebugFlags
+io/github/otobikb/inputmethod/keyboard/internal/KeyVisualAttributes.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyVisualAttributes
+io/github/otobikb/inputmethod/latin/settings/AdvancedSettingsFragment.java
+ io.github.otobikb.inputmethod.latin.settings.AdvancedSettingsFragment
+ io.github.otobikb.inputmethod.latin.settings.AdvancedSettingsFragment$1
+ io.github.otobikb.inputmethod.latin.settings.AdvancedSettingsFragment$2
+ io.github.otobikb.inputmethod.latin.settings.AdvancedSettingsFragment$3
+io/github/otobikb/inputmethod/latin/utils/JsonUtils.java
+ io.github.otobikb.inputmethod.latin.utils.JsonUtils
+io/github/otobikb/inputmethod/latin/settings/RadioButtonPreference.java
+ io.github.otobikb.inputmethod.latin.settings.RadioButtonPreference
+ io.github.otobikb.inputmethod.latin.settings.RadioButtonPreference$1
+ io.github.otobikb.inputmethod.latin.settings.RadioButtonPreference$OnRadioButtonClickedListener
+io/github/otobikb/inputmethod/keyboard/internal/CodesArrayParser.java
+ io.github.otobikb.inputmethod.keyboard.internal.CodesArrayParser
+io/github/otobikb/inputmethod/latin/utils/CompletionInfoUtils.java
+ io.github.otobikb.inputmethod.latin.utils.CompletionInfoUtils
+io/github/otobikb/inputmethod/latin/utils/ManagedProfileUtils.java
+ io.github.otobikb.inputmethod.latin.utils.ManagedProfileUtils
+io/github/otobikb/inputmethod/latin/DictionaryFacilitatorImpl.java
+ io.github.otobikb.inputmethod.latin.DictionaryFacilitatorImpl
+ io.github.otobikb.inputmethod.latin.DictionaryFacilitatorImpl$1
+ io.github.otobikb.inputmethod.latin.DictionaryFacilitatorImpl$DictionaryGroup
+io/github/otobikb/inputmethod/latin/makedict/UnsupportedFormatException.java
+ io.github.otobikb.inputmethod.latin.makedict.UnsupportedFormatException
+io/github/otobikb/inputmethod/keyboard/internal/NonDistinctMultitouchHelper.java
+ io.github.otobikb.inputmethod.keyboard.internal.NonDistinctMultitouchHelper
+io/github/otobikb/inputmethod/latin/define/JniLibName.java
+ io.github.otobikb.inputmethod.latin.define.JniLibName
+io/github/otobikb/inputmethod/intro/util/AnimUtils.java
+ io.github.otobikb.inputmethod.intro.util.AnimUtils
+io/github/otobikb/inputmethod/keyboard/KeyDetector.java
+ io.github.otobikb.inputmethod.keyboard.KeyDetector
+io/github/otobikb/inputmethod/latin/utils/JniUtils.java
+ io.github.otobikb.inputmethod.latin.utils.JniUtils
+io/github/otobikb/inputmethod/latin/spellcheck/AndroidSpellCheckerSessionFactory.java
+ io.github.otobikb.inputmethod.latin.spellcheck.AndroidSpellCheckerSessionFactory
+io/github/otobikb/inputmethod/keyboard/internal/RoundedLine.java
+ io.github.otobikb.inputmethod.keyboard.internal.RoundedLine
+io/github/otobikb/inputmethod/latin/makedict/ProbabilityInfo.java
+ io.github.otobikb.inputmethod.latin.makedict.ProbabilityInfo
+io/github/otobikb/inputmethod/latin/common/NativeSuggestOptions.java
+ io.github.otobikb.inputmethod.latin.common.NativeSuggestOptions
+io/github/otobikb/inputmethod/keyboard/KeyboardSwitcher.java
+ io.github.otobikb.inputmethod.keyboard.KeyboardSwitcher
+ io.github.otobikb.inputmethod.keyboard.KeyboardSwitcher$KeyboardSwitchState
+io/github/otobikb/inputmethod/latin/utils/MetadataFileUriGetter.java
+ io.github.otobikb.inputmethod.latin.utils.MetadataFileUriGetter
+io/github/otobikb/inputmethod/latin/RichInputMethodManager.java
+ io.github.otobikb.inputmethod.latin.RichInputMethodManager
+ io.github.otobikb.inputmethod.latin.RichInputMethodManager$1
+ io.github.otobikb.inputmethod.latin.RichInputMethodManager$InputMethodInfoCache
+io/github/otobikb/inputmethod/latin/DictionaryDumpBroadcastReceiver.java
+ io.github.otobikb.inputmethod.latin.DictionaryDumpBroadcastReceiver
+io/github/otobikb/inputmethod/keyboard/internal/KeyboardBuilder.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyboardBuilder
+io/github/otobikb/inputmethod/intro/view/parallax/ParallaxFrameLayout.java
+ io.github.otobikb.inputmethod.intro.view.parallax.ParallaxFrameLayout
+ io.github.otobikb.inputmethod.intro.view.parallax.ParallaxFrameLayout$LayoutParams
+io/github/otobikb/inputmethod/latin/WordListInfo.java
+ io.github.otobikb.inputmethod.latin.WordListInfo
+io/github/otobikb/inputmethod/latin/common/CollectionUtils.java
+ io.github.otobikb.inputmethod.latin.common.CollectionUtils
+io/github/otobikb/inputmethod/keyboard/MoreKeysPanel.java
+ io.github.otobikb.inputmethod.keyboard.MoreKeysPanel
+ io.github.otobikb.inputmethod.keyboard.MoreKeysPanel$1
+ io.github.otobikb.inputmethod.keyboard.MoreKeysPanel$Controller
+io/github/otobikb/inputmethod/latin/setup/SetupActivity.java
+ io.github.otobikb.inputmethod.latin.setup.SetupActivity
+io/github/otobikb/inputmethod/latin/makedict/DictionaryHeader.java
+ io.github.otobikb.inputmethod.latin.makedict.DictionaryHeader
+io/github/otobikb/inputmethod/latin/utils/UncachedInputMethodManagerUtils.java
+ io.github.otobikb.inputmethod.latin.utils.UncachedInputMethodManagerUtils
+io/github/otobikb/inputmethod/keyboard/internal/KeyboardState.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyboardState
+ io.github.otobikb.inputmethod.keyboard.internal.KeyboardState$SavedKeyboardState
+ io.github.otobikb.inputmethod.keyboard.internal.KeyboardState$SwitchActions
+io/github/otobikb/inputmethod/latin/ContactsManager.java
+ io.github.otobikb.inputmethod.latin.ContactsManager
+ io.github.otobikb.inputmethod.latin.ContactsManager$1
+ io.github.otobikb.inputmethod.latin.ContactsManager$AffinityComparator
+ io.github.otobikb.inputmethod.latin.ContactsManager$ContactsChangedListener
+ io.github.otobikb.inputmethod.latin.ContactsManager$RankedContact
+io/github/otobikb/inputmethod/keyboard/internal/KeySpecParser.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeySpecParser
+ io.github.otobikb.inputmethod.keyboard.internal.KeySpecParser$KeySpecParserError
+io/github/otobikb/inputmethod/intro/view/SwipeBlockableViewPager.java
+ io.github.otobikb.inputmethod.intro.view.SwipeBlockableViewPager
+io/github/otobikb/inputmethod/latin/utils/CapsModeUtils.java
+ io.github.otobikb.inputmethod.latin.utils.CapsModeUtils
+io/github/otobikb/inputmethod/intro/util/CheatSheet.java
+ io.github.otobikb.inputmethod.intro.util.CheatSheet
+ io.github.otobikb.inputmethod.intro.util.CheatSheet$1
+ io.github.otobikb.inputmethod.intro.util.CheatSheet$2
+ io.github.otobikb.inputmethod.intro.util.CheatSheet$3
+io/github/otobikb/inputmethod/keyboard/emoji/DynamicGridKeyboard.java
+ io.github.otobikb.inputmethod.keyboard.emoji.DynamicGridKeyboard
+ io.github.otobikb.inputmethod.keyboard.emoji.DynamicGridKeyboard$GridKey
+io/github/otobikb/inputmethod/latin/DictionaryFacilitatorProvider.java
+ io.github.otobikb.inputmethod.latin.DictionaryFacilitatorProvider
+io/github/otobikb/inputmethod/latin/permissions/PermissionsManager.java
+ io.github.otobikb.inputmethod.latin.permissions.PermissionsManager
+ io.github.otobikb.inputmethod.latin.permissions.PermissionsManager$PermissionsResultCallback
+io/github/otobikb/inputmethod/intro/view/parallax/Parallaxable.java
+ io.github.otobikb.inputmethod.intro.view.parallax.Parallaxable
+io/github/otobikb/inputmethod/intro/app/NavigationPolicy.java
+ io.github.otobikb.inputmethod.intro.app.NavigationPolicy
+io/github/otobikb/inputmethod/intro/view/parallax/ParallaxSlideFragment.java
+ io.github.otobikb.inputmethod.intro.view.parallax.ParallaxSlideFragment
+io/github/otobikb/inputmethod/latin/LastComposedWord.java
+ io.github.otobikb.inputmethod.latin.LastComposedWord
+io/github/otobikb/inputmethod/latin/setup/SetupStartIndicatorView.java
+ io.github.otobikb.inputmethod.latin.setup.SetupStartIndicatorView
+ io.github.otobikb.inputmethod.latin.setup.SetupStartIndicatorView$IndicatorView
+ io.github.otobikb.inputmethod.latin.setup.SetupStartIndicatorView$LabelView
+io/github/otobikb/inputmethod/latin/settings/SubScreenFragment.java
+ io.github.otobikb.inputmethod.latin.settings.SubScreenFragment
+ io.github.otobikb.inputmethod.latin.settings.SubScreenFragment$1
+io/github/otobikb/inputmethod/keyboard/internal/MoreKeySpec.java
+ io.github.otobikb.inputmethod.keyboard.internal.MoreKeySpec
+ io.github.otobikb.inputmethod.keyboard.internal.MoreKeySpec$LettersOnBaseLayout
+io/github/otobikb/inputmethod/latin/DictionaryFactory.java
+ io.github.otobikb.inputmethod.latin.DictionaryFactory
+io/github/otobikb/inputmethod/keyboard/internal/GestureStrokeDrawingParams.java
+ io.github.otobikb.inputmethod.keyboard.internal.GestureStrokeDrawingParams
+io/github/otobikb/inputmethod/latin/settings/SettingsFragment.java
+ io.github.otobikb.inputmethod.latin.settings.SettingsFragment
+io/github/otobikb/inputmethod/keyboard/internal/GestureFloatingTextDrawingPreview.java
+ io.github.otobikb.inputmethod.keyboard.internal.GestureFloatingTextDrawingPreview
+ io.github.otobikb.inputmethod.keyboard.internal.GestureFloatingTextDrawingPreview$GesturePreviewTextParams
+io/github/otobikb/inputmethod/keyboard/emoji/EmojiPageKeyboardView.java
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiPageKeyboardView
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiPageKeyboardView$1
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiPageKeyboardView$2
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiPageKeyboardView$3
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiPageKeyboardView$OnKeyEventListener
+io/github/otobikb/inputmethod/keyboard/internal/MatrixUtils.java
+ io.github.otobikb.inputmethod.keyboard.internal.MatrixUtils
+ io.github.otobikb.inputmethod.keyboard.internal.MatrixUtils$MatrixOperationFailedException
+io/github/otobikb/inputmethod/latin/utils/SubtypeLocaleUtils.java
+ io.github.otobikb.inputmethod.latin.utils.SubtypeLocaleUtils
+ io.github.otobikb.inputmethod.latin.utils.SubtypeLocaleUtils$1
+ io.github.otobikb.inputmethod.latin.utils.SubtypeLocaleUtils$2
+io/github/otobikb/inputmethod/keyboard/internal/KeyboardParams.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyboardParams
+ io.github.otobikb.inputmethod.keyboard.internal.KeyboardParams$1
+io/github/otobikb/inputmethod/latin/settings/DebugSettingsFragment.java
+ io.github.otobikb.inputmethod.latin.settings.DebugSettingsFragment
+ io.github.otobikb.inputmethod.latin.settings.DebugSettingsFragment$1
+ io.github.otobikb.inputmethod.latin.settings.DebugSettingsFragment$2
+ io.github.otobikb.inputmethod.latin.settings.DebugSettingsFragment$3
+ io.github.otobikb.inputmethod.latin.settings.DebugSettingsFragment$DictDumpPreference
+io/github/otobikb/inputmethod/latin/define/DecoderSpecificConstants.java
+ io.github.otobikb.inputmethod.latin.define.DecoderSpecificConstants
+io/github/otobikb/inputmethod/latin/settings/AdditionalFeaturesSettingUtils.java
+ io.github.otobikb.inputmethod.latin.settings.AdditionalFeaturesSettingUtils
+io/github/otobikb/inputmethod/keyboard/internal/DrawingPreviewPlacerView.java
+ io.github.otobikb.inputmethod.keyboard.internal.DrawingPreviewPlacerView
+io/github/otobikb/inputmethod/latin/utils/AdditionalSubtypeUtils.java
+ io.github.otobikb.inputmethod.latin.utils.AdditionalSubtypeUtils
+io/github/otobikb/inputmethod/keyboard/internal/TimerHandler.java
+ io.github.otobikb.inputmethod.keyboard.internal.TimerHandler
+io/github/otobikb/inputmethod/keyboard/internal/GestureTrailsDrawingPreview.java
+ io.github.otobikb.inputmethod.keyboard.internal.GestureTrailsDrawingPreview
+io/github/otobikb/inputmethod/keyboard/internal/ShiftKeyState.java
+ io.github.otobikb.inputmethod.keyboard.internal.ShiftKeyState
+io/github/otobikb/inputmethod/latin/common/ResizableIntArray.java
+ io.github.otobikb.inputmethod.latin.common.ResizableIntArray
+io/github/otobikb/inputmethod/latin/userdictionary/UserDictionarySettingsUtils.java
+ io.github.otobikb.inputmethod.latin.userdictionary.UserDictionarySettingsUtils
+io/github/otobikb/inputmethod/latin/AudioAndHapticFeedbackManager.java
+ io.github.otobikb.inputmethod.latin.AudioAndHapticFeedbackManager
+io/github/otobikb/inputmethod/keyboard/KeyboardTheme.java
+ io.github.otobikb.inputmethod.keyboard.KeyboardTheme
+io/github/otobikb/inputmethod/latin/EmojiAltPhysicalKeyDetector.java
+ io.github.otobikb.inputmethod.latin.EmojiAltPhysicalKeyDetector
+ io.github.otobikb.inputmethod.latin.EmojiAltPhysicalKeyDetector$1
+ io.github.otobikb.inputmethod.latin.EmojiAltPhysicalKeyDetector$2
+ io.github.otobikb.inputmethod.latin.EmojiAltPhysicalKeyDetector$EmojiHotKeys
+ io.github.otobikb.inputmethod.latin.EmojiAltPhysicalKeyDetector$HotKeySet
+io/github/otobikb/inputmethod/keyboard/internal/KeyPreviewChoreographer.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyPreviewChoreographer
+io/github/otobikb/inputmethod/keyboard/internal/GestureTrailDrawingParams.java
+ io.github.otobikb.inputmethod.keyboard.internal.GestureTrailDrawingParams
+io/github/otobikb/inputmethod/keyboard/internal/UniqueKeysCache.java
+ io.github.otobikb.inputmethod.keyboard.internal.UniqueKeysCache
+ io.github.otobikb.inputmethod.keyboard.internal.UniqueKeysCache$1
+ io.github.otobikb.inputmethod.keyboard.internal.UniqueKeysCache$UniqueKeysCacheImpl
+io/github/otobikb/inputmethod/intro/view/parallax/ParallaxLinearLayout.java
+ io.github.otobikb.inputmethod.intro.view.parallax.ParallaxLinearLayout
+ io.github.otobikb.inputmethod.intro.view.parallax.ParallaxLinearLayout$LayoutParams
+io/github/otobikb/inputmethod/latin/spellcheck/SentenceLevelAdapter.java
+ io.github.otobikb.inputmethod.latin.spellcheck.SentenceLevelAdapter
+ io.github.otobikb.inputmethod.latin.spellcheck.SentenceLevelAdapter$EmptySentenceSuggestionsInfosInitializationHolder
+ io.github.otobikb.inputmethod.latin.spellcheck.SentenceLevelAdapter$SentenceTextInfoParams
+ io.github.otobikb.inputmethod.latin.spellcheck.SentenceLevelAdapter$SentenceWordItem
+ io.github.otobikb.inputmethod.latin.spellcheck.SentenceLevelAdapter$WordIterator
+ io.github.otobikb.inputmethod.latin.spellcheck.SentenceLevelAdapter$WordIterator$1
+io/github/otobikb/inputmethod/latin/settings/CustomInputStyleSettingsFragment.java
+ io.github.otobikb.inputmethod.latin.settings.CustomInputStyleSettingsFragment
+ io.github.otobikb.inputmethod.latin.settings.CustomInputStyleSettingsFragment$1
+io/github/otobikb/inputmethod/latin/utils/WordInputEventForPersonalization.java
+ io.github.otobikb.inputmethod.latin.utils.WordInputEventForPersonalization
+io/github/otobikb/inputmethod/keyboard/internal/TimerProxy.java
+ io.github.otobikb.inputmethod.keyboard.internal.TimerProxy
+ io.github.otobikb.inputmethod.keyboard.internal.TimerProxy$Adapter
+io/github/otobikb/inputmethod/latin/makedict/WordProperty.java
+ io.github.otobikb.inputmethod.latin.makedict.WordProperty
+io/github/otobikb/inputmethod/latin/utils/LeakGuardHandlerWrapper.java
+ io.github.otobikb.inputmethod.latin.utils.LeakGuardHandlerWrapper
+io/github/otobikb/inputmethod/latin/utils/FileTransforms.java
+ io.github.otobikb.inputmethod.latin.utils.FileTransforms
+io/github/otobikb/inputmethod/keyboard/ProximityInfo.java
+ io.github.otobikb.inputmethod.keyboard.ProximityInfo
+io/github/otobikb/inputmethod/latin/BackupAgent.java
+ io.github.otobikb.inputmethod.latin.BackupAgent
+io/github/otobikb/inputmethod/latin/inputlogic/InputLogicHandler.java
+ io.github.otobikb.inputmethod.latin.inputlogic.InputLogicHandler
+ io.github.otobikb.inputmethod.latin.inputlogic.InputLogicHandler$1
+ io.github.otobikb.inputmethod.latin.inputlogic.InputLogicHandler$2
+io/github/otobikb/inputmethod/latin/settings/Settings.java
+ io.github.otobikb.inputmethod.latin.settings.Settings
+ io.github.otobikb.inputmethod.latin.settings.Settings$1
+io/github/otobikb/inputmethod/keyboard/internal/AbstractDrawingPreview.java
+ io.github.otobikb.inputmethod.keyboard.internal.AbstractDrawingPreview
+io/github/otobikb/inputmethod/latin/settings/SpacingAndPunctuations.java
+ io.github.otobikb.inputmethod.latin.settings.SpacingAndPunctuations
+io/github/otobikb/inputmethod/keyboard/internal/KeyStyle.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyStyle
+io/github/otobikb/inputmethod/changes/PrefManager.java
+ io.github.otobikb.inputmethod.changes.PrefManager
+io/github/otobikb/inputmethod/intro/slide/FragmentSlide.java
+ io.github.otobikb.inputmethod.intro.slide.FragmentSlide
+ io.github.otobikb.inputmethod.intro.slide.FragmentSlide$Builder
+ io.github.otobikb.inputmethod.intro.slide.FragmentSlide$FragmentSlideFragment
+io/github/otobikb/inputmethod/keyboard/Key.java
+ io.github.otobikb.inputmethod.keyboard.Key
+ io.github.otobikb.inputmethod.keyboard.Key$KeyBackgroundState
+ io.github.otobikb.inputmethod.keyboard.Key$OptionalAttributes
+ io.github.otobikb.inputmethod.keyboard.Key$Spacer
+io/github/otobikb/inputmethod/latin/utils/AutoCorrectionUtils.java
+ io.github.otobikb.inputmethod.latin.utils.AutoCorrectionUtils
+io/github/otobikb/inputmethod/latin/utils/ApplicationUtils.java
+ io.github.otobikb.inputmethod.latin.utils.ApplicationUtils
+io/github/otobikb/inputmethod/latin/setup/SetupStepIndicatorView.java
+ io.github.otobikb.inputmethod.latin.setup.SetupStepIndicatorView
+io/github/otobikb/inputmethod/intro/FinnishActivity.java
+ io.github.otobikb.inputmethod.intro.FinnishActivity
+io/github/otobikb/inputmethod/latin/WordComposer.java
+ io.github.otobikb.inputmethod.latin.WordComposer
+io/github/otobikb/inputmethod/latin/DictionaryFacilitator.java
+ io.github.otobikb.inputmethod.latin.DictionaryFacilitator
+ io.github.otobikb.inputmethod.latin.DictionaryFacilitator$DictionaryInitializationListener
+io/github/otobikb/inputmethod/keyboard/emoji/EmojiLayoutParams.java
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiLayoutParams
+io/github/otobikb/inputmethod/intro/app/SlideFragment.java
+ io.github.otobikb.inputmethod.intro.app.SlideFragment
+io/github/otobikb/inputmethod/keyboard/internal/SmoothingUtils.java
+ io.github.otobikb.inputmethod.keyboard.internal.SmoothingUtils
+io/github/otobikb/inputmethod/intro/view/FadeableViewPager.java
+ io.github.otobikb.inputmethod.intro.view.FadeableViewPager
+ io.github.otobikb.inputmethod.intro.view.FadeableViewPager$1
+ io.github.otobikb.inputmethod.intro.view.FadeableViewPager$OnOverscrollPageChangeListener
+ io.github.otobikb.inputmethod.intro.view.FadeableViewPager$OnPageChangeListenerWrapper
+ io.github.otobikb.inputmethod.intro.view.FadeableViewPager$PageTransformerWrapper
+ io.github.otobikb.inputmethod.intro.view.FadeableViewPager$PagerAdapterWrapper
+ io.github.otobikb.inputmethod.intro.view.FadeableViewPager$PagerAdapterWrapper$1
+ io.github.otobikb.inputmethod.intro.view.FadeableViewPager$SimpleOnOverscrollPageChangeListener
+io/github/otobikb/inputmethod/changes/MySharedPref.java
+ io.github.otobikb.inputmethod.changes.MySharedPref
+io/github/otobikb/inputmethod/latin/utils/ResourceUtils.java
+ io.github.otobikb.inputmethod.latin.utils.ResourceUtils
+ io.github.otobikb.inputmethod.latin.utils.ResourceUtils$DeviceOverridePatternSyntaxError
+io/github/otobikb/inputmethod/keyboard/emoji/EmojiCategory.java
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiCategory
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiCategory$1
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiCategory$CategoryProperties
+io/github/otobikb/inputmethod/keyboard/internal/KeyDrawParams.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyDrawParams
+io/github/otobikb/inputmethod/latin/userdictionary/UserDictionaryList.java
+ io.github.otobikb.inputmethod.latin.userdictionary.UserDictionaryList
+io/github/otobikb/inputmethod/intro/view/parallax/util/ParallaxUtil.java
+ io.github.otobikb.inputmethod.intro.view.parallax.util.ParallaxUtil
+io/github/otobikb/inputmethod/keyboard/emoji/EmojiCategoryPageIndicatorView.java
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiCategoryPageIndicatorView
+io/github/otobikb/inputmethod/latin/suggestions/MoreSuggestionsView.java
+ io.github.otobikb.inputmethod.latin.suggestions.MoreSuggestionsView
+ io.github.otobikb.inputmethod.latin.suggestions.MoreSuggestionsView$MoreSuggestionsListener
+io/github/otobikb/inputmethod/latin/settings/CustomInputStylePreference.java
+ io.github.otobikb.inputmethod.latin.settings.CustomInputStylePreference
+ io.github.otobikb.inputmethod.latin.settings.CustomInputStylePreference$KeyboardLayoutSetAdapter
+ io.github.otobikb.inputmethod.latin.settings.CustomInputStylePreference$KeyboardLayoutSetItem
+ io.github.otobikb.inputmethod.latin.settings.CustomInputStylePreference$Listener
+ io.github.otobikb.inputmethod.latin.settings.CustomInputStylePreference$SavedState
+ io.github.otobikb.inputmethod.latin.settings.CustomInputStylePreference$SavedState$1
+ io.github.otobikb.inputmethod.latin.settings.CustomInputStylePreference$SubtypeLocaleAdapter
+ io.github.otobikb.inputmethod.latin.settings.CustomInputStylePreference$SubtypeLocaleItem
+io/github/otobikb/inputmethod/latin/utils/TextRange.java
+ io.github.otobikb.inputmethod.latin.utils.TextRange
+io/github/otobikb/inputmethod/latin/utils/DialogUtils.java
+ io.github.otobikb.inputmethod.latin.utils.DialogUtils
+io/github/otobikb/inputmethod/latin/common/LocaleUtils.java
+ io.github.otobikb.inputmethod.latin.common.LocaleUtils
+io/github/otobikb/inputmethod/intro/app/ButtonCtaFragment.java
+ io.github.otobikb.inputmethod.intro.app.ButtonCtaFragment
+io/github/otobikb/inputmethod/latin/about/AboutPreferences.java
+ io.github.otobikb.inputmethod.latin.about.AboutPreferences
+io/github/otobikb/inputmethod/latin/InputView.java
+ io.github.otobikb.inputmethod.latin.InputView
+ io.github.otobikb.inputmethod.latin.InputView$KeyboardTopPaddingForwarder
+ io.github.otobikb.inputmethod.latin.InputView$MoreSuggestionsViewCanceler
+ io.github.otobikb.inputmethod.latin.InputView$MotionEventForwarder
+io/github/otobikb/inputmethod/keyboard/internal/KeyboardTextsTable.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyboardTextsTable
+io/github/otobikb/inputmethod/keyboard/Keyboard.java
+ io.github.otobikb.inputmethod.keyboard.Keyboard
+io/github/otobikb/inputmethod/latin/common/FileUtils.java
+ io.github.otobikb.inputmethod.latin.common.FileUtils
+io/github/otobikb/inputmethod/keyboard/internal/GestureStrokeRecognitionParams.java
+ io.github.otobikb.inputmethod.keyboard.internal.GestureStrokeRecognitionParams
+io/github/otobikb/inputmethod/latin/utils/BinaryDictionaryUtils.java
+ io.github.otobikb.inputmethod.latin.utils.BinaryDictionaryUtils
+io/github/otobikb/inputmethod/latin/userdictionary/UserDictionarySettings.java
+ io.github.otobikb.inputmethod.latin.userdictionary.UserDictionarySettings
+ io.github.otobikb.inputmethod.latin.userdictionary.UserDictionarySettings$MyAdapter
+ io.github.otobikb.inputmethod.latin.userdictionary.UserDictionarySettings$MyAdapter$1
+io/github/otobikb/inputmethod/intro/slide/SimpleSlideActivity.java
+ io.github.otobikb.inputmethod.intro.slide.SimpleSlideActivity
+io/github/otobikb/inputmethod/latin/utils/RunInLocale.java
+ io.github.otobikb.inputmethod.latin.utils.RunInLocale
+io/github/otobikb/inputmethod/latin/define/ProductionFlags.java
+ io.github.otobikb.inputmethod.latin.define.ProductionFlags
+io/github/otobikb/inputmethod/intro/slide/SimpleSlide.java
+ io.github.otobikb.inputmethod.intro.slide.SimpleSlide
+ io.github.otobikb.inputmethod.intro.slide.SimpleSlide$1
+ io.github.otobikb.inputmethod.intro.slide.SimpleSlide$Builder
+ io.github.otobikb.inputmethod.intro.slide.SimpleSlide$SimpleSlideFragment
+io/github/otobikb/inputmethod/latin/DictionaryPackInstallBroadcastReceiver.java
+ io.github.otobikb.inputmethod.latin.DictionaryPackInstallBroadcastReceiver
+io/github/otobikb/inputmethod/keyboard/internal/BatchInputArbiter.java
+ io.github.otobikb.inputmethod.keyboard.internal.BatchInputArbiter
+ io.github.otobikb.inputmethod.keyboard.internal.BatchInputArbiter$BatchInputArbiterListener
+io/github/otobikb/inputmethod/keyboard/internal/KeyboardTextsSet.java
+ io.github.otobikb.inputmethod.keyboard.internal.KeyboardTextsSet
+ io.github.otobikb.inputmethod.keyboard.internal.KeyboardTextsSet$1
+io/github/otobikb/inputmethod/latin/settings/TwoStatePreferenceHelper.java
+ io.github.otobikb.inputmethod.latin.settings.TwoStatePreferenceHelper
+io/github/otobikb/inputmethod/latin/common/CoordinateUtils.java
+ io.github.otobikb.inputmethod.latin.common.CoordinateUtils
+io/github/otobikb/inputmethod/latin/inputlogic/InputLogic.java
+ io.github.otobikb.inputmethod.latin.inputlogic.InputLogic
+ io.github.otobikb.inputmethod.latin.inputlogic.InputLogic$1
+ io.github.otobikb.inputmethod.latin.inputlogic.InputLogic$2
+io/github/otobikb/inputmethod/latin/PersonalDictionaryLookup.java
+ io.github.otobikb.inputmethod.latin.PersonalDictionaryLookup
+ io.github.otobikb.inputmethod.latin.PersonalDictionaryLookup$PersonalDictionaryContentObserver
+ io.github.otobikb.inputmethod.latin.PersonalDictionaryLookup$PersonalDictionaryListener
+io/github/otobikb/inputmethod/keyboard/emoji/EmojiPalettesView.java
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiPalettesView
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiPalettesView$1
+ io.github.otobikb.inputmethod.keyboard.emoji.EmojiPalettesView$DeleteKeyOnTouchListener
+io/github/otobikb/inputmethod/keyboard/KeyboardView.java
+ io.github.otobikb.inputmethod.keyboard.KeyboardView

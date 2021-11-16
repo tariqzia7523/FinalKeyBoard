@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/premium_bg"
     android:orientation="vertical"
-    tools:context="com.burmese.keyboard.app.free.activities.Premium">
+    tools:context="io.github.otobikb.inputmethod.changes.Premium">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"

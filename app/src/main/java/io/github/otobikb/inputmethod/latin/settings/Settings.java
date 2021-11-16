@@ -21,10 +21,12 @@ import android.content.SharedPreferences;
 import android.content.pm.ApplicationInfo;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Build;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
+import io.github.otobikb.inputmethod.keyboard.KeyboardTheme;
 import io.github.otobikb.inputmethod.latin.AudioAndHapticFeedbackManager;
 import io.github.otobikb.inputmethod.latin.InputAttributes;
 import io.github.otobikb.inputmethod.latin.R;
@@ -44,6 +46,18 @@ import javax.annotation.Nonnull;
 
 public final class Settings implements SharedPreferences.OnSharedPreferenceChangeListener {
     private static final String TAG = Settings.class.getSimpleName();
+
+
+    public static final String PREF_KEYBOARD_HEIGHT = "pref_keyboard_height";
+    public static final String PREF_KEYBOARD_COLOR = "pref_keyboard_color";
+    public static final String PREF_KEYBOARD_BG_IMAGE_FILE_PATH = "pref_bg_image_file_path";
+    public static final String PREF_KEYBOARD_BG_IMAGE_RESOURCE= "pref_bg_image_resource";
+    public static final String PREF_KEYBOARD_BG_IMAGE_TYPE= "pref_bg_image_type";
+    public static final String PREF_HIDE_SPECIAL_CHARS = "pref_hide_special_chars";
+    public static final String PREF_SHOW_NUMBER_ROW = "pref_show_number_row";
+    public static final String PREF_SPACE_SWIPE = "pref_space_swipe";
+    public static final String PREF_DELETE_SWIPE = "pref_delete_swipe";
+    public static final String PREF_MATCHING_NAVBAR_COLOR = "pref_matching_navbar_color";
     // Settings screens
     public static final String SCREEN_THEME = "screen_theme";
     public static final String SCREEN_DEBUG = "screen_debug";
@@ -83,7 +97,7 @@ public final class Settings implements SharedPreferences.OnSharedPreferenceChang
     public static final String PREF_ENABLE_SPLIT_KEYBOARD = "pref_split_keyboard";
     public static final String PREF_KEYBOARD_HEIGHT_SCALE = "pref_keyboard_height_scale";
     public static final String PREF_SPACE_TRACKPAD = "pref_space_trackpad";
-    public static final String PREF_DELETE_SWIPE = "pref_delete_swipe";
+
     public static final String PREF_ALWAYS_INCOGNITO_MODE =
             "pref_always_incognito_mode";
     public static final String PREF_BIGRAM_PREDICTIONS = "next_word_prediction";
@@ -103,8 +117,7 @@ public final class Settings implements SharedPreferences.OnSharedPreferenceChang
 
     public static final String PREF_ENABLE_METRICS_LOGGING = "pref_enable_metrics_logging";
 
-    public static final String PREF_SHOW_NUMBER_ROW =
-            "pref_show_number_row";
+
 
     // This preference key is deprecated. Use {@link #PREF_SHOW_LANGUAGE_SWITCH_KEY} instead.
     // This is being used only for the backward compatibility.
@@ -224,6 +237,13 @@ public final class Settings implements SharedPreferences.OnSharedPreferenceChang
                                                  final Resources res) {
         return prefs.getBoolean(PREF_AUTO_CORRECTION, true);
     }
+
+    public static void setBgImageFilePath(final SharedPreferences prefs,String filePath) {
+        prefs.edit().putInt(PREF_KEYBOARD_BG_IMAGE_RESOURCE, 0).apply();
+        prefs.edit().putInt(PREF_KEYBOARD_BG_IMAGE_TYPE, 1).apply();
+        prefs.edit().putString(PREF_KEYBOARD_BG_IMAGE_FILE_PATH, filePath).apply();
+    }
+
 
     public static float readPlausibilityThreshold(final Resources res) {
         return Float.parseFloat(res.getString(R.string.plausibility_threshold));
@@ -445,6 +465,27 @@ public final class Settings implements SharedPreferences.OnSharedPreferenceChang
         return prefs.getInt(PREF_LAST_SHOWN_EMOJI_CATEGORY_ID, defValue);
     }
 
+
+    public static void resetImages(final SharedPreferences prefs) {
+        prefs.edit().putInt(PREF_KEYBOARD_BG_IMAGE_RESOURCE, 0).apply();
+        prefs.edit().putInt(PREF_KEYBOARD_BG_IMAGE_TYPE, 0).apply();
+        prefs.edit().putString(PREF_KEYBOARD_BG_IMAGE_FILE_PATH, "").apply();
+    }
+    public static void setBgImageResource(final SharedPreferences prefs,int id ) {
+        prefs.edit().putInt(PREF_KEYBOARD_BG_IMAGE_TYPE, 2).apply();
+        prefs.edit().putInt(PREF_KEYBOARD_BG_IMAGE_RESOURCE, id).apply();
+    }
+    public static int getBgImageResource(final SharedPreferences prefs ) {
+        return prefs.getInt(PREF_KEYBOARD_BG_IMAGE_RESOURCE, 0);
+    }
+    public static int getBgImageType(final SharedPreferences prefs ) {
+        return prefs.getInt(PREF_KEYBOARD_BG_IMAGE_TYPE, 0);
+    }
+    public static void removeKeyboardColor(final SharedPreferences prefs) {
+        prefs.edit().remove(PREF_KEYBOARD_COLOR).apply();
+    }
+
+
     private void upgradeAutocorrectionSettings(final SharedPreferences prefs, final Resources res) {
         final String thresholdSetting =
                 prefs.getString(PREF_AUTO_CORRECTION_THRESHOLD_OBSOLETE, null);
@@ -460,5 +501,25 @@ public final class Settings implements SharedPreferences.OnSharedPreferenceChang
             }
             editor.commit();
         }
+    }
+
+    public static int readKeyboardColor(final SharedPreferences prefs, final Context context) {
+        return prefs.getInt(PREF_KEYBOARD_COLOR, readKeyboardDefaultColor(context));
+    }
+    public static String getBgImageFilePath(final SharedPreferences prefs) {
+        return prefs.getString(PREF_KEYBOARD_BG_IMAGE_FILE_PATH, "");
+    }
+
+    public static int readKeyboardDefaultColor(final Context context) {
+        final int[] keyboardThemeColors = context.getResources().getIntArray(R.array.keyboard_theme_colors);
+        final int[] keyboardThemeIds = context.getResources().getIntArray(R.array.keyboard_theme_ids);
+        final int themeId = KeyboardTheme.getKeyboardTheme(context).mThemeId;
+        for (int index = 0; index < keyboardThemeIds.length; index++) {
+            if (themeId == keyboardThemeIds[index]) {
+                return keyboardThemeColors[index];
+            }
+        }
+
+        return Color.LTGRAY;
     }
 }

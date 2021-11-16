@@ -60,8 +60,6 @@
     <string name="settings_screen_correction">Text correction</string>
     <!-- Settings screen title for advanced settings [CHAR LIMIT=33] -->
     <string name="settings_screen_advanced">Advanced</string>
-    <string name="settings_screen_about" translatable="false">About</string>
-    <string name="settings_screen_help" translatable="false">Learn to type</string>
     <!-- Settings screen title for keyboard theme settings [CHAR LIMIT=33] -->
     <string name="settings_screen_theme">Theme</string>
 
@@ -183,12 +181,15 @@
     <!-- Title for configuring input method settings [CHAR LIMIT=35] -->
     <string name="configure_input_method">Configure input methods</string>
 
+    <!-- Title for input language selection screen -->
+    <string name="language_selection_title">Languages</string>
 
     <!-- Title for the 'Help & feedback' settings fragment which shows a help page and has a button
          for submitting feedback. [CHAR LIMIT=35] -->
     <string name="help_and_feedback">Help &amp; feedback</string>
 
     <!-- Preference for input language selection -->
+    <string name="select_language">Languages</string>
 
     <!-- Add to dictionary hint -->
     <string name="hint_add_to_dictionary">Tap again to save</string>
@@ -349,9 +350,7 @@ mobile devices. [CHAR LIMIT=25] -->
     <!-- Title of the preference settings for switching keyboard theme [CHAR LIMIT=35] -->
     <string name="keyboard_theme">Keyboard theme</string>
     <!-- The keyboard theme name, Holo White. This is marked as translatable="false" because this is a proper name of system-wide UI Theme. -->
-    <string name="keyboard_theme_holo_white" translatable="false">Holo White</string>
     <!-- The keyboard theme name, Holo Blue. This is marked as translatable="false" because this is a proper name of system-wide UI Theme.  -->
-    <string name="keyboard_theme_holo_blue" translatable="false">Holo Blue</string>
     <!-- The keyboard theme name, Material Dark. This is marked as translatable="false" because this is a proper name of system-wide UI Theme.  -->
     <string name="keyboard_theme_material_dark" translatable="false">Material Dark (AMOLED)</string>
     <!-- The keyboard theme name, Material Light. This is marked as translatable="false" because this is a proper name of system-wide UI Theme.  -->
@@ -440,6 +439,7 @@ mobile devices. [CHAR LIMIT=25] -->
     <string name="show_setup_wizard_icon_summary">Display application icon in the launcher</string>
 
     <!-- The dictionary provider application name. Visible in Settings/Applications/Manage applications. -->
+    <string name="app_name">Bangla Keyboard</string>
     <!-- The dictionary provider ContentProvider name. Visible in Settings/Applications/Running services. -->
     <string name="dictionary_provider_name">Dictionary Provider</string>
     <!-- The dictionary provider Service name. Visible in Settings/Applications/Running services. -->
@@ -486,6 +486,7 @@ mobile devices. [CHAR LIMIT=25] -->
     <!-- Standard message to dismiss a dialog box -->
     <string name="cancel">Cancel</string>
     <!-- Title of the button in a dialog box. The button takes the user to the keyboard settings. [CHAR LIMIT=15] -->
+
 
     <!-- Action to download and install a dictionary [CHAR_LIMIT=15] -->
     <string name="install_dict">Install</string>
@@ -565,12 +566,139 @@ mobile devices. [CHAR LIMIT=25] -->
     <string name="more_keys_strip_description">More keys</string>
     <string name="prefs_force_incognito_mode">Force incognito mode</string>
     <string name="prefs_force_incognito_mode_summary">Disable learning of new words</string>
-    <string name="about_developer">Md. Rifat Hasan Jihan</string>
-    <string name="about_facebook">Facebook</string>
-    <string name="about_portfolio">Portfolio</string>
-    <string name="my_pref">MYPREF</string>
-    <string name="user_reviwed">User Reviewed</string>
-    <string name="user_intro">User Intro</string>
-    <string name="app_count">app count</string>
 
+
+    <string name="dialog_text">Voice Recognition</string>
+    <string name="premium">Premium</string>
+    <string name="how_to_use">How to use</string>
+    <string name="keyboard_themes">Keyboard Themes</string>
+    <string name="help">Help</string>
+    <string name="is_purchsed" translatable="false">IS_PURCHASED</string>
+    <string name="MY_PREF" translatable="false">MY_PREF</string>
+    <string name="why_do_you_see_ads">Why do you see ads?</string>
+    <string name="revenue_from_adds">Revenue from ads help us to continuously improve our app for you. After buying premium, ads will remove from your app</string>
+    <string name="support_us">Support us</string>
+    <string name="no_ads">No Ads</string>
+    <string name="buy_premium">Buy premium here for removing ads forever</string>
+    <string name="unlock_premium">Unlock Premium</string>
+    <string name="ad_will_display_hare">Loading Ad</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="feedback">Feedback</string>
+    <string name="moreapps">More Apps</string>
+    <string name="loading_ad">Loading Ad Please wait</string>
+    <string name="_3_change_language">3: Change Language</string>
+    <string name="_1_enable_keyboard">1: Enable Keyboard</string>
+    <string name="_2_select_keyboard">2: Select Keyboard</string>
+    <string name="_4_change_themes">4: Change Themes</string>
+    <string name="_5_voice_to_text">5: Voice to Text</string>
+    <string name="colors">Colors</string>
+    <string name="select_the_keyboard">Keyboard already enabled\nPlease select keyboard by pressing select keyboard</string>
+    <string name="title_enable_keyboard">Enable Keyboard</string>
+    <string name="please_first_enable_keyboard">Please First Enable KeyBoard By clicking on Enable Keyboard</string>
+    <string name="enable_dialog">Enable</string>
+    <string name="cancel_dialog">Cancel</string>
+    <string name="you_must_allow_permission">You Must Allow Permission</string>
+    <string name="otherwise_application_will_not_work">\nOtherwise Application Will not Work Properly\n</string>
+    <string name="go_to_settings_and_allow">Go To Settings And Allow Permission You Denied\n\n</string>
+    <string name="if_you_cancel_application_cloase">If You cancel Application Will Be close</string>
+    <string name="title_permission_required_dialog">Permissions Required</string>
+    <string name="go_to_settings">Setting</string>
+    <string name="you_force_fully_denied_permissions">You have forcefully denied some of the required permissions</string>
+    <string name="open_settings_and_allow_themall">for this action. Please open settings, go to permissions and allow them.</string>
+    <string name="install_failed">Installation Failed!</string>
+
+    <string name="please_wait_for_a_while">Please wait For a while</string>
+    <string name="exit">Exit</string>
+    <string name="rate_us">Rate us</string>
+    <string name="would_you_like_to_rateus">Would you like to rate us?</string>
+    <string name="terms_title">Burmese Keyboard - End User License Agreement</string>
+
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="test_keyboard">Test Keyboard</string>
+
+    <string name="enable_keyboard">Enable Keyboard</string>
+    <string name="select_keyboard">Select Keyboard</string>
+    <string name="themes">Themes</string>
+    <string name="change_language">Change Language</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="theme_applied">Theme applied successfully</string>
+    <string name="recomendation">\nLet me recommend you this application\n</string>
+    <string name="typehere">Type here…</string>
+    <string name="Burmese">Burmese</string>
+    <string name="english">English</string>
+    <string name="terms_details">askncdas</string>
+    <string name="selected_list">SELECTED_LIST</string>
+    <string name="rotate">Rotate</string>
+    <string name="fil_saved">File Saved</string>
+    <string name="images">Images</string>
+
+    <string name="mi_content_description_skip">Skip</string>
+    <string name="mi_content_description_back">Back</string>
+    <string name="mi_content_description_next">Next</string>
+    <string name="mi_content_description_next_finish">Next/Finish</string>
+    <plurals name="mi_label_grant_permission">
+        <item quantity="one">Grant permission</item>
+        <item quantity="other">Grant permissions</item>
+    </plurals>
+    <string name="mi_label_button_cta">Get started</string>
+    <string name="title_menu_github">View on GitHub</string>
+    <string name="title_menu_reset_first_start">Reset "First start" flag</string>
+
+    <string name="label_options">Options:</string>
+    <string name="label_option_fullscreen">Enable fullscreen</string>
+    <string name="label_option_scrollable">Scrollable slides</string>
+    <string name="label_option_custom_fragments">Enable custom fragments</string>
+    <string name="label_option_permissions">Enable permission request</string>
+    <string name="label_option_show_back">Show back button</string>
+    <string name="label_option_show_next">Show next button</string>
+    <string name="label_option_skip_enabled">Enable skip button</string>
+    <string name="label_option_finish_enabled">Enable finish button</string>
+    <string name="label_option_get_started_enabled">Enable \"Get Started\" button</string>
+    <string name="label_start_intro">Start intro</string>
+    <string name="label_or">or</string>
+    <string name="label_demos">Demos: </string>
+    <string name="label_start_canteen">\"Canteen\" intro</string>
+    <string name="label_start_splash">Splash screen</string>
+
+    <string name="title_material_metaphor">Material is the metaphor</string>
+    <string name="title_material_bold">Bold, graphic, intentional</string>
+    <string name="title_material_motion">Motion provides meaning</string>
+    <string name="title_material_shadow">Light and shadow</string>
+
+    <string name="description_material_metaphor">A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.</string>
+    <string name="description_material_bold">The foundational elements of print-based design – typography, grids, space, scale, color, and use of imagery – guide visual treatments.</string>
+    <string name="description_material_motion">Motion respects and reinforces the user as the prime mover. Primary user actions are inflection points that initiate motion, transforming the whole design.</string>
+    <string name="description_material_shadow">Within the material environment, virtual lights illuminate the scene. Key lights create directional shadows, while ambient light creates soft shadows from all angles.</string>
+
+    <string name="title_permissions">Requesting permissions was never easier.</string>
+    <string name="description_permissions">This app needs the camera and storage permission.\nIt\'s only to show how permission requests work in this library and we won\'t do anything with the granted permissions.</string>
+    <string name="label_grant_permissions">Please grant the permissions before proceeding.</string>
+
+    <string name="label_button_cta">Click me!</string>
+    <string name="toast_button_cta">Hey, that\'s how custom CTA buttons work in material-intro!</string>
+
+    <string name="title_fragment_login">This is a custom fragment.</string>
+    <string name="hint_fake_username">Fake username</string>
+    <string name="hint_fake_password">Fake password</string>
+    <string name="label_fake_login">Fake login</string>
+    <string name="label_fake_login_loading">Loading…</string>
+    <string name="label_fake_login_success">Logged in ☺</string>
+    <string name="label_fake_login_success_message">Successfully faked login.</string>
+    <string name="label_fill_out_form">Please fill out the form before proceeding.</string>
+
+    <string name="title_fragment_custom">Take off!</string>
+
+    <string name="label_activity_finish">Nothing here…\n…just a demo how to create a splash screen intro.</string>
+
+    <string name="title_canteen_intro1" translatable="false">Menus right on your screen</string>
+    <string name="title_canteen_intro2" translatable="false">Cash on delivery</string>
+    <string name="title_canteen_intro3" translatable="false">Choose what you like</string>
+    <string name="description_canteen_intro1" translatable="false">Looking for something to eat? Just browse the feed wherever you are.</string>
+    <string name="description_canteen_intro2" translatable="false">Order and we\'ll deliver the menu right in front of your door.</string>
+    <string name="description_canteen_intro3" translatable="false">Bookmark a menu you wanted to save and keep track of its status whether it\'s available or not.</string>
+    <string name="label_button_cta_canteen_intro" translatable="false">Get started</string>
 </resources>

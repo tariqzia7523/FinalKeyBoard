@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -7,7 +8,6 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="snackbarStyle">@style/TextAppearance.Design.Snackbar.Message</item>
     </style>
-
 
     <style name="my_dialog" parent="ThemeOverlay.AppCompat.Dialog.Alert">
         <item name="windowMinWidthMajor">60%</item>

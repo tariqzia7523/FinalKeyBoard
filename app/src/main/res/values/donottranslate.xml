@@ -59,4 +59,11 @@
         <item>en_US:TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
         <item>qwerty</item>
     </string-array>
+
+
+
+    <string name="my_pref" translatable="false">MYPREFS</string>
+    <string name="user_reviwed" translatable="false">User Reviewed</string>
+    <string name="user_intro" translatable="false">User Intro</string>
+    <string name="app_count" translatable="false">App Count</string>
 </resources>

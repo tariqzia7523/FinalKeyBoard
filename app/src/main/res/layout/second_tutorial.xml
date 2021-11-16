@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="5"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.75"
+        android:scaleType="fitCenter"
+        android:src="@drawable/emoji1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.75"
+        android:scaleType="fitCenter"
+        android:orientation="vertical"
+        android:src="@drawable/emoji1">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/beautiful_emoji"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:src="@drawable/emjo_txt"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:background="@drawable/bottom_nz">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:weightSum="1.5"
+            android:layout_weight="1.5">
+            <ImageView
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/background_btn"
+                android:src="@drawable/enable_keyboard_txt"
+                android:padding="@dimen/_16sdp"/>
+            <ImageView
+                android:layout_width="@dimen/_170sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_gravity="center"
+                android:background="@drawable/choose_background_tutorial1"
+                android:src="@drawable/choose_keyboard_txt"
+                android:padding="@dimen/_16sdp"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

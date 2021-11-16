@@ -1,0 +1,198 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 19 min SDK version: armeabi-v7a",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1631218455
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\4271f6q5\\armeabi-v7a\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1530191861
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\4271f6q5\\armeabi-v7a\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1438022961
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\4271f6q5\\armeabi-v7a\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1009720015
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1307955658
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\4271f6q5\\armeabi-v7a\u0027",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1023800889
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\4271f6q5\\armeabi-v7a\u0027",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1740209083
+  },
+  {
+    "level_": 0,
+    "message_": "executing ndkBuild Executable : C:\\Users\\line\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dC:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003darmeabi-v7a\nNDK_ALL_ABIS\u003darmeabi-v7a\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dC:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\cxx\\Debug\\4271f6q5/obj\nNDK_LIBS_OUT\u003dC:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\cxx\\Debug\\4271f6q5/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1066931895
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\line\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dC:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003darmeabi-v7a\nNDK_ALL_ABIS\u003darmeabi-v7a\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dC:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\cxx\\Debug\\4271f6q5/obj\nNDK_LIBS_OUT\u003dC:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\cxx\\Debug\\4271f6q5/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -438270954
+  },
+  {
+    "level_": 0,
+    "message_": "parse and convert ndk-build output to build configuration JSON",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1429528325
+  },
+  {
+    "level_": 0,
+    "message_": "found application make file C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Application.mk",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1158552037
+  },
+  {
+    "level_": 0,
+    "message_": "done executing ndkBuild",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1000592405
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\4271f6q5\\armeabi-v7a\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1052795713
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\line\\Desktop\\fnl\\OtobiKeyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 317771175
+  }
+]

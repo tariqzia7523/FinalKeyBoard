@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     coreApp="true"
     package="io.github.otobikb.inputmethod.latin">
 
@@ -8,6 +7,7 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <!--
  A signature-protected permission to ask AOSP Keyboard to close the software keyboard.
          To use this, add the following line into calling application's AndroidManifest.xml
@@ -32,38 +32,26 @@
         android:allowBackup="true"
         android:defaultToDeviceProtectedStorage="true"
         android:directBootAware="true"
+        android:exported="true"
         android:extractNativeLibs="false"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/burmese_icon_ic"
         android:label="@string/english_ime_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true">
-
+        android:roundIcon="@drawable/burmese_icon_ic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
         <activity
-            android:name="io.github.otobikb.changes.ThemeTabBar"
-            android:theme="@style/AppTheme"
+            android:name="io.github.otobikb.inputmethod.intro.FinnishActivity"
             android:exported="true" />
         <activity
-            android:name="io.github.otobikb.changes.HowToUse"
-            android:theme="@style/AppTheme"
+            android:name="io.github.otobikb.inputmethod.changes.ThemeActivity"
             android:exported="true" />
-        <activity
-            android:name="io.github.otobikb.changes.Premium"
-            android:theme="@style/AppTheme"
-            android:exported="true" />
-        <activity
-            android:name="io.github.otobikb.changes.PrivacyPolicy"
-            android:theme="@style/AppTheme"
-            android:exported="true" />
-        <activity
-            android:name="io.github.otobikb.changes.TestActivity"
-            android:theme="@style/AppTheme"
-            android:exported="true" />
-
 
         <service
             android:name=".LatinIME"
+            android:exported="true"
             android:label="@string/english_ime_name"
-            android:permission="android.permission.BIND_INPUT_METHOD">
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.view.InputMethod" />
             </intent-filter>
@@ -74,8 +62,10 @@
         </service>
         <service
             android:name=".spellcheck.AndroidSpellCheckerService"
+            android:exported="true"
             android:label="@string/spell_checker_service_name"
-            android:permission="android.permission.BIND_TEXT_SERVICE">
+            android:permission="android.permission.BIND_TEXT_SERVICE"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.service.textservice.SpellCheckerService" />
             </intent-filter>
@@ -85,18 +75,10 @@
                 android:resource="@xml/spellchecker" />
         </service> <!-- Activities -->
         <activity
-            android:name=".setup.SetupActivity"
+            android:name="io.github.otobikb.inputmethod.changes.Splash_Screen_Activity"
+            android:exported="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/english_ime_name"
-            android:launchMode="singleTask"
-            android:noHistory="true"
-            android:theme="@style/platformActivityTheme">
-
-        </activity>
-
-        <activity
-            android:name="io.github.otobikb.changes.MainActivity"
-            android:exported="true"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -106,38 +88,63 @@
         </activity>
         <activity
             android:name=".permissions.PermissionsActivity"
-            android:exported="false"
-            android:taskAffinity=""
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:exported="true"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".setup.SetupWizardActivity"
-            android:clearTaskOnLaunch="true"
+            android:exported="true"
             android:label="@string/english_ime_name"
-            android:theme="@style/platformActivityTheme">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
             android:name=".settings.SettingsActivity"
+            android:exported="true"
             android:label="@string/english_ime_settings"
-            android:theme="@style/platformSettingsTheme">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
             android:name=".spellcheck.SpellCheckerSettingsActivity"
+            android:exported="true"
             android:label="@string/android_spell_checker_settings"
-            android:theme="@style/platformSettingsTheme">
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity> <!-- Unexported activity used for tests. -->
         <activity
+            android:name="io.github.otobikb.inputmethod.changes.Premium"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="io.github.otobikb.inputmethod.changes.Main_Activity"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".setup.SetupActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="io.github.otobikb.inputmethod.changes.TestActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="io.github.otobikb.inputmethod.changes.HowtoUse"
+            android:exported="true"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name=".settings.TestFragmentActivity"
-            android:exported="false" /> <!-- Broadcast receivers -->
-        <receiver android:name=".SystemBroadcastReceiver">
+            android:exported="true"
+            android:theme="@style/AppTheme" /> <!-- Broadcast receivers -->
+        <receiver
+            android:name=".SystemBroadcastReceiver"
+            android:exported="true"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -147,7 +154,8 @@
         </receiver>
         <receiver
             android:name=".DictionaryPackInstallBroadcastReceiver"
-            android:exported="false">
+            android:exported="true"
+            android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="io.github.otobikb.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT" />
             </intent-filter>
@@ -155,15 +163,16 @@
         <provider
             android:name="io.github.otobikb.inputmethod.dictionarypack.DictionaryProvider"
             android:authorities="@string/authority"
-            android:exported="false"
+            android:exported="true"
             android:grantUriPermissions="true"
             android:label="@string/dictionary_provider_name"
-            android:multiprocess="false" />
-
+            android:multiprocess="false"
+            android:theme="@style/AppTheme" />
 
         <meta-data
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
-            android:value="true"
-            android:exported="true"/>
+            android:exported="true"
+            android:value="true" />
     </application>
+
 </manifest>
