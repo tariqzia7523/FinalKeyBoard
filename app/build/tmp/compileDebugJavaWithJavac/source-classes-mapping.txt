@@ -1,0 +1,664 @@
+com/german/keyboard/app/free/latin/common/InputPointers.java
+ com.german.keyboard.app.free.latin.common.InputPointers
+com/german/keyboard/app/free/latin/utils/BinaryDictionaryUtils.java
+ com.german.keyboard.app.free.latin.utils.BinaryDictionaryUtils
+com/german/keyboard/app/free/latin/BinaryDictionary.java
+ com.german.keyboard.app.free.latin.BinaryDictionary
+ com.german.keyboard.app.free.latin.BinaryDictionary$GetNextWordPropertyResult
+com/german/keyboard/app/free/latin/utils/DictionaryHeaderUtils.java
+ com.german.keyboard.app.free.latin.utils.DictionaryHeaderUtils
+com/german/keyboard/app/free/latin/spellcheck/AndroidSpellCheckerSession.java
+ com.german.keyboard.app.free.latin.spellcheck.AndroidSpellCheckerSession
+com/german/keyboard/app/free/latin/utils/CombinedFormatUtils.java
+ com.german.keyboard.app.free.latin.utils.CombinedFormatUtils
+com/german/keyboard/app/free/keyboard/internal/HermiteInterpolator.java
+ com.german.keyboard.app.free.keyboard.internal.HermiteInterpolator
+com/german/keyboard/app/free/keyboard/MoreKeysDetector.java
+ com.german.keyboard.app.free.keyboard.MoreKeysDetector
+com/german/keyboard/app/free/latin/SystemBroadcastReceiver.java
+ com.german.keyboard.app.free.latin.SystemBroadcastReceiver
+com/german/keyboard/app/free/latin/inputlogic/PrivateCommandPerformer.java
+ com.german.keyboard.app.free.latin.inputlogic.PrivateCommandPerformer
+com/german/keyboard/app/free/keyboard/internal/KeyboardTextsTable.java
+ com.german.keyboard.app.free.keyboard.internal.KeyboardTextsTable
+com/german/keyboard/app/free/latin/utils/AutoCorrectionUtils.java
+ com.german.keyboard.app.free.latin.utils.AutoCorrectionUtils
+com/german/keyboard/app/free/latin/touchinputconsumer/GestureConsumer.java
+ com.german.keyboard.app.free.latin.touchinputconsumer.GestureConsumer
+com/german/keyboard/app/free/keyboard/internal/DrawingPreviewPlacerView.java
+ com.german.keyboard.app.free.keyboard.internal.DrawingPreviewPlacerView
+com/german/keyboard/app/free/keyboard/internal/GestureEnabler.java
+ com.german.keyboard.app.free.keyboard.internal.GestureEnabler
+com/german/keyboard/app/free/latin/utils/NgramContextUtils.java
+ com.german.keyboard.app.free.latin.utils.NgramContextUtils
+com/german/keyboard/app/free/latin/utils/ScriptUtils.java
+ com.german.keyboard.app.free.latin.utils.ScriptUtils
+com/german/keyboard/app/free/latin/makedict/WeightedString.java
+ com.german.keyboard.app.free.latin.makedict.WeightedString
+com/german/keyboard/app/free/changes/PrefManager.java
+ com.german.keyboard.app.free.changes.PrefManager
+com/german/keyboard/app/free/latin/utils/FragmentUtils.java
+ com.german.keyboard.app.free.latin.utils.FragmentUtils
+com/german/keyboard/app/free/latin/LastComposedWord.java
+ com.german.keyboard.app.free.latin.LastComposedWord
+com/german/keyboard/app/free/latin/utils/StatsUtils.java
+ com.german.keyboard.app.free.latin.utils.StatsUtils
+com/german/keyboard/app/free/latin/BinaryDictionaryGetter.java
+ com.german.keyboard.app.free.latin.BinaryDictionaryGetter
+ com.german.keyboard.app.free.latin.BinaryDictionaryGetter$DictPackSettings
+ com.german.keyboard.app.free.latin.BinaryDictionaryGetter$FileAndMatchLevel
+com/german/keyboard/app/free/latin/utils/ExecutorUtils.java
+ com.german.keyboard.app.free.latin.utils.ExecutorUtils
+ com.german.keyboard.app.free.latin.utils.ExecutorUtils$1
+ com.german.keyboard.app.free.latin.utils.ExecutorUtils$ExecutorFactory
+ com.german.keyboard.app.free.latin.utils.ExecutorUtils$ExecutorFactory$1
+ com.german.keyboard.app.free.latin.utils.ExecutorUtils$RunnableChain
+com/german/keyboard/app/free/keyboard/internal/GestureTrailDrawingPoints.java
+ com.german.keyboard.app.free.keyboard.internal.GestureTrailDrawingPoints
+com/german/keyboard/app/free/latin/utils/TypefaceUtils.java
+ com.german.keyboard.app.free.latin.utils.TypefaceUtils
+com/german/keyboard/app/free/latin/utils/SpannableStringUtils.java
+ com.german.keyboard.app.free.latin.utils.SpannableStringUtils
+com/german/keyboard/app/free/latin/spellcheck/SpellCheckerSettingsActivity.java
+ com.german.keyboard.app.free.latin.spellcheck.SpellCheckerSettingsActivity
+com/german/keyboard/app/free/latin/DictionaryFacilitatorLruCache.java
+ com.german.keyboard.app.free.latin.DictionaryFacilitatorLruCache
+com/german/keyboard/app/free/latin/inputlogic/SpaceState.java
+ com.german.keyboard.app.free.latin.inputlogic.SpaceState
+com/german/keyboard/app/free/keyboard/internal/PointerTrackerQueue.java
+ com.german.keyboard.app.free.keyboard.internal.PointerTrackerQueue
+ com.german.keyboard.app.free.keyboard.internal.PointerTrackerQueue$Element
+com/german/keyboard/app/free/latin/utils/SuggestionResults.java
+ com.german.keyboard.app.free.latin.utils.SuggestionResults
+ com.german.keyboard.app.free.latin.utils.SuggestionResults$SuggestedWordInfoComparator
+com/german/keyboard/app/free/keyboard/KeyboardActionListener.java
+ com.german.keyboard.app.free.keyboard.KeyboardActionListener
+ com.german.keyboard.app.free.keyboard.KeyboardActionListener$Adapter
+com/german/keyboard/app/free/latin/makedict/NgramProperty.java
+ com.german.keyboard.app.free.latin.makedict.NgramProperty
+com/german/keyboard/app/free/keyboard/internal/KeyboardParams.java
+ com.german.keyboard.app.free.keyboard.internal.KeyboardParams
+ com.german.keyboard.app.free.keyboard.internal.KeyboardParams$1
+com/german/keyboard/app/free/keyboard/internal/KeySpecParser.java
+ com.german.keyboard.app.free.keyboard.internal.KeySpecParser
+ com.german.keyboard.app.free.keyboard.internal.KeySpecParser$KeySpecParserError
+com/german/keyboard/app/free/keyboard/internal/UniqueKeysCache.java
+ com.german.keyboard.app.free.keyboard.internal.UniqueKeysCache
+ com.german.keyboard.app.free.keyboard.internal.UniqueKeysCache$1
+ com.german.keyboard.app.free.keyboard.internal.UniqueKeysCache$UniqueKeysCacheImpl
+com/german/keyboard/app/free/latin/UserBinaryDictionary.java
+ com.german.keyboard.app.free.latin.UserBinaryDictionary
+ com.german.keyboard.app.free.latin.UserBinaryDictionary$1
+com/german/keyboard/app/free/keyboard/internal/AlphabetShiftState.java
+ com.german.keyboard.app.free.keyboard.internal.AlphabetShiftState
+com/german/keyboard/app/free/latin/utils/AsyncResultHolder.java
+ com.german.keyboard.app.free.latin.utils.AsyncResultHolder
+com/german/keyboard/app/free/latin/makedict/UnsupportedFormatException.java
+ com.german.keyboard.app.free.latin.makedict.UnsupportedFormatException
+com/german/keyboard/app/free/latin/common/StringUtils.java
+ com.german.keyboard.app.free.latin.common.StringUtils
+ com.german.keyboard.app.free.latin.common.StringUtils$Stringizer
+com/german/keyboard/app/free/keyboard/internal/MatrixUtils.java
+ com.german.keyboard.app.free.keyboard.internal.MatrixUtils
+ com.german.keyboard.app.free.keyboard.internal.MatrixUtils$MatrixOperationFailedException
+com/german/keyboard/app/free/latin/DictionaryCollection.java
+ com.german.keyboard.app.free.latin.DictionaryCollection
+com/german/keyboard/app/free/keyboard/internal/GestureStrokeDrawingPoints.java
+ com.german.keyboard.app.free.keyboard.internal.GestureStrokeDrawingPoints
+com/german/keyboard/app/free/latin/utils/TextRange.java
+ com.german.keyboard.app.free.latin.utils.TextRange
+com/german/keyboard/app/free/latin/settings/SettingsValuesForSuggestion.java
+ com.german.keyboard.app.free.latin.settings.SettingsValuesForSuggestion
+com/german/keyboard/app/free/latin/utils/IntentUtils.java
+ com.german.keyboard.app.free.latin.utils.IntentUtils
+com/german/keyboard/app/free/latin/utils/ManagedProfileUtils.java
+ com.german.keyboard.app.free.latin.utils.ManagedProfileUtils
+com/german/keyboard/app/free/latin/ContactsBinaryDictionary.java
+ com.german.keyboard.app.free.latin.ContactsBinaryDictionary
+com/german/keyboard/app/free/latin/utils/FeedbackUtils.java
+ com.german.keyboard.app.free.latin.utils.FeedbackUtils
+com/german/keyboard/app/free/latin/utils/WordInputEventForPersonalization.java
+ com.german.keyboard.app.free.latin.utils.WordInputEventForPersonalization
+com/german/keyboard/app/free/latin/AudioAndHapticFeedbackManager.java
+ com.german.keyboard.app.free.latin.AudioAndHapticFeedbackManager
+com/german/keyboard/app/free/latin/PersonalDictionaryLookup.java
+ com.german.keyboard.app.free.latin.PersonalDictionaryLookup
+ com.german.keyboard.app.free.latin.PersonalDictionaryLookup$PersonalDictionaryContentObserver
+ com.german.keyboard.app.free.latin.PersonalDictionaryLookup$PersonalDictionaryListener
+com/german/keyboard/app/free/latin/settings/LocalSettingsConstants.java
+ com.german.keyboard.app.free.latin.settings.LocalSettingsConstants
+com/german/keyboard/app/free/latin/ContactsDictionaryUtils.java
+ com.german.keyboard.app.free.latin.ContactsDictionaryUtils
+com/german/keyboard/app/free/latin/utils/StatsUtilsManager.java
+ com.german.keyboard.app.free.latin.utils.StatsUtilsManager
+com/german/keyboard/app/free/latin/common/UnicodeSurrogate.java
+ com.german.keyboard.app.free.latin.common.UnicodeSurrogate
+com/german/keyboard/app/free/latin/about/AboutPreferences.java
+ com.german.keyboard.app.free.latin.about.AboutPreferences
+com/german/keyboard/app/free/latin/inputlogic/InputLogic.java
+ com.german.keyboard.app.free.latin.inputlogic.InputLogic
+ com.german.keyboard.app.free.latin.inputlogic.InputLogic$1
+ com.german.keyboard.app.free.latin.inputlogic.InputLogic$2
+com/german/keyboard/app/free/latin/utils/JsonUtils.java
+ com.german.keyboard.app.free.latin.utils.JsonUtils
+com/german/keyboard/app/free/keyboard/internal/KeyStyle.java
+ com.german.keyboard.app.free.keyboard.internal.KeyStyle
+com/german/keyboard/app/free/latin/utils/InputTypeUtils.java
+ com.german.keyboard.app.free.latin.utils.InputTypeUtils
+com/german/keyboard/app/free/keyboard/internal/KeyDrawParams.java
+ com.german.keyboard.app.free.keyboard.internal.KeyDrawParams
+com/german/keyboard/app/free/latin/BackupAgent.java
+ com.german.keyboard.app.free.latin.BackupAgent
+com/german/keyboard/app/free/keyboard/internal/BatchInputArbiter.java
+ com.german.keyboard.app.free.keyboard.internal.BatchInputArbiter
+ com.german.keyboard.app.free.keyboard.internal.BatchInputArbiter$BatchInputArbiterListener
+com/german/keyboard/app/free/keyboard/Keyboard.java
+ com.german.keyboard.app.free.keyboard.Keyboard
+com/german/keyboard/app/free/latin/makedict/FormatSpec.java
+ com.german.keyboard.app.free.latin.makedict.FormatSpec
+ com.german.keyboard.app.free.latin.makedict.FormatSpec$DictionaryOptions
+ com.german.keyboard.app.free.latin.makedict.FormatSpec$FormatOptions
+com/german/keyboard/app/free/keyboard/internal/DrawingProxy.java
+ com.german.keyboard.app.free.keyboard.internal.DrawingProxy
+com/german/keyboard/app/free/latin/suggestions/SuggestionStripViewAccessor.java
+ com.german.keyboard.app.free.latin.suggestions.SuggestionStripViewAccessor
+com/german/keyboard/app/free/latin/permissions/PermissionsActivity.java
+ com.german.keyboard.app.free.latin.permissions.PermissionsActivity
+com/german/keyboard/app/free/keyboard/internal/NonDistinctMultitouchHelper.java
+ com.german.keyboard.app.free.keyboard.internal.NonDistinctMultitouchHelper
+com/german/keyboard/app/free/latin/RichInputMethodManager.java
+ com.german.keyboard.app.free.latin.RichInputMethodManager
+ com.german.keyboard.app.free.latin.RichInputMethodManager$1
+ com.german.keyboard.app.free.latin.RichInputMethodManager$InputMethodInfoCache
+com/german/keyboard/app/free/latin/define/ProductionFlags.java
+ com.german.keyboard.app.free.latin.define.ProductionFlags
+com/german/keyboard/app/free/latin/ReadOnlyBinaryDictionary.java
+ com.german.keyboard.app.free.latin.ReadOnlyBinaryDictionary
+com/german/keyboard/app/free/latin/utils/CursorAnchorInfoUtils.java
+ com.german.keyboard.app.free.latin.utils.CursorAnchorInfoUtils
+com/german/keyboard/app/free/latin/Suggest.java
+ com.german.keyboard.app.free.latin.Suggest
+ com.german.keyboard.app.free.latin.Suggest$OnGetSuggestedWordsCallback
+com/german/keyboard/app/free/keyboard/internal/KeyboardCodesSet.java
+ com.german.keyboard.app.free.keyboard.internal.KeyboardCodesSet
+com/german/keyboard/app/free/latin/common/ComposedData.java
+ com.german.keyboard.app.free.latin.common.ComposedData
+com/german/keyboard/app/free/latin/settings/TestFragmentActivity.java
+ com.german.keyboard.app.free.latin.settings.TestFragmentActivity
+com/german/keyboard/app/free/keyboard/internal/TimerHandler.java
+ com.german.keyboard.app.free.keyboard.internal.TimerHandler
+com/german/keyboard/app/free/keyboard/emoji/DynamicGridKeyboard.java
+ com.german.keyboard.app.free.keyboard.emoji.DynamicGridKeyboard
+ com.german.keyboard.app.free.keyboard.emoji.DynamicGridKeyboard$GridKey
+com/german/keyboard/app/free/latin/define/JniLibName.java
+ com.german.keyboard.app.free.latin.define.JniLibName
+com/german/keyboard/app/free/keyboard/MoreKeysPanel.java
+ com.german.keyboard.app.free.keyboard.MoreKeysPanel
+ com.german.keyboard.app.free.keyboard.MoreKeysPanel$1
+ com.german.keyboard.app.free.keyboard.MoreKeysPanel$Controller
+com/german/keyboard/app/free/latin/utils/JniUtils.java
+ com.german.keyboard.app.free.latin.utils.JniUtils
+com/german/keyboard/app/free/latin/utils/RunInLocale.java
+ com.german.keyboard.app.free.latin.utils.RunInLocale
+com/german/keyboard/app/free/keyboard/internal/SmoothingUtils.java
+ com.german.keyboard.app.free.keyboard.internal.SmoothingUtils
+com/german/keyboard/app/free/latin/personalization/PersonalizationHelper.java
+ com.german.keyboard.app.free.latin.personalization.PersonalizationHelper
+ com.german.keyboard.app.free.latin.personalization.PersonalizationHelper$DictFilter
+com/german/keyboard/app/free/latin/DictionaryDumpBroadcastReceiver.java
+ com.german.keyboard.app.free.latin.DictionaryDumpBroadcastReceiver
+com/german/keyboard/app/free/latin/common/CollectionUtils.java
+ com.german.keyboard.app.free.latin.common.CollectionUtils
+com/german/keyboard/app/free/keyboard/internal/TypingTimeRecorder.java
+ com.german.keyboard.app.free.keyboard.internal.TypingTimeRecorder
+com/german/keyboard/app/free/latin/InputAttributes.java
+ com.german.keyboard.app.free.latin.InputAttributes
+com/german/keyboard/app/free/latin/ContactsDictionaryConstants.java
+ com.german.keyboard.app.free.latin.ContactsDictionaryConstants
+com/german/keyboard/app/free/latin/inputlogic/InputLogicHandler.java
+ com.german.keyboard.app.free.latin.inputlogic.InputLogicHandler
+ com.german.keyboard.app.free.latin.inputlogic.InputLogicHandler$1
+ com.german.keyboard.app.free.latin.inputlogic.InputLogicHandler$2
+com/german/keyboard/app/free/keyboard/KeyboardId.java
+ com.german.keyboard.app.free.keyboard.KeyboardId
+com/german/keyboard/app/free/latin/DictionaryFacilitatorProvider.java
+ com.german.keyboard.app.free.latin.DictionaryFacilitatorProvider
+com/german/keyboard/app/free/keyboard/internal/CodesArrayParser.java
+ com.german.keyboard.app.free.keyboard.internal.CodesArrayParser
+com/german/keyboard/app/free/latin/common/LocaleUtils.java
+ com.german.keyboard.app.free.latin.common.LocaleUtils
+com/german/keyboard/app/free/latin/utils/FileTransforms.java
+ com.german.keyboard.app.free.latin.utils.FileTransforms
+com/german/keyboard/app/free/keyboard/internal/KeyboardState.java
+ com.german.keyboard.app.free.keyboard.internal.KeyboardState
+ com.german.keyboard.app.free.keyboard.internal.KeyboardState$SavedKeyboardState
+ com.german.keyboard.app.free.keyboard.internal.KeyboardState$SwitchActions
+com/german/keyboard/app/free/latin/ContactsContentObserver.java
+ com.german.keyboard.app.free.latin.ContactsContentObserver
+ com.german.keyboard.app.free.latin.ContactsContentObserver$1
+com/german/keyboard/app/free/latin/utils/XmlParseUtils.java
+ com.german.keyboard.app.free.latin.utils.XmlParseUtils
+ com.german.keyboard.app.free.latin.utils.XmlParseUtils$IllegalAttribute
+ com.german.keyboard.app.free.latin.utils.XmlParseUtils$IllegalEndTag
+ com.german.keyboard.app.free.latin.utils.XmlParseUtils$IllegalStartTag
+ com.german.keyboard.app.free.latin.utils.XmlParseUtils$NonEmptyTag
+ com.german.keyboard.app.free.latin.utils.XmlParseUtils$ParseException
+com/german/keyboard/app/free/latin/permissions/PermissionsUtil.java
+ com.german.keyboard.app.free.latin.permissions.PermissionsUtil
+com/german/keyboard/app/free/latin/permissions/PermissionsManager.java
+ com.german.keyboard.app.free.latin.permissions.PermissionsManager
+ com.german.keyboard.app.free.latin.permissions.PermissionsManager$PermissionsResultCallback
+com/german/keyboard/app/free/latin/DicTraverseSession.java
+ com.german.keyboard.app.free.latin.DicTraverseSession
+com/german/keyboard/app/free/keyboard/ProximityInfo.java
+ com.german.keyboard.app.free.keyboard.ProximityInfo
+com/german/keyboard/app/free/latin/utils/LanguageOnSpacebarUtils.java
+ com.german.keyboard.app.free.latin.utils.LanguageOnSpacebarUtils
+com/german/keyboard/app/free/latin/utils/ViewLayoutUtils.java
+ com.german.keyboard.app.free.latin.utils.ViewLayoutUtils
+com/german/keyboard/app/free/latin/spellcheck/AndroidSpellCheckerSessionFactory.java
+ com.german.keyboard.app.free.latin.spellcheck.AndroidSpellCheckerSessionFactory
+com/german/keyboard/app/free/latin/DictionaryStats.java
+ com.german.keyboard.app.free.latin.DictionaryStats
+com/german/keyboard/app/free/latin/WordListInfo.java
+ com.german.keyboard.app.free.latin.WordListInfo
+com/german/keyboard/app/free/keyboard/internal/TimerProxy.java
+ com.german.keyboard.app.free.keyboard.internal.TimerProxy
+ com.german.keyboard.app.free.keyboard.internal.TimerProxy$Adapter
+com/german/keyboard/app/free/latin/settings/DebugSettings.java
+ com.german.keyboard.app.free.latin.settings.DebugSettings
+com/german/keyboard/app/free/latin/makedict/DictionaryHeader.java
+ com.german.keyboard.app.free.latin.makedict.DictionaryHeader
+com/german/keyboard/app/free/latin/makedict/WordProperty.java
+ com.german.keyboard.app.free.latin.makedict.WordProperty
+com/german/keyboard/app/free/BuildConfig.java
+ com.german.keyboard.app.free.BuildConfig
+com/german/keyboard/app/free/latin/utils/UncachedInputMethodManagerUtils.java
+ com.german.keyboard.app.free.latin.utils.UncachedInputMethodManagerUtils
+com/german/keyboard/app/free/latin/utils/DebugLogUtils.java
+ com.german.keyboard.app.free.latin.utils.DebugLogUtils
+com/german/keyboard/app/free/latin/settings/AdditionalFeaturesSettingUtils.java
+ com.german.keyboard.app.free.latin.settings.AdditionalFeaturesSettingUtils
+com/german/keyboard/app/free/keyboard/internal/GestureStrokeRecognitionPoints.java
+ com.german.keyboard.app.free.keyboard.internal.GestureStrokeRecognitionPoints
+com/german/keyboard/app/free/latin/utils/RecapitalizeStatus.java
+ com.german.keyboard.app.free.latin.utils.RecapitalizeStatus
+com/german/keyboard/app/free/latin/common/ResizableIntArray.java
+ com.german.keyboard.app.free.latin.common.ResizableIntArray
+com/german/keyboard/app/free/latin/utils/CapsModeUtils.java
+ com.german.keyboard.app.free.latin.utils.CapsModeUtils
+com/german/keyboard/app/free/keyboard/internal/RoundedLine.java
+ com.german.keyboard.app.free.keyboard.internal.RoundedLine
+com/german/keyboard/app/free/latin/personalization/UserHistoryDictionary.java
+ com.german.keyboard.app.free.latin.personalization.UserHistoryDictionary
+com/german/keyboard/app/free/latin/common/NativeSuggestOptions.java
+ com.german.keyboard.app.free.latin.common.NativeSuggestOptions
+com/german/keyboard/app/free/latin/settings/TwoStatePreferenceHelper.java
+ com.german.keyboard.app.free.latin.settings.TwoStatePreferenceHelper
+com/german/keyboard/app/free/latin/common/FileUtils.java
+ com.german.keyboard.app.free.latin.common.FileUtils
+com/german/keyboard/app/free/latin/SuggestedWords.java
+ com.german.keyboard.app.free.latin.SuggestedWords
+ com.german.keyboard.app.free.latin.SuggestedWords$SuggestedWordInfo
+com/german/keyboard/app/free/latin/spellcheck/AndroidWordLevelSpellCheckerSession.java
+ com.german.keyboard.app.free.latin.spellcheck.AndroidWordLevelSpellCheckerSession
+ com.german.keyboard.app.free.latin.spellcheck.AndroidWordLevelSpellCheckerSession$1
+ com.german.keyboard.app.free.latin.spellcheck.AndroidWordLevelSpellCheckerSession$Result
+ com.german.keyboard.app.free.latin.spellcheck.AndroidWordLevelSpellCheckerSession$SuggestionsCache
+ com.german.keyboard.app.free.latin.spellcheck.AndroidWordLevelSpellCheckerSession$SuggestionsParams
+com/german/keyboard/app/free/keyboard/KeyboardLayout.java
+ com.german.keyboard.app.free.keyboard.KeyboardLayout
+com/german/keyboard/app/free/keyboard/internal/KeyboardTextsSet.java
+ com.german.keyboard.app.free.keyboard.internal.KeyboardTextsSet
+ com.german.keyboard.app.free.keyboard.internal.KeyboardTextsSet$1
+com/german/keyboard/app/free/latin/utils/TargetPackageInfoGetterTask.java
+ com.german.keyboard.app.free.latin.utils.TargetPackageInfoGetterTask
+com/german/keyboard/app/free/latin/spellcheck/SentenceLevelAdapter.java
+ com.german.keyboard.app.free.latin.spellcheck.SentenceLevelAdapter
+ com.german.keyboard.app.free.latin.spellcheck.SentenceLevelAdapter$EmptySentenceSuggestionsInfosInitializationHolder
+ com.german.keyboard.app.free.latin.spellcheck.SentenceLevelAdapter$SentenceTextInfoParams
+ com.german.keyboard.app.free.latin.spellcheck.SentenceLevelAdapter$SentenceWordItem
+ com.german.keyboard.app.free.latin.spellcheck.SentenceLevelAdapter$WordIterator
+ com.german.keyboard.app.free.latin.spellcheck.SentenceLevelAdapter$WordIterator$1
+com/german/keyboard/app/free/latin/define/DecoderSpecificConstants.java
+ com.german.keyboard.app.free.latin.define.DecoderSpecificConstants
+com/german/keyboard/app/free/keyboard/internal/ShiftKeyState.java
+ com.german.keyboard.app.free.keyboard.internal.ShiftKeyState
+com/german/keyboard/app/free/latin/NgramContext.java
+ com.german.keyboard.app.free.latin.NgramContext
+ com.german.keyboard.app.free.latin.NgramContext$WordInfo
+com/german/keyboard/app/free/changes/ChangeLanguage.java
+ com.german.keyboard.app.free.changes.ChangeLanguage
+com/german/keyboard/app/free/keyboard/internal/GestureTrailsDrawingPreview.java
+ com.german.keyboard.app.free.keyboard.internal.GestureTrailsDrawingPreview
+com/german/keyboard/app/free/latin/Dictionary.java
+ com.german.keyboard.app.free.latin.Dictionary
+ com.german.keyboard.app.free.latin.Dictionary$PhonyDictionary
+com/german/keyboard/app/free/latin/DictionaryFacilitatorImpl.java
+ com.german.keyboard.app.free.latin.DictionaryFacilitatorImpl
+ com.german.keyboard.app.free.latin.DictionaryFacilitatorImpl$1
+ com.german.keyboard.app.free.latin.DictionaryFacilitatorImpl$DictionaryGroup
+com/german/keyboard/app/free/latin/common/CodePointUtils.java
+ com.german.keyboard.app.free.latin.common.CodePointUtils
+com/german/keyboard/app/free/keyboard/internal/KeyPreviewChoreographer.java
+ com.german.keyboard.app.free.keyboard.internal.KeyPreviewChoreographer
+com/german/keyboard/app/free/keyboard/internal/AbstractDrawingPreview.java
+ com.german.keyboard.app.free.keyboard.internal.AbstractDrawingPreview
+com/german/keyboard/app/free/keyboard/internal/ModifierKeyState.java
+ com.german.keyboard.app.free.keyboard.internal.ModifierKeyState
+com/german/keyboard/app/free/latin/ExpandableBinaryDictionary.java
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$1
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$10
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$11
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$12
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$13
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$14
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$15
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$16
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$17
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$2
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$3
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$4
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$5
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$6
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$7
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$8
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$9
+ com.german.keyboard.app.free.latin.ExpandableBinaryDictionary$UpdateEntriesForInputEventsCallback
+com/german/keyboard/app/free/latin/utils/CompletionInfoUtils.java
+ com.german.keyboard.app.free.latin.utils.CompletionInfoUtils
+com/german/keyboard/app/free/latin/utils/ApplicationUtils.java
+ com.german.keyboard.app.free.latin.utils.ApplicationUtils
+com/german/keyboard/app/free/latin/userdictionary/UserDictionaryLocalePicker.java
+ com.german.keyboard.app.free.latin.userdictionary.UserDictionaryLocalePicker
+ com.german.keyboard.app.free.latin.userdictionary.UserDictionaryLocalePicker$LocationChangedListener
+com/german/keyboard/app/free/latin/ContactsManager.java
+ com.german.keyboard.app.free.latin.ContactsManager
+ com.german.keyboard.app.free.latin.ContactsManager$1
+ com.german.keyboard.app.free.latin.ContactsManager$AffinityComparator
+ com.german.keyboard.app.free.latin.ContactsManager$ContactsChangedListener
+ com.german.keyboard.app.free.latin.ContactsManager$RankedContact
+com/german/keyboard/app/free/keyboard/internal/MoreKeySpec.java
+ com.german.keyboard.app.free.keyboard.internal.MoreKeySpec
+ com.german.keyboard.app.free.keyboard.internal.MoreKeySpec$LettersOnBaseLayout
+com/german/keyboard/app/free/latin/define/DebugFlags.java
+ com.german.keyboard.app.free.latin.define.DebugFlags
+com/german/keyboard/app/free/latin/AssetFileAddress.java
+ com.german.keyboard.app.free.latin.AssetFileAddress
+com/german/keyboard/app/free/keyboard/internal/TouchPositionCorrection.java
+ com.german.keyboard.app.free.keyboard.internal.TouchPositionCorrection
+com/german/keyboard/app/free/latin/WordComposer.java
+ com.german.keyboard.app.free.latin.WordComposer
+com/german/keyboard/app/free/latin/utils/LeakGuardHandlerWrapper.java
+ com.german.keyboard.app.free.latin.utils.LeakGuardHandlerWrapper
+com/german/keyboard/app/free/keyboard/KeyDetector.java
+ com.german.keyboard.app.free.keyboard.KeyDetector
+com/german/keyboard/app/free/latin/common/CoordinateUtils.java
+ com.german.keyboard.app.free.latin.common.CoordinateUtils
+com/german/keyboard/app/free/latin/PunctuationSuggestions.java
+ com.german.keyboard.app.free.latin.PunctuationSuggestions
+com/german/keyboard/app/free/latin/DictionaryFacilitator.java
+ com.german.keyboard.app.free.latin.DictionaryFacilitator
+ com.german.keyboard.app.free.latin.DictionaryFacilitator$DictionaryInitializationListener
+com/german/keyboard/app/free/latin/RichInputConnection.java
+ com.german.keyboard.app.free.latin.RichInputConnection
+com/german/keyboard/app/free/latin/makedict/ProbabilityInfo.java
+ com.german.keyboard.app.free.latin.makedict.ProbabilityInfo
+com/german/keyboard/app/free/latin/settings/SubScreenFragment.java
+ com.german.keyboard.app.free.latin.settings.SubScreenFragment
+ com.german.keyboard.app.free.latin.settings.SubScreenFragment$1
+com/german/keyboard/app/free/keyboard/emoji/EmojiCategoryPageIndicatorView.java
+ com.german.keyboard.app.free.keyboard.emoji.EmojiCategoryPageIndicatorView
+com/german/keyboard/app/free/latin/common/Constants.java
+ com.german.keyboard.app.free.latin.common.Constants
+ com.german.keyboard.app.free.latin.common.Constants$Color
+ com.german.keyboard.app.free.latin.common.Constants$ImeOption
+ com.german.keyboard.app.free.latin.common.Constants$Subtype
+ com.german.keyboard.app.free.latin.common.Constants$Subtype$ExtraValue
+ com.german.keyboard.app.free.latin.common.Constants$TextUtils
+com/german/keyboard/app/free/latin/settings/CorrectionSettingsFragment.java
+ com.german.keyboard.app.free.latin.settings.CorrectionSettingsFragment
+com/german/keyboard/app/free/latin/utils/MetadataFileUriGetter.java
+ com.german.keyboard.app.free.latin.utils.MetadataFileUriGetter
+com/german/keyboard/app/free/latin/spellcheck/SpellCheckerSettingsFragment.java
+ com.german.keyboard.app.free.latin.spellcheck.SpellCheckerSettingsFragment
+com/german/keyboard/app/free/latin/settings/SettingsActivity.java
+ com.german.keyboard.app.free.latin.settings.SettingsActivity
+ com.german.keyboard.app.free.latin.settings.SettingsActivity$1
+com/german/keyboard/app/free/latin/settings/SeekBarDialogPreference.java
+ com.german.keyboard.app.free.latin.settings.SeekBarDialogPreference
+ com.german.keyboard.app.free.latin.settings.SeekBarDialogPreference$ValueProxy
+com/german/keyboard/app/free/latin/userdictionary/UserDictionaryAddWordContents.java
+ com.german.keyboard.app.free.latin.userdictionary.UserDictionaryAddWordContents
+ com.german.keyboard.app.free.latin.userdictionary.UserDictionaryAddWordContents$LocaleRenderer
+com/german/keyboard/app/free/latin/BinaryDictionaryFileDumper.java
+ com.german.keyboard.app.free.latin.BinaryDictionaryFileDumper
+com/german/keyboard/app/free/latin/utils/DialogUtils.java
+ com.german.keyboard.app.free.latin.utils.DialogUtils
+com/german/keyboard/app/free/latin/utils/SubtypeLocaleUtils.java
+ com.german.keyboard.app.free.latin.utils.SubtypeLocaleUtils
+ com.german.keyboard.app.free.latin.utils.SubtypeLocaleUtils$1
+ com.german.keyboard.app.free.latin.utils.SubtypeLocaleUtils$2
+com/german/keyboard/app/free/keyboard/internal/KeyPreviewView.java
+ com.german.keyboard.app.free.keyboard.internal.KeyPreviewView
+com/german/keyboard/app/free/keyboard/internal/GestureStrokeDrawingParams.java
+ com.german.keyboard.app.free.keyboard.internal.GestureStrokeDrawingParams
+com/german/keyboard/app/free/keyboard/MoreKeysKeyboard.java
+ com.german.keyboard.app.free.keyboard.MoreKeysKeyboard
+ com.german.keyboard.app.free.keyboard.MoreKeysKeyboard$Builder
+ com.german.keyboard.app.free.keyboard.MoreKeysKeyboard$MoreKeyDivider
+ com.german.keyboard.app.free.keyboard.MoreKeysKeyboard$MoreKeysKeyboardParams
+com/german/keyboard/app/free/keyboard/internal/SlidingKeyInputDrawingPreview.java
+ com.german.keyboard.app.free.keyboard.internal.SlidingKeyInputDrawingPreview
+com/german/keyboard/app/free/keyboard/KeyboardLayoutSet.java
+ com.german.keyboard.app.free.keyboard.KeyboardLayoutSet
+ com.german.keyboard.app.free.keyboard.KeyboardLayoutSet$Builder
+ com.german.keyboard.app.free.keyboard.KeyboardLayoutSet$ElementParams
+ com.german.keyboard.app.free.keyboard.KeyboardLayoutSet$KeyboardLayoutSetException
+ com.german.keyboard.app.free.keyboard.KeyboardLayoutSet$Params
+com/german/keyboard/app/free/latin/DictionaryPackInstallBroadcastReceiver.java
+ com.german.keyboard.app.free.latin.DictionaryPackInstallBroadcastReceiver
+com/german/keyboard/app/free/changes/Splash_Screen_Activity.java
+ com.german.keyboard.app.free.changes.Splash_Screen_Activity
+com/german/keyboard/app/free/keyboard/MoreKeysKeyboardView.java
+ com.german.keyboard.app.free.keyboard.MoreKeysKeyboardView
+com/german/keyboard/app/free/latin/settings/ThemeSettingsFragment.java
+ com.german.keyboard.app.free.latin.settings.ThemeSettingsFragment
+ com.german.keyboard.app.free.latin.settings.ThemeSettingsFragment$KeyboardThemePreference
+com/german/keyboard/app/free/latin/userdictionary/UserDictionarySettings.java
+ com.german.keyboard.app.free.latin.userdictionary.UserDictionarySettings
+ com.german.keyboard.app.free.latin.userdictionary.UserDictionarySettings$MyAdapter
+ com.german.keyboard.app.free.latin.userdictionary.UserDictionarySettings$MyAdapter$1
+com/german/keyboard/app/free/latin/suggestions/MoreSuggestions.java
+ com.german.keyboard.app.free.latin.suggestions.MoreSuggestions
+ com.german.keyboard.app.free.latin.suggestions.MoreSuggestions$Builder
+ com.german.keyboard.app.free.latin.suggestions.MoreSuggestions$Divider
+ com.german.keyboard.app.free.latin.suggestions.MoreSuggestions$MoreSuggestionKey
+ com.german.keyboard.app.free.latin.suggestions.MoreSuggestions$MoreSuggestionsParam
+com/german/keyboard/app/free/keyboard/internal/KeyStylesSet.java
+ com.german.keyboard.app.free.keyboard.internal.KeyStylesSet
+ com.german.keyboard.app.free.keyboard.internal.KeyStylesSet$DeclaredKeyStyle
+ com.german.keyboard.app.free.keyboard.internal.KeyStylesSet$EmptyKeyStyle
+com/german/keyboard/app/free/latin/setup/SetupStepIndicatorView.java
+ com.german.keyboard.app.free.latin.setup.SetupStepIndicatorView
+com/german/keyboard/app/free/keyboard/internal/KeyboardRow.java
+ com.german.keyboard.app.free.keyboard.internal.KeyboardRow
+ com.german.keyboard.app.free.keyboard.internal.KeyboardRow$RowAttributes
+com/german/keyboard/app/free/latin/setup/SetupWizardActivity.java
+ com.german.keyboard.app.free.latin.setup.SetupWizardActivity
+ com.german.keyboard.app.free.latin.setup.SetupWizardActivity$1
+ com.german.keyboard.app.free.latin.setup.SetupWizardActivity$2
+ com.german.keyboard.app.free.latin.setup.SetupWizardActivity$3
+ com.german.keyboard.app.free.latin.setup.SetupWizardActivity$SettingsPoolingHandler
+ com.german.keyboard.app.free.latin.setup.SetupWizardActivity$SetupStep
+ com.german.keyboard.app.free.latin.setup.SetupWizardActivity$SetupStepGroup
+com/german/keyboard/app/free/latin/suggestions/SuggestionStripView.java
+ com.german.keyboard.app.free.latin.suggestions.SuggestionStripView
+ com.german.keyboard.app.free.latin.suggestions.SuggestionStripView$1
+ com.german.keyboard.app.free.latin.suggestions.SuggestionStripView$2
+ com.german.keyboard.app.free.latin.suggestions.SuggestionStripView$3
+ com.german.keyboard.app.free.latin.suggestions.SuggestionStripView$Listener
+ com.german.keyboard.app.free.latin.suggestions.SuggestionStripView$StripVisibilityGroup
+com/german/keyboard/app/free/keyboard/emoji/EmojiLayoutParams.java
+ com.german.keyboard.app.free.keyboard.emoji.EmojiLayoutParams
+com/german/keyboard/app/free/keyboard/internal/GestureTrailDrawingParams.java
+ com.german.keyboard.app.free.keyboard.internal.GestureTrailDrawingParams
+com/german/keyboard/app/free/latin/userdictionary/UserDictionarySettingsUtils.java
+ com.german.keyboard.app.free.latin.userdictionary.UserDictionarySettingsUtils
+com/german/keyboard/app/free/latin/userdictionary/UserDictionaryList.java
+ com.german.keyboard.app.free.latin.userdictionary.UserDictionaryList
+com/german/keyboard/app/free/latin/settings/RadioButtonPreference.java
+ com.german.keyboard.app.free.latin.settings.RadioButtonPreference
+ com.german.keyboard.app.free.latin.settings.RadioButtonPreference$1
+ com.german.keyboard.app.free.latin.settings.RadioButtonPreference$OnRadioButtonClickedListener
+com/german/keyboard/app/free/latin/utils/ResourceUtils.java
+ com.german.keyboard.app.free.latin.utils.ResourceUtils
+ com.german.keyboard.app.free.latin.utils.ResourceUtils$DeviceOverridePatternSyntaxError
+com/german/keyboard/app/free/latin/EmojiAltPhysicalKeyDetector.java
+ com.german.keyboard.app.free.latin.EmojiAltPhysicalKeyDetector
+ com.german.keyboard.app.free.latin.EmojiAltPhysicalKeyDetector$1
+ com.german.keyboard.app.free.latin.EmojiAltPhysicalKeyDetector$2
+ com.german.keyboard.app.free.latin.EmojiAltPhysicalKeyDetector$EmojiHotKeys
+ com.german.keyboard.app.free.latin.EmojiAltPhysicalKeyDetector$HotKeySet
+com/german/keyboard/app/free/latin/LatinIME.java
+ com.german.keyboard.app.free.latin.LatinIME
+ com.german.keyboard.app.free.latin.LatinIME$1
+ com.german.keyboard.app.free.latin.LatinIME$2
+ com.german.keyboard.app.free.latin.LatinIME$HideSoftInputReceiver
+ com.german.keyboard.app.free.latin.LatinIME$SubtypeState
+ com.german.keyboard.app.free.latin.LatinIME$UIHandler
+com/german/keyboard/app/free/keyboard/internal/KeyboardBuilder.java
+ com.german.keyboard.app.free.keyboard.internal.KeyboardBuilder
+com/german/keyboard/app/free/keyboard/emoji/EmojiPageKeyboardView.java
+ com.german.keyboard.app.free.keyboard.emoji.EmojiPageKeyboardView
+ com.german.keyboard.app.free.keyboard.emoji.EmojiPageKeyboardView$1
+ com.german.keyboard.app.free.keyboard.emoji.EmojiPageKeyboardView$2
+ com.german.keyboard.app.free.keyboard.emoji.EmojiPageKeyboardView$3
+ com.german.keyboard.app.free.keyboard.emoji.EmojiPageKeyboardView$OnKeyEventListener
+com/german/keyboard/app/free/keyboard/internal/KeyboardIconsSet.java
+ com.german.keyboard.app.free.keyboard.internal.KeyboardIconsSet
+com/german/keyboard/app/free/latin/suggestions/SuggestionStripLayoutHelper.java
+ com.german.keyboard.app.free.latin.suggestions.SuggestionStripLayoutHelper
+com/german/keyboard/app/free/latin/settings/SettingsFragment.java
+ com.german.keyboard.app.free.latin.settings.SettingsFragment
+com/german/keyboard/app/free/keyboard/internal/BogusMoveEventDetector.java
+ com.german.keyboard.app.free.keyboard.internal.BogusMoveEventDetector
+com/german/keyboard/app/free/latin/settings/GestureSettingsFragment.java
+ com.german.keyboard.app.free.latin.settings.GestureSettingsFragment
+com/german/keyboard/app/free/changes/Keyboard_Cls.java
+ com.german.keyboard.app.free.changes.Keyboard_Cls
+ com.german.keyboard.app.free.changes.Keyboard_Cls$LatinKey
+com/german/keyboard/app/free/keyboard/internal/GestureFloatingTextDrawingPreview.java
+ com.german.keyboard.app.free.keyboard.internal.GestureFloatingTextDrawingPreview
+ com.german.keyboard.app.free.keyboard.internal.GestureFloatingTextDrawingPreview$GesturePreviewTextParams
+com/german/keyboard/app/free/latin/utils/DictionaryInfoUtils.java
+ com.german.keyboard.app.free.latin.utils.DictionaryInfoUtils
+ com.german.keyboard.app.free.latin.utils.DictionaryInfoUtils$DictionaryInfo
+com/german/keyboard/app/free/latin/settings/SettingsValues.java
+ com.german.keyboard.app.free.latin.settings.SettingsValues
+com/german/keyboard/app/free/latin/RichInputMethodSubtype.java
+ com.german.keyboard.app.free.latin.RichInputMethodSubtype
+com/german/keyboard/app/free/latin/settings/PreferencesSettingsFragment.java
+ com.german.keyboard.app.free.latin.settings.PreferencesSettingsFragment
+com/german/keyboard/app/free/latin/settings/DebugSettingsFragment.java
+ com.german.keyboard.app.free.latin.settings.DebugSettingsFragment
+ com.german.keyboard.app.free.latin.settings.DebugSettingsFragment$1
+ com.german.keyboard.app.free.latin.settings.DebugSettingsFragment$2
+ com.german.keyboard.app.free.latin.settings.DebugSettingsFragment$3
+ com.german.keyboard.app.free.latin.settings.DebugSettingsFragment$DictDumpPreference
+com/german/keyboard/app/free/latin/settings/AppearanceSettingsFragment.java
+ com.german.keyboard.app.free.latin.settings.AppearanceSettingsFragment
+ com.german.keyboard.app.free.latin.settings.AppearanceSettingsFragment$1
+com/german/keyboard/app/free/latin/DictionaryFactory.java
+ com.german.keyboard.app.free.latin.DictionaryFactory
+com/german/keyboard/app/free/keyboard/emoji/EmojiPalettesView.java
+ com.german.keyboard.app.free.keyboard.emoji.EmojiPalettesView
+ com.german.keyboard.app.free.keyboard.emoji.EmojiPalettesView$1
+ com.german.keyboard.app.free.keyboard.emoji.EmojiPalettesView$DeleteKeyOnTouchListener
+com/german/keyboard/app/free/changes/PrivacyPolicy.java
+ com.german.keyboard.app.free.changes.PrivacyPolicy
+com/german/keyboard/app/free/latin/spellcheck/AndroidSpellCheckerService.java
+ com.german.keyboard.app.free.latin.spellcheck.AndroidSpellCheckerService
+com/german/keyboard/app/free/keyboard/internal/KeyVisualAttributes.java
+ com.german.keyboard.app.free.keyboard.internal.KeyVisualAttributes
+com/german/keyboard/app/free/latin/InputView.java
+ com.german.keyboard.app.free.latin.InputView
+ com.german.keyboard.app.free.latin.InputView$KeyboardTopPaddingForwarder
+ com.german.keyboard.app.free.latin.InputView$MoreSuggestionsViewCanceler
+ com.german.keyboard.app.free.latin.InputView$MotionEventForwarder
+com/german/keyboard/app/free/latin/settings/CustomInputStyleSettingsFragment.java
+ com.german.keyboard.app.free.latin.settings.CustomInputStyleSettingsFragment
+ com.german.keyboard.app.free.latin.settings.CustomInputStyleSettingsFragment$1
+com/german/keyboard/app/free/keyboard/KeyboardTheme.java
+ com.german.keyboard.app.free.keyboard.KeyboardTheme
+com/german/keyboard/app/free/latin/settings/SpacingAndPunctuations.java
+ com.german.keyboard.app.free.latin.settings.SpacingAndPunctuations
+com/german/keyboard/app/free/latin/userdictionary/UserDictionaryAddWordFragment.java
+ com.german.keyboard.app.free.latin.userdictionary.UserDictionaryAddWordFragment
+com/german/keyboard/app/free/latin/setup/SetupStartIndicatorView.java
+ com.german.keyboard.app.free.latin.setup.SetupStartIndicatorView
+ com.german.keyboard.app.free.latin.setup.SetupStartIndicatorView$IndicatorView
+ com.german.keyboard.app.free.latin.setup.SetupStartIndicatorView$LabelView
+com/german/keyboard/app/free/keyboard/emoji/EmojiCategory.java
+ com.german.keyboard.app.free.keyboard.emoji.EmojiCategory
+ com.german.keyboard.app.free.keyboard.emoji.EmojiCategory$1
+ com.german.keyboard.app.free.keyboard.emoji.EmojiCategory$CategoryProperties
+com/german/keyboard/app/free/changes/Keyboard_View_Cls.java
+ com.german.keyboard.app.free.changes.Keyboard_View_Cls
+com/german/keyboard/app/free/keyboard/MainKeyboardView.java
+ com.german.keyboard.app.free.keyboard.MainKeyboardView
+com/german/keyboard/app/free/keyboard/internal/GestureStrokeRecognitionParams.java
+ com.german.keyboard.app.free.keyboard.internal.GestureStrokeRecognitionParams
+com/german/keyboard/app/free/keyboard/Key.java
+ com.german.keyboard.app.free.keyboard.Key
+ com.german.keyboard.app.free.keyboard.Key$KeyBackgroundState
+ com.german.keyboard.app.free.keyboard.Key$OptionalAttributes
+ com.german.keyboard.app.free.keyboard.Key$Spacer
+com/german/keyboard/app/free/changes/TestActivity.java
+ com.german.keyboard.app.free.changes.TestActivity
+com/german/keyboard/app/free/changes/Main_Activity.java
+ com.german.keyboard.app.free.changes.Main_Activity
+ com.german.keyboard.app.free.changes.Main_Activity$1
+ com.german.keyboard.app.free.changes.Main_Activity$2
+com/german/keyboard/app/free/latin/settings/AdvancedSettingsFragment.java
+ com.german.keyboard.app.free.latin.settings.AdvancedSettingsFragment
+ com.german.keyboard.app.free.latin.settings.AdvancedSettingsFragment$1
+ com.german.keyboard.app.free.latin.settings.AdvancedSettingsFragment$2
+ com.german.keyboard.app.free.latin.settings.AdvancedSettingsFragment$3
+com/german/keyboard/app/free/latin/settings/Settings.java
+ com.german.keyboard.app.free.latin.settings.Settings
+ com.german.keyboard.app.free.latin.settings.Settings$1
+com/german/keyboard/app/free/changes/Premium.java
+ com.german.keyboard.app.free.changes.Premium
+ com.german.keyboard.app.free.changes.Premium$1
+ com.german.keyboard.app.free.changes.Premium$2
+com/german/keyboard/app/free/latin/suggestions/MoreSuggestionsView.java
+ com.german.keyboard.app.free.latin.suggestions.MoreSuggestionsView
+ com.german.keyboard.app.free.latin.suggestions.MoreSuggestionsView$MoreSuggestionsListener
+com/german/keyboard/app/free/keyboard/emoji/EmojiPalettesAdapter.java
+ com.german.keyboard.app.free.keyboard.emoji.EmojiPalettesAdapter
+ com.german.keyboard.app.free.keyboard.emoji.EmojiPalettesAdapter$ViewHolder
+com/german/keyboard/app/free/keyboard/KeyboardView.java
+ com.german.keyboard.app.free.keyboard.KeyboardView
+com/german/keyboard/app/free/latin/utils/AdditionalSubtypeUtils.java
+ com.german.keyboard.app.free.latin.utils.AdditionalSubtypeUtils
+com/german/keyboard/app/free/keyboard/internal/KeyPreviewDrawParams.java
+ com.german.keyboard.app.free.keyboard.internal.KeyPreviewDrawParams
+com/german/keyboard/app/free/latin/setup/SetupActivity.java
+ com.german.keyboard.app.free.latin.setup.SetupActivity
+com/german/keyboard/app/free/keyboard/KeyboardSwitcher.java
+ com.german.keyboard.app.free.keyboard.KeyboardSwitcher
+ com.german.keyboard.app.free.keyboard.KeyboardSwitcher$KeyboardSwitchState
+com/german/keyboard/app/free/keyboard/PointerTracker.java
+ com.german.keyboard.app.free.keyboard.PointerTracker
+ com.german.keyboard.app.free.keyboard.PointerTracker$PointerTrackerParams
+com/german/keyboard/app/free/latin/settings/CustomInputStylePreference.java
+ com.german.keyboard.app.free.latin.settings.CustomInputStylePreference
+ com.german.keyboard.app.free.latin.settings.CustomInputStylePreference$KeyboardLayoutSetAdapter
+ com.german.keyboard.app.free.latin.settings.CustomInputStylePreference$KeyboardLayoutSetItem
+ com.german.keyboard.app.free.latin.settings.CustomInputStylePreference$Listener
+ com.german.keyboard.app.free.latin.settings.CustomInputStylePreference$SavedState
+ com.german.keyboard.app.free.latin.settings.CustomInputStylePreference$SavedState$1
+ com.german.keyboard.app.free.latin.settings.CustomInputStylePreference$SubtypeLocaleAdapter
+ com.german.keyboard.app.free.latin.settings.CustomInputStylePreference$SubtypeLocaleItem

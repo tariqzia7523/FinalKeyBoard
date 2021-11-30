@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/line/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/auto_complete_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/drawable/ic_setup_step1.xml" value="0.2890625" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/drawable/ic_setup_step2.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/drawable/ic_setup_step3.xml" value="0.25729166666666664" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/drawable/my_custom_boarder.xml" value="0.3828125" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/activity_first_tutorial.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/activity_premium.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/activity_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/activity_theme.xml" value="0.33" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/app_intro.xml" value="0.25" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/exit.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/native_add_layout.xml" value="0.2515625" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/settings_toolbar.xml" value="0.33" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/setup_start_indicator_label.xml" value="0.33" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/setup_step.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/setup_steps_cards.xml" value="0.22" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/setup_steps_screen.xml" value="0.25" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/setup_steps_title.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/setup_welcome_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/layout/setup_wizard.xml" value="0.33564975677553854" />
+        <entry key="..\:/Users/line/Desktop/Keyboard/Bangaldesh-Keyboard/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

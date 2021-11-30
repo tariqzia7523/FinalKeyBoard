@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.naz013:ColorSlider:1.0.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/25b1734b6ee0d93620c2cae0c552133d/transformed/jetified-ColorSlider-1.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/25b1734b6ee0d93620c2cae0c552133d/transformed/jetified-ColorSlider-1.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/25b1734b6ee0d93620c2cae0c552133d/transformed/jetified-ColorSlider-1.0.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.naz013/ColorSlider/1.0.6/7a9cdc2b126b6f86c748518a9fa1560b263b5363/ColorSlider-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

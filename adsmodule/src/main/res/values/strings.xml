@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="is_purchsed">IS_PURCHESED</string>
+    <string name="user_reviwed">USER_REVIEWED</string>
+    <string name="user_intro">USER_INTRO</string>
+    <string name="app_count">APP_COUNT</string>
+    <string name="my_pref">MY_PREF</string>
+    <string name="loading_wait">Loading Ad</string>
+</resources>

@@ -73,10 +73,7 @@
         <item name="languageOnSpacebarTextShadowRadius">1.0</item>
         <item name="languageOnSpacebarTextShadowColor">@color/spacebar_text_shadow_color_holo</item>
     </style>
-    <!-- Though {@link io.github.otobikb.inputmethod.keyboard.emoji.EmojiPalettesView} doesn't extend
-         {@link io.github.otobikb.inputmethod.keyboard.KeyboardView}, some views inside it, for instance
-         delete button, need themed {@link io.github.otobikb.inputmethod.keyboard.KeyboardView}
-         attributes. -->
+
     <style
         name="EmojiPalettesView.KLP"
         parent="MainKeyboardView.KLP"

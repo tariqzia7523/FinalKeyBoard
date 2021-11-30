@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw430dp-v13\\values-sw430dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\res\\values-sw430dp\\config-screen-metrics.xml",
+                    "from": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "142",
+                        "endColumns": "53",
+                        "endOffsets": "191"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "518",
+                        "endColumns": "53",
+                        "endOffsets": "567"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\res\\values-sw430dp\\config-per-form-factor.xml",
+                    "from": {
+                        "startLines": "7,8,5,9,10,13,14",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "253,316,109,376,442,630,709",
+                        "endColumns": "61,58,72,64,68,77,56",
+                        "endOffsets": "310,370,177,436,506,703,761"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,117,176,249,314,383,461",
+                        "endColumns": "61,58,72,64,68,77,56",
+                        "endOffsets": "112,171,244,309,378,456,513"
+                    }
+                }
+            ]
+        }
+    ]
+}

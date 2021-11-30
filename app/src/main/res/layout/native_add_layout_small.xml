@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:minHeight="@dimen/_120sdp">
+    <RelativeLayout
+        android:id="@+id/add_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gnt_outline_shape"
+        android:minHeight="@dimen/_120sdp">
+
+        <com.module.ads.TemplateView
+            android:id="@+id/nativeTemplateView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:gnt_template_type="@layout/gnt_small_template_view" />
+
+        <TextView
+            android:id="@+id/temp_add_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/ad_will_display_hare" />
+    </RelativeLayout>
+</RelativeLayout>

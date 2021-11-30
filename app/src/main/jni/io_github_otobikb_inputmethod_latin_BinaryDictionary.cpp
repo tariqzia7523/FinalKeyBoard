@@ -717,7 +717,7 @@ static const JNINativeMethod sMethods[] = {
     {
         const_cast<char *>("updateEntriesForInputEventsNative"),
         const_cast<char *>(
-                "(J[Lio/github/otobikb/inputmethod/latin/utils/WordInputEventForPersonalization;I)I"),
+                "(J[Lcom/german/keyboard/app/free/latin/utils/WordInputEventForPersonalization;I)I"),
         reinterpret_cast<void *>(latinime_BinaryDictionary_updateEntriesForInputEvents)
     },
     {
@@ -738,7 +738,7 @@ static const JNINativeMethod sMethods[] = {
 };
 
 int register_BinaryDictionary(JNIEnv *env) {
-    const char *const kClassPathName = "io/github/otobikb/inputmethod/latin/BinaryDictionary";
+    const char *const kClassPathName = "com/german/keyboard/app/free/latin/BinaryDictionary";
     return registerNativeMethods(env, kClassPathName, sMethods, NELEMS(sMethods));
 }
 } // namespace latinime

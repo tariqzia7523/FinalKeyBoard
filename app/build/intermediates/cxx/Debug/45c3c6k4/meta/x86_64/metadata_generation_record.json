@@ -1,0 +1,198 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 19 min SDK version: x86_64",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 579821202
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\45c3c6k4\\x86_64\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1316579550
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\45c3c6k4\\x86_64\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 354018254
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\45c3c6k4\\x86_64\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1962353324
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2026241184
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\45c3c6k4\\x86_64\u0027",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2130660310
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\45c3c6k4\\x86_64\u0027",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1973149982
+  },
+  {
+    "level_": 0,
+    "message_": "executing ndkBuild Executable : C:\\Users\\line\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003dx86_64\nNDK_ALL_ABIS\u003dx86_64\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\cxx\\Debug\\45c3c6k4/obj\nNDK_LIBS_OUT\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\cxx\\Debug\\45c3c6k4/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1316103225
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\line\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003dx86_64\nNDK_ALL_ABIS\u003dx86_64\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\cxx\\Debug\\45c3c6k4/obj\nNDK_LIBS_OUT\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\cxx\\Debug\\45c3c6k4/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1837404730
+  },
+  {
+    "level_": 0,
+    "message_": "parse and convert ndk-build output to build configuration JSON",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 468757871
+  },
+  {
+    "level_": 0,
+    "message_": "found application make file C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Application.mk",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 964832888
+  },
+  {
+    "level_": 0,
+    "message_": "done executing ndkBuild",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1961362859
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\45c3c6k4\\x86_64\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 740288470
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -642999279
+  }
+]

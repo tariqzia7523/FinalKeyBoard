@@ -6,33 +6,36 @@
     android:layout_height="match_parent"
     android:background="@drawable/premium_bg"
     android:orientation="vertical"
-    tools:context="com.burmese.keyboard.app.free.activities.Premium">
+    tools:context="com.german.keyboard.app.free.changes.Premium">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_15sdp"
             android:orientation="horizontal">
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/backBtn"
                 android:layout_width="@dimen/_25sdp"
                 android:layout_height="@dimen/_25sdp"
-                android:padding="@dimen/_5sdp"
-                android:src="@drawable/ic_back" />
+                android:padding="@dimen/_6sdp"
+                android:src="@drawable/backbtn" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
                 android:layout_centerInParent="true"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_2sdp"
                 android:text="@string/premium"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="@dimen/_13sdp"
-                android:textStyle="bold" />
+                android:textColor="@color/gnt_black"
+                android:textSize="9pt"
+                android:textStyle="normal" />
         </RelativeLayout>
     </androidx.appcompat.widget.Toolbar>
 
@@ -50,7 +53,7 @@
                 android:layout_width="@dimen/_100sdp"
                 android:layout_height="@dimen/_100sdp"
                 android:layout_marginTop="@dimen/_15sdp"
-                android:src="@drawable/burmese_icon_ic" />
+                android:src="@drawable/german_icon_ic" />
 
             <TextView
                 android:layout_width="wrap_content"

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\res\\values-en\\bools.xml",
+                    "from": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "190",
+                        "endColumns": "42",
+                        "endOffsets": "228"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    }
+                }
+            ]
+        }
+    ]
+}

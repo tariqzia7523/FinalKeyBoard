@@ -1,19 +1,3 @@
-/*
- * Copyright (C) 2013 The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 #ifndef LATINIME_TYPING_SCORING_H
 #define LATINIME_TYPING_SCORING_H
 
@@ -62,7 +46,7 @@ class TypingScoring : public Scoring {
             // (where case mismatches and accent mismatches would be considered an "exact
             // match"). The exact match boosting functionality meant that, for example, when
             // the user typed "mt" they would be suggested the word "Mt", although they most
-            // probably meant to type "my".
+            // probably meant to type "de".
             //
             // For this reason, we introduced this change, which does the following:
             // * Defines the "perfect match" as a really exact match, with no room for case or
@@ -71,8 +55,8 @@ class TypingScoring : public Scoring {
             // distracter), ONLY boost its score if it is a perfect match.
             //
             // By doing this, when the user types "mt", the word "Mt" will NOT be boosted, and
-            // they will get "my". However, if the user makes an explicit effort to type "Mt",
-            // we do boost the word "Mt" so that the user's input is not autocorrected to "My".
+            // they will get "de". However, if the user makes an explicit effort to type "Mt",
+            // we do boost the word "Mt" so that the user's input is not autocorrected to "de".
             if (boostExactMatches && ErrorTypeUtils::isPerfectMatch(containedErrorTypes)) {
                 score += ScoringParams::PERFECT_MATCH_PROMOTION;
             }

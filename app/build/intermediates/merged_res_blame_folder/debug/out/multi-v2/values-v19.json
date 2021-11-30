@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\res\\values-v19\\emoji-categories.xml",
+                    "from": {
+                        "startLines": "4893,1410,5185,4597,4711,1536,3066,1190,4962,1160,434,923,20,612,791,203",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "172731,42122,180877,164490,167649,45647,105064,35965,174607,35215,13056,27256,925,18009,22980,5992",
+                        "endLines": "4961,1535,5458,4710,4892,3065,4595,1409,5184,1189,611,1156,202,790,922,433",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "174601,45641,190181,167643,172725,105058,164482,42116,180871,35959,18003,35126,5986,22974,27250,13050"
+                    },
+                    "to": {
+                        "startLines": "2,68,191,462,573,752,2279,3806,4023,4243,4270,4445,4676,4856,5032,5161",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,1837,5211,14222,17242,22117,79979,137848,143760,149782,150475,155225,162842,167701,172468,176587",
+                        "endLines": "67,190,461,572,751,2278,3805,4022,4242,4269,4444,4675,4855,5031,5160,5388",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "1832,5206,14217,17237,22112,79974,137843,143755,149777,150470,155220,162837,167696,172463,176582,183390"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\res\\values-v19\\spinner-style.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "379",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "493"
+                    },
+                    "to": {
+                        "startLines": "5389",
+                        "startColumns": "4",
+                        "startOffsets": "183395",
+                        "endLines": "5391",
+                        "endColumns": "12",
+                        "endOffsets": "183507"
+                    }
+                }
+            ]
+        }
+    ]
+}

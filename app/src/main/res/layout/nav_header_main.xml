@@ -15,11 +15,11 @@
         android:layout_width="@dimen/_80sdp"
         android:layout_height="@dimen/_80sdp"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@drawable/burmese_icon_ic" />
+        app:srcCompat="@drawable/german_icon_ic" />
     <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="@string/app_name"
+        android:text="@string/english_ime_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 </LinearLayout>

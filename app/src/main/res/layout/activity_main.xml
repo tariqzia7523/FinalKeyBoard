@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<io.github.otobikb.drawer.Advance3DDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.infideap.drawerbehavior.Advance3DDrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="io.github.otobikb.changes.MainActivity"
+    tools:context="com.german.keyboard.app.free.changes.Main_Activity"
     tools:openDrawer="start">
 
     <include
@@ -21,11 +22,10 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        android:theme="@style/AppTheme"
         android:background="#EEF4F9"
         app:headerLayout="@layout/nav_header_main"
         app:itemTextColor="#616161"
         app:menu="@menu/activity_main_drawer" />
 
 
-</io.github.otobikb.drawer.Advance3DDrawerLayout>
+</com.infideap.drawerbehavior.Advance3DDrawerLayout>

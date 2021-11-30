@@ -1,0 +1,198 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 19 min SDK version: arm64-v8a",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1503479700
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\45c3c6k4\\arm64-v8a\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1591828342
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\45c3c6k4\\arm64-v8a\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 768627548
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\45c3c6k4\\arm64-v8a\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -861341606
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 70240479
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\45c3c6k4\\arm64-v8a\u0027",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 416529176
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\45c3c6k4\\arm64-v8a\u0027",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 48200844
+  },
+  {
+    "level_": 0,
+    "message_": "executing ndkBuild Executable : C:\\Users\\line\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\cxx\\Debug\\45c3c6k4/obj\nNDK_LIBS_OUT\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\cxx\\Debug\\45c3c6k4/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -745659694
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\line\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003darm64-v8a\nNDK_ALL_ABIS\u003darm64-v8a\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\cxx\\Debug\\45c3c6k4/obj\nNDK_LIBS_OUT\u003dC:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\cxx\\Debug\\45c3c6k4/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -158642529
+  },
+  {
+    "level_": 0,
+    "message_": "parse and convert ndk-build output to build configuration JSON",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1487242834
+  },
+  {
+    "level_": 0,
+    "message_": "found application make file C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Application.mk",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -991167817
+  },
+  {
+    "level_": 0,
+    "message_": "done executing ndkBuild",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 377603732
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\.cxx\\Debug\\45c3c6k4\\arm64-v8a\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 675660372
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1695967312
+  }
+]

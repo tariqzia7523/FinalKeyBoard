@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw-sw600dp-v13\\values-iw-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\res\\values-iw-sw600dp\\donottranslate-config-spacing-and-punctuations.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "297",
+                        "endColumns": "76",
+                        "endOffsets": "369"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "76",
+                        "endOffsets": "127"
+                    }
+                }
+            ]
+        }
+    ]
+}
