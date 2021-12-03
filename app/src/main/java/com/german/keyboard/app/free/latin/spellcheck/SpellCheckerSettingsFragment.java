@@ -10,8 +10,6 @@ import android.preference.SwitchPreference;
 import android.text.TextUtils;
 
 import com.german.keyboard.app.free.R;
-import com.german.keyboard.app.free.latin.permissions.PermissionsManager;
-import com.german.keyboard.app.free.latin.permissions.PermissionsUtil;
 import com.german.keyboard.app.free.latin.settings.SubScreenFragment;
 import com.german.keyboard.app.free.latin.settings.TwoStatePreferenceHelper;
 import com.german.keyboard.app.free.latin.utils.ApplicationUtils;
@@ -20,8 +18,8 @@ import com.german.keyboard.app.free.latin.utils.ApplicationUtils;
  * Preference screen.
  */
 public final class SpellCheckerSettingsFragment extends SubScreenFragment
-    implements SharedPreferences.OnSharedPreferenceChangeListener,
-        PermissionsManager.PermissionsResultCallback {
+    implements SharedPreferences.OnSharedPreferenceChangeListener
+        {
 
     private SwitchPreference mLookupContactsPreference;
 
@@ -36,7 +34,6 @@ public final class SpellCheckerSettingsFragment extends SubScreenFragment
 
         mLookupContactsPreference = (SwitchPreference) findPreference(
                 AndroidSpellCheckerService.PREF_USE_CONTACTS_KEY);
-        turnOffLookupContactsIfNoPermission();
     }
 
     @Override
@@ -51,24 +48,7 @@ public final class SpellCheckerSettingsFragment extends SubScreenFragment
         }
 
         // Check for permissions.
-        if (PermissionsUtil.checkAllPermissionsGranted(
-                getActivity() /* context */, Manifest.permission.READ_CONTACTS)) {
-            return; // all permissions granted, no need to request permissions.
-        }
-
-        PermissionsManager.get(getActivity() /* context */).requestPermissions(this /* PermissionsResultCallback */,
-                getActivity() /* activity */, Manifest.permission.READ_CONTACTS);
     }
 
-    @Override
-    public void onRequestPermissionsResult(boolean allGranted) {
-        turnOffLookupContactsIfNoPermission();
-    }
 
-    private void turnOffLookupContactsIfNoPermission() {
-        if (!PermissionsUtil.checkAllPermissionsGranted(
-                getActivity(), Manifest.permission.READ_CONTACTS)) {
-            mLookupContactsPreference.setChecked(false);
-        }
-    }
 }

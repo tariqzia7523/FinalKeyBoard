@@ -12,7 +12,6 @@ import android.widget.RelativeLayout;
 
 import com.german.keyboard.app.free.changes.ChangeLanguage;
 import com.german.keyboard.app.free.R;
-import com.german.keyboard.app.free.latin.permissions.PermissionsManager;
 import com.german.keyboard.app.free.latin.utils.FragmentUtils;
 import com.module.ads.AddInitilizer;
 
@@ -86,8 +85,5 @@ public final class SettingsActivity extends PreferenceActivity
         return FragmentUtils.isValidFragment(fragmentName);
     }
 
-    @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-        PermissionsManager.get(this).onRequestPermissionsResult(requestCode, permissions, grantResults);
-    }
+
 }

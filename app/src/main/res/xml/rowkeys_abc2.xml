@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<merge
+    xmlns:latin="http://schemas.android.com/apk/res-auto"
+>
+    <switch>
+        <case latin:showExtraChars="true">
+            <Key latin:keySpec="k"
+                latin:keyHintLabel="\@"
+                latin:additionalMoreKeys="\\@"
+                latin:moreKeys="!text/morekeys_k" />
+            <Key
+                latin:keySpec="l"
+                latin:keyHintLabel="#"
+                latin:additionalMoreKeys="#"
+                latin:moreKeys="!text/morekeys_l" />
+            <Key
+                latin:keySpec="m"
+                latin:keyHintLabel="$"
+                latin:additionalMoreKeys="$" />
+            <Key
+                latin:keySpec="n"
+                latin:keyHintLabel="%"
+                latin:additionalMoreKeys="%"
+                latin:moreKeys="!text/morekeys_n"  />
+            <Key
+                latin:keySpec="o"
+                latin:keyHintLabel="&amp;"
+                latin:additionalMoreKeys="&amp;"
+                latin:moreKeys="!text/morekeys_o"
+                />
+            <Key
+                latin:keySpec="p"
+                latin:keyHintLabel="-"
+                latin:additionalMoreKeys="-" />
+            <Key
+                latin:keySpec="!text/keyspec_q"
+                latin:keyHintLabel="+"
+                latin:additionalMoreKeys="+"
+                latin:moreKeys="!text/morekeys_q" />
+            <Key
+                latin:keySpec="r"
+                latin:keyHintLabel="("
+                latin:additionalMoreKeys="("
+                latin:moreKeys="!text/morekeys_r" />
+            <Key
+                latin:keySpec="s"
+                latin:keyHintLabel=")"
+                latin:additionalMoreKeys=")"
+                latin:moreKeys="!text/morekeys_s" />
+        </case>
+        <default>
+                <Key latin:keySpec="k"
+                latin:moreKeys="!text/morekeys_k" />
+            <Key
+                latin:keySpec="l"
+                latin:moreKeys="!text/morekeys_l" />
+            <Key
+                latin:keySpec="m" />
+            <Key
+                latin:keySpec="n"
+                latin:moreKeys="!text/morekeys_n"  />
+            <Key
+                latin:keySpec="o"
+                latin:moreKeys="!text/morekeys_o"
+                />
+            <Key
+                latin:keySpec="p" />
+            <Key
+                latin:keySpec="!text/keyspec_q"
+                latin:moreKeys="!text/morekeys_q" />
+            <Key
+                latin:keySpec="r"
+                latin:moreKeys="!text/morekeys_r" />
+            <Key
+                latin:keySpec="s"
+                latin:moreKeys="!text/morekeys_s" />
+        </default>
+    </switch>
+</merge>

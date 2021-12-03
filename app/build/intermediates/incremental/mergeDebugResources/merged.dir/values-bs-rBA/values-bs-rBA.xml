@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="abbreviation_unit_milliseconds">"<ns1:g id="MILLISECONDS">%s</ns1:g>ms"</string>
+    <string name="add">"Dodaj"</string>
+    <string name="add_style">"Dodaj stil"</string>
+    <string name="auto_cap">"Automatsko veliko slovo"</string>
+    <string name="auto_cap_summary">"Piši velikim slovom prvu riječ svake rečenice."</string>
+    <string name="button_default">"Zadano"</string>
+    <string name="custom_input_style_already_exists">"Već postoji isti stil unosa: <ns1:g id="INPUT_STYLE_NAME">%s</ns1:g>"</string>
+    <string name="custom_input_style_note_message">"Prije nego što počnete koristiti prilagođeni stil unosa, trebate ga omogućiti. Želite li ga sada omogućiti?"</string>
+    <string name="custom_input_styles_title">"Prilagođeni stilovi unosa"</string>
+    <string name="enable">"Omogući"</string>
+    <string name="english_ime_input_options">"Mogućnosti unosa"</string>
+    <string name="keyboard_layout_set">"Raspored tipki"</string>
+    <string name="language_selection_title">"Jezici"</string>
+    <string name="not_now">"Ne sada"</string>
+    <string name="popup_on_keypress">"Iskačuči prozor pri pritisku na tipku"</string>
+    <string name="prefs_key_longpress_timeout_settings">"Odgoda dugog pritiska tipke"</string>
+    <string name="prefs_keypress_sound_volume_settings">"Jačina zvuka pritisnute tipke"</string>
+    <string name="prefs_keypress_vibration_duration_settings">"Trajanje vibracije pritisnute tipke"</string>
+    <string name="remove">"Ukloni"</string>
+    <string name="save">"Sačuvaj"</string>
+    <string name="select_language">"Jezici"</string>
+    <string name="settings_screen_advanced">"Napredno"</string>
+    <string name="settings_screen_appearance">"Izgled i rasporedi tipki"</string>
+    <string name="settings_screen_preferences">"Karakteristike"</string>
+    <string name="settings_screen_theme">"Tema"</string>
+    <string name="settings_system_default">"Sistemski zadano"</string>
+    <string name="sound_on_keypress">"Zvuk pri pritisku tipke"</string>
+    <string name="subtype_en_GB">"engleski (UK)"</string>
+    <string name="subtype_en_US">"engleski (SAD)"</string>
+    <string name="subtype_es_US">"španski (SAD)"</string>
+    <string name="subtype_generic_compact">"<ns1:g id="LANGUAGE_NAME">%s</ns1:g> (kompaktan)"</string>
+    <string name="subtype_generic_traditional">"<ns1:g id="LANGUAGE_NAME">%s</ns1:g> (tradicionalan)"</string>
+    <string name="subtype_locale">"Jezik"</string>
+    <string name="subtype_no_language">"Nema jezika (abeceda)"</string>
+    <string name="subtype_no_language_qwerty">"Abeceda (QWERTY)"</string>
+    <string name="subtype_sr_ZZ">"Srpski (latinica)"</string>
+    <string name="vibrate_on_keypress">"Vibracija pri pritisku na tipku"</string>
+</resources>

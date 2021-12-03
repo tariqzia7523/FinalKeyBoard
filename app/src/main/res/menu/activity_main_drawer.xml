@@ -14,11 +14,6 @@
             android:id="@+id/nav_select_keyboard"
             android:icon="@drawable/ic_b2"
             android:title="@string/select_keyboard" />
-
-        <item
-            android:id="@+id/nav_change_language"
-            android:icon="@drawable/internet"
-            android:title="@string/language" />
         <item
             android:id="@+id/nav_themes"
             android:icon="@drawable/ic_b3"

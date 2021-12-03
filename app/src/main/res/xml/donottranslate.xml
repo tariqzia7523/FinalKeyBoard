@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="best_app_db_name">database.sqlite</string>
+    <string name="en_table_name">en_table</string>
+    <string name="pa_table_name">pa_table</string>
+    <string name="fa_table_name">fa_table</string>
+    <string name="freq_column">freq</string>
+
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+</resources>

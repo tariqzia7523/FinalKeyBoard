@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.german.keyboard.app.free.latin.setup.SetupStepIndicatorView
+        android:id="@+id/step_indicator"
+        android:visibility="gone"
+        style="@style/setupStepIndicatorStyle" />
+    <FrameLayout
+        android:id="@+id/setup_steps_pane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <!-- <include
+            android:id="@+id/setup_step2"
+            layout="@layout/setup_step" />-->
+        <include
+            android:id="@+id/setup_step1"
+            layout="@layout/app_intro"/>
+        <include
+            android:id="@+id/setup_step2"
+            layout="@layout/app_intro" />
+        <include
+            android:id="@+id/setup_step3"
+            layout="@layout/app_intro" />
+    </FrameLayout>
+   <!-- <TextView
+        android:id="@+id/setup_next"
+        android:text="@string/setup_next_action"
+        android:gravity="end|center_vertical"
+        style="@style/setupStepActionLabelStyleCommon"
+        android:layout_marginTop="@dimen/setup_step_horizontal_line_height" />
+    <TextView
+        android:id="@+id/setup_finish"
+        android:text="@string/setup_finish_action"
+        style="@style/setupStepActionLabelStyle"
+        android:layout_marginTop="@dimen/setup_step_horizontal_line_height" />-->
+</merge>

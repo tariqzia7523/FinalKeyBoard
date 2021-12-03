@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.german.keyboard.app.free.latin.setup.SetupStepIndicatorView
+    <com.german.keyboard.app.free.language.setup.SetupStepIndicatorView
         android:id="@+id/step_indicator"
         android:visibility="gone"
         style="@style/setupStepIndicatorStyle" />

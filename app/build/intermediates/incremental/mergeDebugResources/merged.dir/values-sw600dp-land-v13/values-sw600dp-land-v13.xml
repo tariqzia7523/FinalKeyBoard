@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="config_default_keyboard_height">283.5dp</dimen>
+    <dimen name="config_key_shifted_letter_hint_padding">4dp</dimen>
+    <dimen name="config_more_keys_keyboard_key_height">81.9dp</dimen>
+    <fraction name="config_key_hint_label_ratio_lxx">20%</fraction>
+    <fraction name="config_key_hint_letter_ratio_lxx">23%</fraction>
+    <fraction name="config_key_horizontal_gap_holo">0.9%p</fraction>
+    <fraction name="config_key_label_ratio_lxx">32%</fraction>
+    <fraction name="config_key_large_letter_ratio_lxx">60%</fraction>
+    <fraction name="config_key_letter_ratio_lxx">50%</fraction>
+    <fraction name="config_key_shifted_letter_hint_ratio_lxx">29%</fraction>
+    <fraction name="config_key_vertical_gap_holo">4.5%p</fraction>
+    <fraction name="config_keyboard_bottom_padding_holo">0.0%p</fraction>
+    <fraction name="config_keyboard_top_padding_holo">2.727%p</fraction>
+    <fraction name="config_language_on_spacebar_text_ratio">30.0%</fraction>
+    <fraction name="config_min_keyboard_height">40%p</fraction>
+</resources>

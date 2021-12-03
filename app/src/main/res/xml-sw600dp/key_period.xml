@@ -8,14 +8,11 @@
     <!-- Kept as a separate file for cleaner overriding by an overlay.  -->
     <switch>
         <case
-            latin:keyboardLayoutSet="bengali_otobi"
-            >
+            latin:keyboardLayoutSet="dvorak"
+        >
             <Key
-                latin:keySpec="&#x964;"
-                latin:keyHintLabel="!text/keyhintlabel_period"
-                latin:keyLabelFlags="hasPopupHint|hasShiftedLetterHint"
-                latin:moreKeys="!text/morekeys_bangla"
-                latin:backgroundType="functional" />
+                latin:keySpec="\?"
+                latin:moreKeys="!text/morekeys_tablet_period,!text/morekeys_question" />
         </case>
         <default>
             <Key

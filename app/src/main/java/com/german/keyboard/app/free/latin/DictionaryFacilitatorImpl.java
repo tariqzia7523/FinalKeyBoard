@@ -27,7 +27,6 @@ import com.german.keyboard.app.free.keyboard.Keyboard;
 import com.german.keyboard.app.free.latin.common.ComposedData;
 import com.german.keyboard.app.free.latin.common.Constants;
 import com.german.keyboard.app.free.latin.common.StringUtils;
-import com.german.keyboard.app.free.latin.permissions.PermissionsUtil;
 import com.german.keyboard.app.free.latin.personalization.UserHistoryDictionary;
 import com.german.keyboard.app.free.latin.settings.SettingsValuesForSuggestion;
 import com.german.keyboard.app.free.latin.utils.ExecutorUtils;
@@ -77,7 +76,7 @@ public class DictionaryFacilitatorImpl implements DictionaryFacilitator {
     static {
         DICT_TYPE_TO_CLASS.put(Dictionary.TYPE_USER_HISTORY, UserHistoryDictionary.class);
         DICT_TYPE_TO_CLASS.put(Dictionary.TYPE_USER, UserBinaryDictionary.class);
-        DICT_TYPE_TO_CLASS.put(Dictionary.TYPE_CONTACTS, ContactsBinaryDictionary.class);
+
     }
 
     private static final String DICT_FACTORY_METHOD_NAME = "getDictionary";
@@ -288,12 +287,6 @@ public class DictionaryFacilitatorImpl implements DictionaryFacilitator {
         final HashSet<String> subDictTypesToUse = new HashSet<>();
         subDictTypesToUse.add(Dictionary.TYPE_USER);
 
-        // Do not use contacts dictionary if we do not have permissions to read contacts.
-        final boolean contactsPermissionGranted = PermissionsUtil.checkAllPermissionsGranted(
-                context, Manifest.permission.READ_CONTACTS);
-        if (useContactsDict && contactsPermissionGranted) {
-            subDictTypesToUse.add(Dictionary.TYPE_CONTACTS);
-        }
         if (usePersonalizedDicts) {
             subDictTypesToUse.add(Dictionary.TYPE_USER_HISTORY);
         }

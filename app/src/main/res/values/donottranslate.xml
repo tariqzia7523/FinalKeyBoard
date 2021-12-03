@@ -17,53 +17,112 @@
 ** limitations under the License.
 */
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- For backward compatibility.
-         @see com.german.keyboard.app.free.settings.SettingsValues#needsToShowVoiceInputKey(android.content.SharedPreferences,android.content.res.Resources) -->
-    <string name="voice_mode_main">0</string>
-
+<resources>
     <!-- Subtype locale display name exceptions.
          For each exception, there should be related string resources for display name that may have
          explicit keyboard layout. The string resource name must be "subtype_<locale>" or
          "subtype_with_layout_<locale>. Please refer to strings.xml for these resources. -->
     <string-array name="subtype_locale_exception_keys">
         <item>en_US</item>
+        <item>en_GB</item>
+        <item>es_US</item>
+        <item>hi_ZZ</item>
+        <item>sr_ZZ</item>
     </string-array>
 
     <!-- Subtype locale whose name should be displayed in Locale.ROOT. -->
     <string-array name="subtype_locale_displayed_in_root_locale">
+        <item>hi_ZZ</item>
+        <item>sr_ZZ</item>
     </string-array>
 
+    <string name="subtype_in_root_locale_hi_ZZ">Hinglish</string>
+    <string name="subtype_in_root_locale_sr_ZZ">Srpski</string>
 
     <!-- Generic subtype label -->
-    <string name="subtype_generic" translatable="false">%s</string>
+    <string name="subtype_generic">%s</string>
 
     <!-- Predefined keyboard layouts for additional subtype -->
     <string-array name="predefined_layouts">
+        <item>qwerty</item>
+        <item>qwertz</item>
+        <item>azerty</item>
+        <item>dvorak</item>
+        <item>colemak</item>
         <item>pcqwerty</item>
+        <item>abc</item>
     </string-array>
     <!-- Predefined keyboard layout display names -->
     <string-array name="predefined_layout_display_names">
+        <item>QWERTY</item>
+        <item>QWERTZ</item>
+        <item>AZERTY</item>
+        <item>Dvorak</item>
+        <item>Colemak</item>
         <item>PC</item>
+        <item>ABC</item>-->
     </string-array>
     <!-- Description for generic subtype that has predefined layout.
          The string resource name must be "subtype_generic_<layout name>".
          The string resource with "No language" also must be added to strings.xml and the resource
          name must be "subtype_no_language_<layout name>" -->
-    <string name="subtype_generic_pcqwerty" translatable="false">%s (PC)</string>
+    <string name="subtype_generic_qwerty">%s (QWERTY)</string>
+    <string name="subtype_generic_qwertz">%s (QWERTZ)</string>
+    <string name="subtype_generic_azerty">%s (AZERTY)</string>
+    <string name="subtype_generic_dvorak">%s (Dvorak)</string>
+    <string name="subtype_generic_colemak">%s (Colemak)</string>
+    <string name="subtype_generic_pcqwerty">%s (PC)</string>
+    <string name="subtype_generic_abc">%s (ABC)</string>
 
-
+    <!-- Description for Bulgarian (BDS) subtype. -->
+    <string name="subtype_bulgarian_bds">%s (BDS)</string>
 
     <!-- Compatibility map from subtypeLocale:subtypeExtraValue to keyboardLayoutSet -->
     <string-array name="locale_and_extra_value_to_keyboard_layout_set_map">
-        <item>en_US:TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable</item>
+        <item>en_US:TrySuppressingImeSwitcher,AsciiCapable</item>
+        <item>qwerty</item>
+        <item>en_GB:TrySuppressingImeSwitcher,AsciiCapable</item>
+        <item>qwerty</item>
+        <item>cs:AsciiCapable</item>
+        <item>qwertz</item>
+        <item>da:AsciiCapable</item>
+        <item>nordic</item>
+        <item>de:AsciiCapable</item>
+        <item>qwertz</item>
+        <item>es:AsciiCapable</item>
+        <item>spanish</item>
+        <item>fi:AsciiCapable</item>
+        <item>nordic</item>
+        <item>fr:AsciiCapable</item>
+        <item>azerty</item>
+        <item>fr_CA:AsciiCapable</item>
+        <item>qwerty</item>
+        <item>hr:AsciiCapable</item>
+        <item>qwertz</item>
+        <item>hu:AsciiCapable</item>
+        <item>qwertz</item>
+        <item>it:AsciiCapable</item>
+        <item>qwerty</item>
+        <item>nb:AsciiCapable</item>
+        <item>nordic</item>
+        <item>nl:AsciiCapable</item>
+        <item>qwerty</item>
+        <item>pl:AsciiCapable</item>
+        <item>qwerty</item>
+        <item>sv:AsciiCapable</item>
+        <item>nordic</item>
+        <item>tr:AsciiCapable</item>
         <item>qwerty</item>
     </string-array>
-
 
 
     <string name="my_pref" translatable="false">MYPREFS</string>
     <string name="user_reviwed" translatable="false">User Reviewed</string>
     <string name="user_intro" translatable="false">User Intro</string>
     <string name="app_count" translatable="false">App Count</string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="Burmese" translatable="false">Burmese</string>
+    <string name="is_purchsed" translatable="false">IS_PURCHASED</string>
+    <string name="MY_PREF" translatable="false">MY_PREF</string>
 </resources>

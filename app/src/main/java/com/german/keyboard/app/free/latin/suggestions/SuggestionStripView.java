@@ -23,7 +23,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.german.keyboard.app.free.changes.Keyboard_Cls;
 import com.german.keyboard.app.free.inputmethod.accessibility.AccessibilityUtils;
 import com.german.keyboard.app.free.keyboard.Keyboard;
 import com.german.keyboard.app.free.keyboard.MainKeyboardView;
@@ -77,8 +76,7 @@ public final class SuggestionStripView extends RelativeLayout implements OnClick
 
     private final SuggestionStripLayoutHelper mLayoutHelper;
     private final StripVisibilityGroup mStripVisibilityGroup;
-    private Keyboard_Cls Burmese_keyboard;
-    private Keyboard_Cls eng_keyboard;
+
 
 
     private StringBuilder string_builder = new StringBuilder();

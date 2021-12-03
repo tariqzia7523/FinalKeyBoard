@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.german.keyboard.app.free.changes.Splash_Screen_Activity">
+    tools:context=".activites.Splash_Screen_Activity">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="@dimen/_180sdp"
@@ -28,7 +28,7 @@
         android:layout_marginTop="@dimen/_10sdp"
         android:fontFamily="@font/mainss"
         android:gravity="center"
-        android:text="German Keyboard"
+        android:text="@string/app_string"
         android:textColor="@android:color/black"
         android:textSize="@dimen/_30sdp"
         android:textStyle="bold" />

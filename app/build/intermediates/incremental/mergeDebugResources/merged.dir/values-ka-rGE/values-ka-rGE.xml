@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="abbreviation_unit_milliseconds">"<ns1:g id="MILLISECONDS">%s</ns1:g>მწმ"</string>
+    <string name="add">"დამატება"</string>
+    <string name="add_style">"სტილის დამატება"</string>
+    <string name="auto_cap">"ავტო-კაპიტალიზაცია"</string>
+    <string name="auto_cap_summary">"ყოველი წინადადების პირველი სიტყვის კაპიტალიზაცია"</string>
+    <string name="button_default">"ნაგულისხმევი"</string>
+    <string name="custom_input_style_already_exists">"შეყვანის იგივე სტილი უკვე არსებობს: <ns1:g id="INPUT_STYLE_NAME">%s</ns1:g>"</string>
+    <string name="custom_input_style_note_message">"თქვენი მორგებული შეყვანის სტილი გამოყენებამდე უნდა გაააქტიუროთ. გსურთ მისი აქტივაცია ახლა?"</string>
+    <string name="custom_input_styles_title">"შეყვანის სტილების კონფიგურაცია"</string>
+    <string name="enable">"ჩართვა"</string>
+    <string name="english_ime_input_options">"შეყვანის მეთოდები"</string>
+    <string name="keyboard_layout_set">"განლაგება"</string>
+    <string name="language_selection_title">"ენები"</string>
+    <string name="not_now">"ახლა არა"</string>
+    <string name="popup_on_keypress">"გადიდება ღილაკზე დაჭერისას"</string>
+    <string name="prefs_key_longpress_timeout_settings">"კლავიშზე გრძელი დაჭერის დაყოვნება"</string>
+    <string name="prefs_keypress_sound_volume_settings">"კლავიშზე დაჭერის ხმა"</string>
+    <string name="prefs_keypress_vibration_duration_settings">"კლავიშზე დაჭერის ვიბრაციის ხანგრძლივობა"</string>
+    <string name="remove">"ამოშლა"</string>
+    <string name="save">"შენახვა"</string>
+    <string name="select_language">"ენები"</string>
+    <string name="settings_screen_advanced">"გაფართოებული"</string>
+    <string name="settings_screen_appearance">"იერსახე &amp; განლაგებები"</string>
+    <string name="settings_screen_preferences">"პარამეტრები"</string>
+    <string name="settings_screen_theme">"თემა"</string>
+    <string name="settings_system_default">"სისტემის ნაგულისხმევი"</string>
+    <string name="sound_on_keypress">"ხმა კლავიშზე დაჭერისას"</string>
+    <string name="subtype_en_GB">"ინგლისური (გართ. სამ.)"</string>
+    <string name="subtype_en_US">"ინგლისური (აშშ)"</string>
+    <string name="subtype_es_US">"ესპანური (აშშ)"</string>
+    <string name="subtype_generic_compact">"<ns1:g id="LANGUAGE_NAME">%s</ns1:g> (კომპაქტური)"</string>
+    <string name="subtype_generic_traditional">"<ns1:g id="LANGUAGE_NAME">%s</ns1:g> (ტრადიციული)"</string>
+    <string name="subtype_locale">"ენა"</string>
+    <string name="subtype_no_language">"ენის გარეშე (ლათინური ანბანი)"</string>
+    <string name="subtype_no_language_qwerty">"ანბანი (QWERTY)"</string>
+    <string name="subtype_sr_ZZ">"სერბული (ლათინური)"</string>
+    <string name="vibrate_on_keypress">"ვიბრაცია კლავიშზე დაჭერისას"</string>
+</resources>

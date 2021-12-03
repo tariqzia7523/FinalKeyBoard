@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
+
+    <Key
+        latin:id = "@+id/ref1"
+        latin:keySpec="غُرغُرانا"
+        latin:keyWidth="30%p"
+        latin:altCode = "784513"/>
+    <Key
+        latin:id = "@+id/ref2"
+        latin:keySpec="صاف کرنا"
+        latin:keyWidth="40%p"
+        latin:altCode = "784514"/>
+    <Key
+        latin:id = "@+id/ref3"
+        latin:keySpec="اوپر واضع"
+        latin:keyWidth="30%p"
+        latin:altCode = "784515"/>
+</merge>

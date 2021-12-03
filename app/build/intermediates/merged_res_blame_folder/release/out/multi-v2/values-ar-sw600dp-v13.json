@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ar-sw600dp-v13\\values-ar-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\res\\values-ar-sw600dp\\donottranslate-config-spacing-and-punctuations.xml",
+                    "from": {
+                        "startLines": "8",
+                        "startColumns": "4",
+                        "startOffsets": "383",
+                        "endColumns": "94",
+                        "endOffsets": "473"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "80",
+                        "endOffsets": "131"
+                    }
+                }
+            ]
+        }
+    ]
+}

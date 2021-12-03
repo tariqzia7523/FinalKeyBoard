@@ -10,16 +10,20 @@ android {
         applicationId "com.german.keyboard.app.free"
         minSdkVersion 19
         targetSdkVersion 31
-        versionCode 14
-        versionName "1.0.13"
+        versionCode 15
+        versionName "1.0.14"
         multiDexEnabled true
+        //resConfigs "en", "us"
     }
 
     buildTypes {
         release {
-            shrinkResources true
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable false
+            zipAlignEnabled true
+            jniDebuggable false
+            renderscriptDebuggable false
         }
     }
 

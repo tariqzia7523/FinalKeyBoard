@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 19 min SDK version: armeabi-v7a",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 218595734
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\build\\.cxx\\Debug\\1s4t7272\\armeabi-v7a\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1538217875
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2127381932
+  }
+]

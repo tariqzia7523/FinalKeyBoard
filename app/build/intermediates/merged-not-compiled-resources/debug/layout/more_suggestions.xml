@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+>
+    <com.german.keyboard.app.free.latin.suggestions.MoreSuggestionsView
+        xmlns:latin="http://schemas.android.com/apk/res/com.german.keyboard.app.free"
+        android:id="@+id/more_suggestions_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        latin:keyLetterSize="@dimen/config_suggestion_text_size"
+        latin:keyLabelSize="@dimen/config_suggestion_text_size"
+        latin:keyHintLetterRatio="@fraction/config_more_suggestions_info_ratio"
+        latin:keyHintLetterColor="@android:color/white" />
+</LinearLayout>

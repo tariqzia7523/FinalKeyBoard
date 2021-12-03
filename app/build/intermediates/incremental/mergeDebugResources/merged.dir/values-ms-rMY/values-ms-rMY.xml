@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="abbreviation_unit_milliseconds">"<ns1:g id="MILLISECONDS">%s</ns1:g>ms"</string>
+    <string name="add">"Tambah"</string>
+    <string name="add_style">"Tambah gaya"</string>
+    <string name="auto_cap">"Autopenghurufbesaran"</string>
+    <string name="auto_cap_summary">"Besarkan perkataan pertama setiap ayat"</string>
+    <string name="button_default">"Lalai"</string>
+    <string name="custom_input_style_already_exists">"The same input style already exists: <ns1:g id="INPUT_STYLE_NAME">%s</ns1:g>"</string>
+    <string name="custom_input_style_note_message">"Gaya input tersuai anda perlu didayakan sebelum anda mula menggunakannya. Adakah anda ingin mendayakannya sekarang?"</string>
+    <string name="custom_input_styles_title">"Gaya input peribadi"</string>
+    <string name="enable">"Dayakan"</string>
+    <string name="english_ime_input_options">"Pilihan input"</string>
+    <string name="keyboard_layout_set">"Reka letak"</string>
+    <string name="language_selection_title">"Bahasa"</string>
+    <string name="not_now">"Bukan sekarang"</string>
+    <string name="popup_on_keypress">"Pop timbul pada tekanan kunci"</string>
+    <string name="prefs_key_longpress_timeout_settings">"Lengah tekan lama kekunci"</string>
+    <string name="prefs_keypress_sound_volume_settings">"Kelantangan bunyi tekan kekunci"</string>
+    <string name="prefs_keypress_vibration_duration_settings">"Tempoh getaran tekan kekunci"</string>
+    <string name="remove">"Alih Keluar"</string>
+    <string name="save">"Simpan"</string>
+    <string name="select_language">"Bahasa"</string>
+    <string name="settings_screen_advanced">"Lanjutan"</string>
+    <string name="settings_screen_appearance">"Penampilan &amp; Bentangan"</string>
+    <string name="settings_screen_preferences">"Pilihan"</string>
+    <string name="settings_screen_theme">"Tema"</string>
+    <string name="settings_system_default">"Tetapan asal sistem"</string>
+    <string name="sound_on_keypress">"Bunyi pada tekanan kekunci"</string>
+    <string name="subtype_en_GB">"Bahasa Inggeris (UK)"</string>
+    <string name="subtype_en_US">"Bahasa Inggeris (Australia)"</string>
+    <string name="subtype_es_US">"Bahasa Sepanyol (AS)"</string>
+    <string name="subtype_generic_compact">"<ns1:g id="LANGUAGE_NAME">%s</ns1:g> (Sarat)"</string>
+    <string name="subtype_generic_traditional">"<ns1:g id="LANGUAGE_NAME">%s</ns1:g> (Tradisional)"</string>
+    <string name="subtype_locale">"Bahasa"</string>
+    <string name="subtype_no_language">"Tiada bahasa (Abjad)"</string>
+    <string name="subtype_no_language_qwerty">"Abjad (QWERTY)"</string>
+    <string name="subtype_sr_ZZ">"Bahasa Serbia (Latin)"</string>
+    <string name="vibrate_on_keypress">"Getar pada tekanan kekunci"</string>
+</resources>

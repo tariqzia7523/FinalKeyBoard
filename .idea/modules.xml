@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bangaldesh-Keyboard.iml" filepath="$PROJECT_DIR$/.idea/modules/Bangaldesh-Keyboard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adsmodule/Bangaldesh-Keyboard.adsmodule.iml" filepath="$PROJECT_DIR$/.idea/modules/adsmodule/Bangaldesh-Keyboard.adsmodule.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Bangaldesh-Keyboard.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Bangaldesh-Keyboard.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FinalKeyBoard.iml" filepath="$PROJECT_DIR$/.idea/modules/FinalKeyBoard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adsmodule/FinalKeyBoard.adsmodule.iml" filepath="$PROJECT_DIR$/.idea/modules/adsmodule/FinalKeyBoard.adsmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FinalKeyBoard.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FinalKeyBoard.app.iml" />
     </modules>
   </component>
 </project>

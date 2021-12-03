@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="abbreviation_unit_milliseconds">"<ns1:g id="MILLISECONDS">%s</ns1:g> មិល្លី​វិនាទី"</string>
+    <string name="add">"បន្ថែម"</string>
+    <string name="add_style">"បន្ថែម​រចនាប័ទ្ម"</string>
+    <string name="auto_cap">"ការ​សរសេរ​ជា​អក្សរ​ធំ​​ស្វ័យប្រវត្តិ​"</string>
+    <string name="auto_cap_summary">"សរសេរ​ពាក្យ​ដំបូង​​​ជា​អក្សរ​ធំ​​នៃ​ប្រយោគ​នីមួយ​ៗ"</string>
+    <string name="button_default">"លំនាំដើម"</string>
+    <string name="custom_input_style_already_exists">"មាន​រចនាប័ទ្ម​បញ្ចូល​ដូច​គ្នា​ដូច​ហើយ៖ <ns1:g id="INPUT_STYLE_NAME">%s</ns1:g>"</string>
+    <string name="custom_input_style_note_message">"ចាំបាច់​ត្រូវ​បើក​រចនាប័ទ្ម​បញ្ចូល​ផ្ទាល់​ខ្លួន​របស់​អ្នក មុន​ពេល​អ្នក​ចាប់ផ្ដើម​ប្រើ​វា។ តើ​អ្នក​ចង់​បើក​វា​ឥឡូវ​នេះ​ឬ?"</string>
+    <string name="custom_input_styles_title">"រចនាប័ទ្ម​បញ្ចូល​ផ្ទាល់ខ្លួន"</string>
+    <string name="enable">"បើក"</string>
+    <string name="english_ime_input_options">"ជម្រើស​​បញ្ចូល"</string>
+    <string name="keyboard_layout_set">"ប្លង់"</string>
+    <string name="language_selection_title">"ភាសា"</string>
+    <string name="not_now">"មិនមែន​ឥឡូវ"</string>
+    <string name="popup_on_keypress">"លេច​ឡើង​នៅ​​ពេល​ចុច​គ្រាប់​ចុច"</string>
+    <string name="prefs_key_longpress_timeout_settings">"ពន្យារពេល​​​ចុច​គ្រាប់​ចុច​ឲ្យ​​យូរ"</string>
+    <string name="prefs_keypress_sound_volume_settings">"កម្រិត​សំឡេង​ពេល​ចុច​គ្រាប់​ចុច"</string>
+    <string name="prefs_keypress_vibration_duration_settings">"ថិរវេលា​​ញ័រ​​ពេល​ចុច​គ្រាប់ចុច"</string>
+    <string name="remove">"លុប​ចេញ"</string>
+    <string name="save">"រក្សាទុក"</string>
+    <string name="select_language">"ភាសា"</string>
+    <string name="settings_screen_advanced">"កម្រិត​ខ្ពស់"</string>
+    <string name="settings_screen_appearance">"រូបរាង &amp;amp ប្លង់"</string>
+    <string name="settings_screen_preferences">"ចំណូលចិត្ត"</string>
+    <string name="settings_screen_theme">"រូបរាង"</string>
+    <string name="settings_system_default">"លំនាំ​ដើម​​​ប្រព័ន្ធ"</string>
+    <string name="sound_on_keypress">"សំឡេង​នៅ​ពេល​ចុច​គ្រាប់ចុច"</string>
+    <string name="subtype_en_GB">"អង់គ្លេស (​អង់គ្លេស)"</string>
+    <string name="subtype_en_US">"អង់គ្លេស (សហរដ្ឋ​អាមេរិក)"</string>
+    <string name="subtype_es_US">"អេស្ប៉ាញ (សហរដ្ឋ​អាមេរិក​)"</string>
+    <string name="subtype_generic_compact">"<ns1:g id="LANGUAGE_NAME">%s</ns1:g> (បង្រួម)"</string>
+    <string name="subtype_generic_traditional">"<ns1:g id="LANGUAGE_NAME">%s</ns1:g> (អក្សរ​ពេញ)"</string>
+    <string name="subtype_locale">"ភាសា"</string>
+    <string name="subtype_no_language">"គ្មាន​ភាសា (អក្សរ​ក្រម)"</string>
+    <string name="subtype_no_language_qwerty">"តាម​លំដាប់​អក្សរក្រម (QWERTY)"</string>
+    <string name="subtype_sr_ZZ">"សើប (ឡាតាំង​)"</string>
+    <string name="vibrate_on_keypress">"ញ័រ​នៅ​ពេល​ចុច​គ្រាប់ចុច"</string>
+</resources>

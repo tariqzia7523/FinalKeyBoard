@@ -1,6 +1,5 @@
 package com.german.keyboard.app.free.latin.utils;
 
-import com.german.keyboard.app.free.latin.about.AboutPreferences;
 import com.german.keyboard.app.free.latin.settings.AdvancedSettingsFragment;
 
 import com.german.keyboard.app.free.latin.settings.CorrectionSettingsFragment;
@@ -21,7 +20,6 @@ import java.util.HashSet;
 public class FragmentUtils {
     private static final HashSet<String> sLatinImeFragments = new HashSet<>();
     static {
-        sLatinImeFragments.add(AboutPreferences.class.getName());
         sLatinImeFragments.add(PreferencesSettingsFragment.class.getName());
         sLatinImeFragments.add(ThemeSettingsFragment.class.getName());
         sLatinImeFragments.add(CustomInputStyleSettingsFragment.class.getName());

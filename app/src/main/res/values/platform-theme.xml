@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-    <style name="platformActivityTheme" parent="@android:style/Theme.DeviceDefault" />
+<resources>
     <style name="platformSettingsTheme" parent="@android:style/Theme.DeviceDefault" />
     <style name="platformDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog" />
 </resources>

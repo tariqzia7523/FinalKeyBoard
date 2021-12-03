@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
 
-<merge
-    xmlns:latin="http://schemas.android.com/apk/res-auto"
->
-    <Row
-        latin:keyWidth="10%p"
-    >
+    <Row latin:keyWidth="10%p">
+
         <Key
             latin:keyStyle="toSymbolKeyStyle"
             latin:keyWidth="15%p" />
         <include
             latin:keyboardLayout="@xml/key_comma" />
         <include
-            latin:keyboardLayout="@xml/key_emoji" />
-
-        <include
-            latin:keyXPos="35%p"
+            latin:keyXPos="25%p"
             latin:keyboardLayout="@xml/key_space_5kw" />
 
         <include
@@ -25,4 +19,6 @@
             latin:keyStyle="enterKeyStyle"
             latin:keyWidth="fillRight" />
     </Row>
+
+
 </merge>

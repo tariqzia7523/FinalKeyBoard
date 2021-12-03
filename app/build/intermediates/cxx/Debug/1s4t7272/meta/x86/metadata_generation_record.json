@@ -1,0 +1,184 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 19 min SDK version: x86",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -728014338
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\build\\.cxx\\Debug\\1s4t7272\\x86\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -979742882
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\build\\.cxx\\Debug\\1s4t7272\\x86\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 421135392
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\build\\.cxx\\Debug\\1s4t7272\\x86\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 891514430
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 236864119
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\build\\.cxx\\Debug\\1s4t7272\\x86\u0027",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 935186612
+  },
+  {
+    "level_": 0,
+    "message_": "executing ndkBuild Executable : C:\\Users\\line\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dC:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dC:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\build\\intermediates\\cxx\\Debug\\1s4t7272/obj\nNDK_LIBS_OUT\u003dC:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\build\\intermediates\\cxx\\Debug\\1s4t7272/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 921915158
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\line\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dC:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dC:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\build\\intermediates\\cxx\\Debug\\1s4t7272/obj\nNDK_LIBS_OUT\u003dC:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\build\\intermediates\\cxx\\Debug\\1s4t7272/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2102637795
+  },
+  {
+    "level_": 0,
+    "message_": "parse and convert ndk-build output to build configuration JSON",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1320619194
+  },
+  {
+    "level_": 0,
+    "message_": "found application make file C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Application.mk",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 234920808
+  },
+  {
+    "level_": 0,
+    "message_": "done executing ndkBuild",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 544227372
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\build\\.cxx\\Debug\\1s4t7272\\x86\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1296793646
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\line\\Desktop\\OtobiKeyboard\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1862590952
+  }
+]

@@ -74,7 +74,6 @@ import com.german.keyboard.app.free.latin.common.InputPointers;
 import com.german.keyboard.app.free.latin.define.DebugFlags;
 import com.german.keyboard.app.free.latin.define.ProductionFlags;
 import com.german.keyboard.app.free.latin.inputlogic.InputLogic;
-import com.german.keyboard.app.free.latin.permissions.PermissionsManager;
 import com.german.keyboard.app.free.latin.personalization.PersonalizationHelper;
 import com.german.keyboard.app.free.latin.settings.Settings;
 import com.german.keyboard.app.free.latin.settings.SettingsActivity;
@@ -110,8 +109,7 @@ import static com.german.keyboard.app.free.latin.common.Constants.ImeOption.NO_M
  */
 public class LatinIME extends InputMethodService implements KeyboardActionListener,
         SuggestionStripView.Listener, SuggestionStripViewAccessor,
-        DictionaryFacilitator.DictionaryInitializationListener,
-        PermissionsManager.PermissionsResultCallback {
+        DictionaryFacilitator.DictionaryInitializationListener {
     static final String TAG = LatinIME.class.getSimpleName();
     private static final boolean TRACE = false;
 
@@ -585,6 +583,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
 
     @Override
     public void onCreate() {
+
         Settings.init(this);
         DebugFlags.init(PreferenceManager.getDefaultSharedPreferences(this));
         RichInputMethodManager.init(this);
@@ -628,6 +627,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                 null /* scheduler */);
 
         StatsUtils.onCreate(mSettings.getCurrent(), mRichImm);
+        setNeutralSuggestionStrip();
     }
 
     // Has to be package-visible for unit tests
@@ -1316,10 +1316,6 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
         return keyboard.getCoordinates(codePoints);
     }
 
-    @Override
-    public void onRequestPermissionsResult(boolean allGranted) {
-        setNeutralSuggestionStrip();
-    }
 
     public void displaySettingsDialog() {
         launchSettings();

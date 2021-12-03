@@ -3,7 +3,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <view
-            class="com.german.keyboard.app.free.latin.setup.SetupStartIndicatorView$LabelView"
+            class="com.german.keyboard.app.free.language.setup.SetupStartIndicatorView$LabelView"
             android:id="@+id/setup_start_label"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"

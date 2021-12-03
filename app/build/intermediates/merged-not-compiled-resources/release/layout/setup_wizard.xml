@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/setup_wizard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/setup_background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include
+            android:id="@+id/setup_welcome_screen"
+            layout="@layout/setup_welcome_screen"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/add_container"/>
+        <include
+            android:id="@+id/setup_steps_screen"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            layout="@layout/setup_steps_screen"
+            android:layout_above="@+id/add_container"/>
+
+        <RelativeLayout
+            android:id="@+id/add_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/top_layout"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/gnt_outline_shape"
+            android:minHeight="@dimen/_130sdp">
+
+            <com.module.ads.TemplateView
+                android:id="@+id/nativeTemplateView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:gnt_template_type="@layout/gnt_small_template_view" />
+
+            <TextView
+                android:id="@+id/temp_add_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/ad_will_display_hare" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>

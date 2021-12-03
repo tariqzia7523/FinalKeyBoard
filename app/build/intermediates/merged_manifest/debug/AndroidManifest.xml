@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     coreApp="true"
     package="com.german.keyboard.app.free"
-    android:versionCode="14"
-    android:versionName="1.0.13" >
+    android:versionCode="15"
+    android:versionName="1.0.14" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -49,7 +49,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name="com.module.ads.App"
+        android:name="com.german.keyboard.app.free.changes.App"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -120,10 +120,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.german.keyboard.app.free.latin.permissions.PermissionsActivity"
-            android:exported="true"
-            android:theme="@style/AppTheme" />
-        <activity
             android:name="com.german.keyboard.app.free.latin.settings.SettingsActivity"
             android:exported="true"
             android:label="@string/english_ime_settings"
@@ -190,7 +186,7 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8046980262605578~2073671055" />
+            android:value="ca-app-pub-6247650642874574~8574304680" />
         <!-- The activities will be merged into the manifest of the hosting app. -->
         <activity
             android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"

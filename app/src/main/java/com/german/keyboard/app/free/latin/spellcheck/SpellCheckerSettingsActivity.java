@@ -8,7 +8,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
-import com.german.keyboard.app.free.latin.permissions.PermissionsManager;
 import com.german.keyboard.app.free.latin.utils.FragmentUtils;
 
 import androidx.core.app.ActivityCompat;
@@ -39,10 +38,4 @@ public final class SpellCheckerSettingsActivity extends PreferenceActivity
         return FragmentUtils.isValidFragment(fragmentName);
     }
 
-    @Override
-    public void onRequestPermissionsResult(
-            int requestCode, String[] permissions, int[] grantResults) {
-        PermissionsManager.get(this).onRequestPermissionsResult(
-                requestCode, permissions, grantResults);
-    }
 }

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="abbreviation_unit_milliseconds">"<ns1:g id="MILLISECONDS">%s</ns1:g> ms"</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Selecionar um app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"espaço"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Pesquisar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartilhar com <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Recolher"</string>
+    <string name="add">"Adicionar"</string>
+    <string name="add_style">"Adic. estilo"</string>
+    <string name="auto_cap">"Capitalização automática"</string>
+    <string name="auto_cap_summary">"Iniciar a primeira palavra de cada frase com letra maiúscula"</string>
+    <string name="button_default">"Padrão"</string>
+    <string name="custom_input_style_already_exists">"O estilo de entrada já existe: <ns1:g id="INPUT_STYLE_NAME">%s</ns1:g>"</string>
+    <string name="custom_input_style_note_message">"Deseja ativar e usar o estilo de entrada personalizado?"</string>
+    <string name="custom_input_styles_title">"Estilos personalizados"</string>
+    <string name="enable">"Ativar"</string>
+    <string name="english_ime_input_options">"Opções de entrada"</string>
+    <string name="hide_language_switch_key">Ocultar tecla para trocar idiomas</string>
+    <string name="hide_special_chars">Ocultar caracteres especiais</string>
+    <string name="keyboard_color">Definir cor personalizada do teclado</string>
+    <string name="keyboard_layout_set">"Layout"</string>
+    <string name="language_selection_title">"Idiomas"</string>
+    <string name="not_now">"Agora não"</string>
+    <string name="popup_on_keypress">"Exibir pop-up ao digitar"</string>
+    <string name="prefs_key_longpress_timeout_settings">"Atraso ao pressionar teclas"</string>
+    <string name="prefs_keyboard_height_settings">Altura do teclado</string>
+    <string name="prefs_keypress_sound_volume_settings">"Volume ao tocar na tela"</string>
+    <string name="prefs_keypress_vibration_duration_settings">"Duração da vibração ao tocar"</string>
+    <string name="remove">"Remover"</string>
+    <string name="save">"Salvar"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Pesquisar"</string>
+    <string name="select_language">"Idiomas"</string>
+    <string name="settings_screen_advanced">"Avançadas"</string>
+    <string name="settings_screen_appearance">"Aparência e layouts"</string>
+    <string name="settings_screen_preferences">"Preferências"</string>
+    <string name="settings_screen_theme">"Tema"</string>
+    <string name="settings_system_default">"Padrão do sistema"</string>
+    <string name="show_number_row">Mostrar números em linha distinta</string>
+    <string name="sound_on_keypress">"Som ao tocar a tecla"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="subtype_en_GB">"inglês (Reino Unido)"</string>
+    <string name="subtype_en_US">"inglês (EUA)"</string>
+    <string name="subtype_es_US">"espanhol (EUA)"</string>
+    <string name="subtype_generic_compact">"<ns1:g id="LANGUAGE_NAME">%s</ns1:g> (compacto)"</string>
+    <string name="subtype_generic_traditional">"<ns1:g id="LANGUAGE_NAME">%s</ns1:g> (tradicional)"</string>
+    <string name="subtype_locale">"Idioma"</string>
+    <string name="subtype_no_language">"Nenhum idioma (alfabeto)"</string>
+    <string name="subtype_no_language_qwerty">"Alfabeto (QWERTY)"</string>
+    <string name="subtype_sr_ZZ">"Sérvio (Latino)"</string>
+    <string name="vibrate_on_keypress">"Vibrar ao tocar a tecla"</string>
+</resources>

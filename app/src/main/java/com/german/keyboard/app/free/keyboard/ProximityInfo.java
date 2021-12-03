@@ -1,5 +1,3 @@
-
-
 package com.german.keyboard.app.free.keyboard;
 
 import android.graphics.Rect;

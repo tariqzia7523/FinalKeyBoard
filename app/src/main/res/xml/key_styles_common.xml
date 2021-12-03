@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
 <merge
     xmlns:latin="http://schemas.android.com/apk/res-auto"
 >
@@ -59,25 +57,6 @@
         latin:keySpec="!icon/delete_key|!code/key_delete"
         latin:keyActionFlags="isRepeatable|noKeyPreview"
         latin:backgroundType="functional" />
-    <!-- emojiKeyStyle must be defined before including @xml/key_syles_enter. -->
-    <switch>
-        <case latin:keyboardTheme="ICS|KLP|LXXLightBorder|LXXDarkBorder">
-            <key-style
-                latin:styleName="emojiKeyStyle"
-                latin:keySpec="!icon/emoji_action_key|!code/key_emoji"
-                latin:keyActionFlags="noKeyPreview"
-                latin:backgroundType="action" />
-        </case>
-        <!-- keyboardTheme="LXXLight|LXXDark" -->
-        <default>
-            <key-style
-                latin:styleName="emojiKeyStyle"
-                latin:keySpec="!icon/emoji_action_key|!code/key_emoji"
-                latin:keyLabelFlags="keepBackgroundAspectRatio"
-                latin:keyActionFlags="noKeyPreview"
-                latin:backgroundType="action" />
-        </default>
-    </switch>
     <include
         latin:keyboardLayout="@xml/key_styles_enter" />
     <!-- TODO: Currently there is no way to specify icon alignment per theme. -->
@@ -93,7 +72,14 @@
         latin:keySpec="!icon/zwnj_key|&#x200C;"
         latin:moreKeys="!icon/zwj_key|&#x200D;"
         latin:keyLabelFlags="hasPopupHint"
-        latin:keyActionFlags="noKeyPreview" />
+        latin:keyActionFlags="noKeyPreview"
+        latin:backgroundType="functional"/>
+    <key-style
+        latin:styleName="theme_keyStyle"
+        latin:keySpec="!icon/iconthemeskey|!code/key_theme"
+        latin:moreKeys="!icon/iconthemeskey|!code/key_theme"
+        latin:keyLabelFlags="hasPopupHint"
+        />
     <key-style
         latin:styleName="shortcutKeyStyle"
         latin:keySpec="!icon/shortcut_key|!code/key_shortcut"
@@ -142,10 +128,4 @@
         latin:styleName="backFromMoreSymbolKeyStyle"
         latin:keySpec="!text/keylabel_to_symbol|!code/key_shift"
         latin:parentStyle="baseForLayoutSwitchKeyStyle" />
-    <key-style
-        latin:styleName="comKeyStyle"
-        latin:keySpec="!text/keyspec_popular_domain"
-        latin:keyLabelFlags="autoXScale|fontNormal|hasPopupHint|preserveCase"
-        latin:moreKeys="!text/morekeys_popular_domain"
-        latin:backgroundType="functional" />
 </merge>

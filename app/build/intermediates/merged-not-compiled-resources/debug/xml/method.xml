@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <input-method xmlns:android="http://schemas.android.com/apk/res/android"
+            android:settingsActivity="com.german.keyboard.app.free.settings.SettingsActivity"
+            android:isDefault="@bool/im_is_default"
+            android:supportsSwitchingToNextInputMethod="true">
+        <subtype android:icon="@drawable/ic_ime_switcher_dark"
+                android:label="@string/subtype_en_US"
+                android:subtypeId="0xc9194f98"
+                android:imeSubtypeLocale="en_US"
+                android:languageTag="en-US"
+                android:imeSubtypeMode="keyboard"
+                android:imeSubtypeExtraValue="TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable"
+                android:isAsciiCapable="true"
+        />
+
+    <subtype
+        android:icon="@drawable/ic_ime_switcher_dark"
+        android:imeSubtypeExtraValue="TrySuppressingImeSwitcher,AsciiCapable,SupportTouchPositionCorrection,EmojiCapable"
+        android:imeSubtypeLocale="de"
+        android:imeSubtypeMode="keyboard"
+        android:isAsciiCapable="true"
+        android:label="@string/subtype_generic"
+        android:subtypeId="0x2e2cbe61" />
+    </input-method>
+

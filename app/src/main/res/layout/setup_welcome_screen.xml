@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <com.german.keyboard.app.free.latin.setup.SetupStartIndicatorView
+    <com.german.keyboard.app.free.language.setup.SetupStartIndicatorView
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

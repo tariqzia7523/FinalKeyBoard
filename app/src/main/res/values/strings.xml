@@ -1,202 +1,287 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-
-    <string name="english_ime_name">German Keyboard</string>
-    <string name="spell_checker_service_name">German Keyboard Spell Checker</string>
-    <string name="english_ime_settings">German Keyboard Settings</string>
-    <string name="android_spell_checker_settings">German Keyboard Spell Checker Settings</string>
+    <!-- Title for Latin keyboard input options dialog [CHAR LIMIT=25] -->
     <string name="english_ime_input_options">Input options</string>
-    <string name="use_contacts_for_spellchecking_option_title">Look up contact names</string>
-    <string name="use_contacts_for_spellchecking_option_summary">Spell checker uses entries from your contact list</string>
+
+    <!-- Option to provide vibrate/haptic feedback on keypress -->
     <string name="vibrate_on_keypress">Vibrate on keypress</string>
+
+    <!-- Option to play back sound on keypress in soft keyboard -->
     <string name="sound_on_keypress">Sound on keypress</string>
+
+    <!-- Option to control whether or not to show a popup with a larger font on each key press. -->
     <string name="popup_on_keypress">Popup on keypress</string>
+
+    <!-- Settings screen title for preferences [CHAR LIMIT=33]-->
     <string name="settings_screen_preferences">Preferences</string>
-    <string name="settings_screen_accounts">Accounts &amp; Privacy</string>
-    <string name="settings_screen_appearance">Keyboard Resize</string>
-    <string name="settings_screen_gesture">Gesture Typing</string>
-    <string name="settings_screen_correction">Text correction</string>
+    <!-- Settings screen title for accounts and privacy preferences [CHAR LIMIT=33]-->
+    <!-- Settings screen title for appearance & layouts preferences [CHAR LIMIT=33] -->
+    <string name="settings_screen_appearance">Appearance &amp; Layouts</string>
+    <!-- Settings screen title for gesture typing preferences [CHAR_LIMIT=33] -->
+    <!-- Settings screen title for advanced settings [CHAR LIMIT=33] -->
     <string name="settings_screen_advanced">Advanced</string>
-    <string name="settings_screen_theme">Keyboard Layouts</string>
-    <string name="enable_split_keyboard">Enable split keyboard</string>
-    <string name="include_other_imes_in_language_switch_list">Switch to other input methods</string>
-    <string name="include_other_imes_in_language_switch_list_summary">Language switch key covers other input methods too</string>
-    <string name="show_language_switch_key">Language switch key</string>
-    <string name="show_language_switch_key_summary">Show when multiple input languages are enabled</string>
-    <string name="key_preview_popup_dismiss_delay">Key popup dismiss delay</string>
-    <string name="key_preview_popup_dismiss_no_delay">No delay</string>
-    <string name="key_preview_popup_dismiss_default_delay">Default</string>
+    <!-- Settings screen title for keyboard theme settings [CHAR LIMIT=33] -->
+    <string name="settings_screen_theme">Theme</string>
+
+    <!-- Option name for including other IMEs in the language switch list [CHAR LIMIT=30] -->
+    <!-- Option summary for including other IMEs in the language switch list [CHAR LIMIT=65] -->
+    <!-- Option to show language switch key [CHAR LIMIT=30] -->
+    <!-- Option summary for showing language switch key [CHAR LIMIT=65] -->
+
+    <!-- Units abbreviation for the duration (milliseconds) [CHAR LIMIT=10] -->
     <string name="abbreviation_unit_milliseconds"><xliff:g id="MILLISECONDS">%s</xliff:g>ms</string>
+    <!-- The text that represents the current settings value is the system default [CHAR LIMIT=25] -->
     <string name="settings_system_default">System default</string>
-    <string name="use_contacts_dict">Suggest Contact names</string>
-    <string name="use_contacts_dict_summary">Use names from Contacts for suggestions and corrections</string>
-    <string name="use_personalized_dicts">Personalized suggestions</string>
-    <string name="enable_metrics_logging">"Improve <xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>"</string>
-    <string name="use_double_space_period">Double-space period</string>
-    <string name="use_double_space_period_summary">Double tap on spacebar inserts a period followed by a space</string>
+
+    <!-- Option to enable auto capitalization of sentences -->
     <string name="auto_cap">Auto-capitalization</string>
+    <!-- Description for option to enable auto capitalization of sentences -->
     <string name="auto_cap_summary">Capitalize the first word of each sentence</string>
-    <string name="edit_personal_dictionary">Personal dictionary</string>
-    <string name="configure_dictionaries_title">Add-on dictionaries</string>
-    <string name="main_dictionary">Main dictionary</string>
-    <string name="prefs_show_suggestions">Show correction suggestions</string>
-    <string name="prefs_show_suggestions_summary">Display suggested words while typing</string>
-    <string name="prefs_block_potentially_offensive_title">Block offensive words</string>
-    <string name="prefs_block_potentially_offensive_summary">Do not suggest potentially offensive words</string>
-    <string name="auto_correction">Auto-correction</string>
-    <string name="auto_correction_summary">Spacebar and punctuation automatically correct mistyped words</string>
-    <string name="auto_correction_threshold_mode_off">Off</string>
-    <string name="auto_correction_threshold_mode_modest">Modest</string>
-    <string name="auto_correction_threshold_mode_aggressive">Aggressive</string>
-    <string name="auto_correction_threshold_mode_very_aggressive">Very aggressive</string>
-    <string name="bigram_prediction">Next-word suggestions</string>
-    <string name="bigram_prediction_summary">Use the previous word in making suggestions</string>
-    <string name="gesture_input">Enable gesture typing</string>
-    <string name="gesture_input_summary">Input a word by sliding through the letters</string>
-    <string name="gesture_preview_trail">Show gesture trail</string>
-    <string name="gesture_floating_preview_text">Dynamic floating preview</string>
-    <string name="gesture_floating_preview_text_summary">See the suggested word while gesturing</string>
-    <string name="gesture_space_aware">Phrase gesture</string>
-    <string name="gesture_space_aware_summary">Input spaces during gestures by gliding to the space key</string>
-    <string name="voice_input">Voice input key</string>
-    <string name="voice_input_disabled_summary">No voice input methods enabled. Check Languages&#160;&amp; input settings.</string>
-    <string name="configure_input_method">Configure input methods</string>
-    <string name="language_selection_title">Languages</string>
-    <string name="help_and_feedback">Help &amp; feedback</string>
-    <string name="select_language">Languages</string>
-    <string name="hint_add_to_dictionary">Tap again to save</string>
-    <string name="hint_add_to_dictionary_without_word">Tap here to save</string>
-    <string name="has_dictionary">Dictionary available</string>
-    <string name="keyboard_layout">Keyboard theme</string>
-    <string name="number_row">Number row</string>
-    <string name="number_row_summary">Always show number row</string>
-    <string name="prefs_resize_keyboard">Enable keyboard resizing</string>
-    <string name="prefs_keyboard_height_scale">Keyboard height scale</string>
-    <string name="switch_accounts">Switch accounts</string>
-    <string name="no_accounts_selected">No accounts selected</string>
-    <string name="account_selected">Currently using <xliff:g example="someone@example.com" id="EMAIL_ADDRESS">%1$s</xliff:g></string>
-    <string name="account_select_ok">OK</string>
-    <string name="account_select_cancel">Cancel</string>
-    <string name="account_select_sign_out">Sign out</string>
-    <string name="account_select_title">Select an account to use</string>
-    <string name="subtype_bn_BD">Bangla</string>
+
+    <!-- Title for configuring input method settings [CHAR LIMIT=35] -->
+
+    <!-- Title for input language selection screen -->
+
+    <!-- Preference for input language selection -->
+
+    <!-- Title of the item to change the keyboard theme [CHAR LIMIT=20]-->
+
+    <!-- Description for English (UK) keyboard subtype [CHAR LIMIT=25]
+         (UK) should be an abbreviation of United Kingdom to fit in the CHAR LIMIT. -->
     <string name="subtype_en_GB">English (UK)</string>
-    <string name="subtype_en_US">English</string>
+    <!-- Description for English (US) keyboard subtype [CHAR LIMIT=25]
+         (US) should be an abbreviation of United States to fit in the CHAR LIMIT. -->
+    <string name="subtype_en_US">English (US)</string>
+    <!-- Description for Spanish (US) keyboard subtype [CHAR LIMIT=25]
+         (US) should be an abbreviation of United States to fit in the CHAR LIMIT. -->
     <string name="subtype_es_US">Spanish (US)</string>
-    <string name="subtype_hi_ZZ">Hinglish</string>
+    <!-- Description for Hinglish (https://en.wikipedia.org/wiki/Hinglish) keyboard subtype [CHAR LIMIT=25] -->
+    <!-- Description for Serbian (Latin) keyboard subtype [CHAR LIMIT=25]
+         (Latin) can be an abbreviation to fit in the CHAR LIMIT. -->
     <string name="subtype_sr_ZZ">Serbian (Latin)</string>
-    <string name="subtype_with_layout_en_GB">English (UK) (<xliff:g example="QWERTY" id="KEYBOARD_LAYOUT">%s</xliff:g>)</string>
-    <string name="subtype_with_layout_en_US">English (US) (<xliff:g example="QWERTY" id="KEYBOARD_LAYOUT">%s</xliff:g>)</string>
-    <string name="subtype_with_layout_es_US">Spanish (US) (<xliff:g example="QWERTY" id="KEYBOARD_LAYOUT">%s</xliff:g>)</string>
-    <string name="subtype_with_layout_hi_ZZ">Hinglish (<xliff:g example="QWERTY" id="KEYBOARD_LAYOUT">%s</xliff:g>)</string>
-    <string name="subtype_with_layout_sr_ZZ">Serbian (<xliff:g example="QWERTY" id="KEYBOARD_LAYOUT">%s</xliff:g>)</string>
+    <!-- Description for English (UK) keyboard subtype with explicit keyboard layout [CHAR LIMIT=25]
+         (UK) should be an abbreviation of United Kingdom to fit in the CHAR LIMIT.
+         This should be identical to subtype_en_GB aside from the trailing (%s). -->
+    <!-- Description for English (US) keyboard subtype with explicit keyboard layout [CHAR LIMIT=25]
+         (US) should be an abbreviation of United States to fit in the CHAR LIMIT.
+         This should be identical to subtype_en_US aside from the trailing (%s). -->
+    <!-- Description for Spanish (US) keyboard subtype with explicit keyboard layout [CHAR LIMIT=25]
+         (US) should be an abbreviation of United Statesn to fit in the CHAR LIMIT.
+         This should be identical to subtype_es_US aside from the trailing (%s). -->
+    <!-- Description for Hinglish (https://en.wikipedia.org/wiki/Hinglish) keyboard subtype with explicit keyboard layout [CHAR LIMIT=25]
+         This should be identical to subtype_hi_ZZ aside from the trailing (%s). -->
+    <!-- Description for Serbian (Latin) keyboard subtype with explicit keyboard layout [CHAR LIMIT=25]
+         This should be identical to subtype_sr_ZZ aside from the trailing (%s). -->
+    <!-- Description for "LANGUAGE_NAME" (Traditional) keyboard subtype [CHAR LIMIT=25]
+         (Traditional) can be an abbreviation to fit in the CHAR LIMIT. -->
     <string name="subtype_generic_traditional"><xliff:g example="Nepali" id="LANGUAGE_NAME">%s</xliff:g> (Traditional)</string>
+    <!-- Description for "LANGUAGE_NAME" (Compact) keyboard subtype [CHAR LIMIT=25]
+         (Compact) can be an abbreviation to fit in the CHAR LIMIT. -->
     <string name="subtype_generic_compact"><xliff:g example="Hindi" id="LANGUAGE_NAME">%s</xliff:g> (Compact)</string>
+    <!-- This string is displayed in a language list that allows to choose a language for
+suggestions in a software keyboard. This setting won't give suggestions in any particular
+language, hence "No language".
+As for the "alphabet" mention, it refers specifically to the Latin alphabet, as opposed to
+Cyrillic, Arabic, Hebrew or other scripts. This keyboard offers no suggestions, but it will
+be a QWERTY, or AZERTY, or any other disposition that only offers Latin characters, so
+you wouldn't be able to type, say, Arabic on it. Please translate it in a way that "alphabet"
+would be understood to mean specifically the Latin alphabet, rather than any other
+alphabet. [CHAR LIMIT=29] -->
     <string name="subtype_no_language">No language (Alphabet)</string>
+    <!-- This string is displayed in the description for a keyboard type. It refers specifically to
+the Latin alphabet, as opposed to Cyrillic, Arabic, Hebrew or other scripts.
+When the device is configured to use a language using a script other than the Latin alphabet, the
+user still needs a keyboard that can input Latin characters for passwords or login names for
+example, and a way to switch to this Latin alphabet keyboard. This string is the description for
+this keyboard, so users of other scripts should understand when they read this that it represents a
+keyboard that is meant for them to be able to enter Latin characters as opposed to the script they
+are used to. This keyboard does not provide a dictionary, and it is not tied to any specific
+language among those that use the Latin alphabet. This keyboard is laid out in the QWERTY
+disposition rather than other common dispositions for Latin languages. [CHAR LIMIT=25] -->
     <string name="subtype_no_language_qwerty">Alphabet (QWERTY)</string>
-    <string name="subtype_no_language_qwertz">Alphabet (QWERTZ)</string>
-    <string name="subtype_no_language_azerty">Alphabet (AZERTY)</string>
-    <string name="subtype_no_language_dvorak">Alphabet (Dvorak)</string>
-    <string name="subtype_no_language_colemak">Alphabet (Colemak)</string>
-    <string name="subtype_no_language_pcqwerty">Alphabet (PC)</string>
-    <string name="subtype_emoji">Emoji</string>
-    <string name="keyboard_theme">Keyboard theme</string>
-    <string name="keyboard_theme_material_dark" translatable="false">Material Dark (AMOLED)</string>
-    <string name="keyboard_theme_material_light" translatable="false">Material Light</string>
+    <!-- This string is displayed in the description for a keyboard type. It refers specifically to
+the Latin alphabet, as opposed to Cyrillic, Arabic, Hebrew or other scripts.
+When the device is configured to use a language using a script other than the Latin alphabet, the
+user still needs a keyboard that can input Latin characters for passwords or login names for
+example, and a way to switch to this Latin alphabet keyboard. This string is the description for
+this keyboard, so users of other scripts should understand when they read this that it represents a
+keyboard that is meant for them to be able to enter Latin characters as opposed to the script they
+are used to. This keyboard does not provide a dictionary, and it is not tied to any specific
+language among those that use the Latin alphabet. This keyboard is laid out in the QWERTZ
+disposition rather than other common dispositions for Latin languages. [CHAR LIMIT=25] -->
+    <!-- This string is displayed in the description for a keyboard type. It refers specifically to
+the Latin alphabet, as opposed to Cyrillic, Arabic, Hebrew or other scripts.
+When the device is configured to use a language using a script other than the Latin alphabet, the
+user still needs a keyboard that can input Latin characters for passwords or login names for
+example, and a way to switch to this Latin alphabet keyboard. This string is the description for
+this keyboard, so users of other scripts should understand when they read this that it represents a
+keyboard that is meant for them to be able to enter Latin characters as opposed to the script they
+are used to. This keyboard does not provide a dictionary, and it is not tied to any specific
+language among those that use the Latin alphabet. This keyboard is laid out in the AZERTY
+disposition rather than other common dispositions for Latin languages. [CHAR LIMIT=25] -->
+    <!-- This string is displayed in the description for a keyboard type. It refers specifically to
+the Latin alphabet, as opposed to Cyrillic, Arabic, Hebrew or other scripts.
+When the device is configured to use a language using a script other than the Latin alphabet, the
+user still needs a keyboard that can input Latin characters for passwords or login names for
+example, and a way to switch to this Latin alphabet keyboard. This string is the description for
+this keyboard, so users of other scripts should understand when they read this that it represents a
+keyboard that is meant for them to be able to enter Latin characters as opposed to the script they
+are used to. This keyboard does not provide a dictionary, and it is not tied to any specific
+language among those that use the Latin alphabet. This keyboard is laid out in the Dvorak
+disposition rather than other common dispositions for Latin languages. [CHAR LIMIT=25] -->
+    <!-- This string is displayed in the description for a keyboard type. It refers specifically to
+the Latin alphabet, as opposed to Cyrillic, Arabic, Hebrew or other scripts.
+When the device is configured to use a language using a script other than the Latin alphabet, the
+user still needs a keyboard that can input Latin characters for passwords or login names for
+example, and a way to switch to this Latin alphabet keyboard. This string is the description for
+this keyboard, so users of other scripts should understand when they read this that it represents a
+keyboard that is meant for them to be able to enter Latin characters as opposed to the script they
+are used to. This keyboard does not provide a dictionary, and it is not tied to any specific
+language among those that use the Latin alphabet. This keyboard is laid out in the Colemak
+disposition rather than other common dispositions for Latin languages. [CHAR LIMIT=25] -->
+    <!-- This string is displayed in the description for a keyboard type. It refers specifically to
+the Latin alphabet, as opposed to Cyrillic, Arabic, Hebrew or other scripts.
+When the device is configured to use a language using a script other than the Latin alphabet, the
+user still needs a keyboard that can input Latin characters for passwords or login names for
+example, and a way to switch to this Latin alphabet keyboard. This string is the description for
+this keyboard, so users of other scripts should understand when they read this that it represents a
+keyboard that is meant for them to be able to enter Latin characters as opposed to the script they
+are used to. This keyboard does not provide a dictionary, and it is not tied to any specific
+language among those that use the Latin alphabet. This keyboard is laid out in the QWERTY PC
+disposition that offers additional keys, but smaller keys compared to other common dispositions for
+mobile devices. [CHAR LIMIT=25] -->
+    <!-- Title of the preference settings for switching keyboard theme [CHAR LIMIT=35] -->
+    <!-- The keyboard theme name, Holo White. This is marked as translatable="false" because this is a proper name of system-wide UI Theme. -->
     <string name="keyboard_theme_dark_border" translatable="false">Material Dark Border</string>
+    <!-- The keyboard theme name, Holo Blue. This is marked as translatable="false" because this is a proper name of system-wide UI Theme.  -->
     <string name="keyboard_theme_light_border" translatable="false">Material Light Border</string>
+    <!-- The keyboard theme name, Material Dark. This is marked as translatable="false" because this is a proper name of system-wide UI Theme.  -->
+    <string name="keyboard_theme_dark" translatable="false">Material Dark</string>
+    <!-- The keyboard theme name, Material Light. This is marked as translatable="false" because this is a proper name of system-wide UI Theme.  -->
+    <string name="keyboard_theme_light" translatable="false">Material Light</string>
+
+    <!-- Title of the preference settings for custom input styles (language and keyboard layout pairs) [CHAR LIMIT=35]-->
     <string name="custom_input_styles_title">Custom input styles</string>
+    <!-- Title of the option menu to add a new style entry in the preference settings [CHAR LIMIT=16] -->
     <string name="add_style">Add style</string>
+    <!-- Title of the button to add custom style entry in the settings dialog [CHAR LIMIT=15] -->
     <string name="add">Add</string>
+    <!-- Title of the button to remove a custom style entry in the settings dialog [CHAR LIMIT=15] -->
     <string name="remove">Remove</string>
+    <!-- Title of the button to save a custom style entry in the settings dialog [CHAR LIMIT=15] -->
     <string name="save">Save</string>
+    <!-- Title of the spinner for choosing a language of custom style in the settings dialog [CHAR LIMIT=15] -->
     <string name="subtype_locale">Language</string>
+    <!-- Title of the spinner for choosing a keyboard layout of custom style in the settings dialog [CHAR LIMIT=15] -->
     <string name="keyboard_layout_set">Layout</string>
+    <!-- The message of the dialog to note that a custom input style needs to be enabled. [CHAR LIMIT=130] -->
     <string name="custom_input_style_note_message">"Your custom input style needs to be enabled before you start using it. Do you want to enable it now?"</string>
+    <!-- Title of the button to enable a custom input style entry in the settings dialog [CHAR LIMIT=15] -->
     <string name="enable">Enable</string>
+    <!-- Title of the button to postpone enabling a custom input style entry in the settings dialog [CHAR LIMIT=15] -->
     <string name="not_now">Not now</string>
+    <!-- Toast text to describe the same input style already exists [CHAR LIMIT=64]-->
     <string name="custom_input_style_already_exists">"The same input style already exists: <xliff:g example="English (Dvorak)" id="INPUT_STYLE_NAME">%s</xliff:g>"</string>
+
+    <!-- Title of the settings for keypress vibration duration [CHAR LIMIT=35] -->
     <string name="prefs_keypress_vibration_duration_settings">Keypress vibration duration</string>
+    <!-- Title of the settings for keypress sound volume [CHAR LIMIT=35] -->
     <string name="prefs_keypress_sound_volume_settings">Keypress sound volume</string>
+    <!-- Title of the settings for key long press delay [CHAR LIMIT=35] -->
     <string name="prefs_key_longpress_timeout_settings">Key long press delay</string>
-    <string name="prefs_enable_emoji_alt_physical_key_summary">Physical Alt key shows the emoji palette</string>
+
+    <!-- Title of the button to revert to the default value of the device in the settings dialog [CHAR LIMIT=15] -->
     <string name="button_default">Default</string>
 
-    <string name="setup_start_action">Get started</string>
-    <string name="setup_next_action">Next step</string>
-    <string name="setup_steps_title">"Setting up <xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>"</string>
-    <string name="setup_step1_bullet" translatable="false">1</string>
-    <string name="setup_step1_title">"Enable <xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>"</string>
-    <string name="setup_step1_finished_instruction">"<xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g> is already enabled in your Languages&#160;&amp; input settings, so this step is done. On to the next one!"</string>
-    <string name="setup_step1_action">1 - Enable Keyboard</string>
-    <string name="setup_step2_bullet" translatable="false">2</string>
-    <string name="setup_step2_title">"Switch to <xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>"</string>
-    <string name="setup_step2_instruction">"Next, select \"<xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>\" as your active text-input method."</string>
-    <string name="setup_step2_action">2 - Choose Keyboard</string>
-    <string name="setup_step3_bullet" translatable="false">3</string>
-    <string name="setup_step3_title">"Change Language"</string>
-    <string name="setup_step3_instruction">Now you can type in all your favorite apps with <xliff:g example="Android Keyboard" id="APPLICATION_NAME">%s</xliff:g>.</string>
-    <string name="setup_step3_action">3 - Change Language</string>
-    <string name="setup_finish_action">Finished</string>
-    <string name="app_name">German Keyboard</string>
-    <string name="dictionary_provider_name">German Keyboard</string>
-    <string name="dictionary_service_name">Dictionary Service</string>
-    <string name="download_description">Dictionary update information</string>
-    <string name="dictionary_settings_title">Add-on dictionaries</string>
-    <string name="dictionary_settings_summary">Settings for dictionaries</string>
-    <string name="user_dictionaries">User dictionaries</string>
-    <string name="default_user_dict_pref_name">User dictionary</string>
-    <string name="dictionary_available">Dictionary available</string>
-    <string name="dictionary_downloading">Currently downloading</string>
-    <string name="dictionary_installed">Installed</string>
-    <string name="dictionary_disabled">Installed, disabled</string>
-    <string name="cannot_connect_to_dict_service">Problem connecting to dictionary service</string>
-    <string name="no_dictionaries_available">No dictionaries available</string>
-    <string name="check_for_updates_now">Refresh</string>
-    <string name="last_update">Last updated</string>
-    <string name="message_updating">Checking for updates</string>
-    <string name="message_loading">Loading&#x2026;</string>
-    <string name="main_dict_description">Main dictionary</string>
-    <string name="cancel">Cancel</string>
-    <string name="install_dict">Install</string>
-    <string name="cancel_download_dict">Cancel</string>
-    <string name="delete_dict">Delete</string>
-    <string name="version_text">Version <xliff:g example="1.0" id="VERSION_NUMBER">1.0</xliff:g></string>
-    <string name="user_dict_settings_summary" translatable="false">""</string>
-    <string name="user_dict_settings_add_menu_title">Add</string>
-    <string name="user_dict_settings_add_dialog_title">Add to dictionary</string>
-    <string name="user_dict_settings_add_screen_title">Phrase</string>
-    <string name="user_dict_settings_add_dialog_more_options">More options</string>
-    <string name="user_dict_settings_add_dialog_less_options">Less options</string>
-    <string name="user_dict_settings_add_dialog_confirm">OK</string>
-    <string name="user_dict_settings_add_word_option_name">Word:</string>
-    <string name="user_dict_settings_add_shortcut_option_name">Shortcut:</string>
-    <string name="user_dict_settings_add_locale_option_name">Language:</string>
-    <string name="user_dict_settings_add_word_hint">Type a word</string>
-    <string name="user_dict_settings_add_shortcut_hint">Optional shortcut</string>
-    <string name="user_dict_settings_edit_dialog_title">Edit word</string>
-    <string name="user_dict_settings_context_menu_edit_title">Edit</string>
-    <string name="user_dict_settings_context_menu_delete_title">Delete</string>
-    <string name="user_dict_settings_empty_text">You don\'t have any words in the user dictionary. To add a word, tap the Add (+) button.</string>
-    <string name="user_dict_settings_all_languages">For all languages</string>
-    <string name="user_dict_settings_more_languages">More languages…</string>
-    <string name="user_dict_settings_delete">Delete</string>
-    <string name="user_dict_fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
-    <string name="space_trackpad">Space bar trackpad</string>
-    <string name="space_trackpad_summary">Swipe on the spacebar to move the cursor</string>
-    <string name="more_keys_strip_description">More keys</string>
-    <string name="prefs_force_incognito_mode">Force incognito mode</string>
-    <string name="prefs_force_incognito_mode_summary">Disable learning of new words</string>
+    <string name="abbreviation_unit_percent" translatable="false"><xliff:g id="PERCENTS">%s</xliff:g>%%</string>
 
+    <string name="app_string">Burmese Keyboard</string>
+    <string name="action_settings">Settings</string>
+    <string name="sybtype_en_US">Burmese</string>
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Go</string>
+    <string name="custom_label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+    <!-- Labels for subtype -->
+    <string name="label_subtype_generic">Burmese</string>
+    <string name="label_subtype_en_GB">Burmese Language</string>
+    <!-- Titles for ImePreference -->
+    <string name="settings_name">Keyboard Settings</string>
+    <string name="language_selection_title">Input languages</string>
+    <string name="select_language">Select input languages</string>
+    <string name="general_category">General</string>
+    <!-- Database strings -->
+    <string name="best_app_db_name">database.sqlite</string>
+    <string name="en_table_name">en_table</string>
+    <string name="pa_table_name">pa_table</string>
+    <string name="fa_table_name">fa_table</string>
+    <string name="freq_column">freq</string>
+    <string name="word_column">word</string>
+    <string name="show_suggestions">Suggestion CheckBox</string>
+    <string name="please_wait_for_a_while">Please wait For a while</string>
+    <string name="exit">Exit</string>
+    <string name="rate_us">Rate us</string>
+    <string name="would_you_like_to_rateus">Would you like to rate us?</string>
+    <string name="terms_title">Burmese Keyboard - End User License Agreement</string>
+    <string name="terms_details">
+        Burmese Keyboard - Burmese Typing &amp; Emoji app is useful to write
+        Burmese language characters quickly and easily. Beautiful and multiple background themes
+        are also included that will decorate your keyboard. You can insert stylish emoji in your
+        message to make your message clearer to understand. Word suggestions will also appear while typing,
+        this feature is used to write more characters in less time. Burmese Keyboard - BurmeseTyping &amp; Emoji
+        is used to write a message, email, post, blog.\n\n\n
+        <b>Permissions:</b>\n\n
+        Internet\n\n
+        Record Audio\n\n
+        Information we get from your use of the application is primarily non-personally identifying
+        information of the sort that service like Google Analytics typically make available, such as the operating
+        system name and version, device manufacturer,device model and identifier etc.\n\nWe may use this data to
+        analyze how the application is being used. Other non-identifying information that we might have access
+        to includes how you use the application.\n\nIn order to help support further development of the application
+        we might include some non intrusive ads from AdMob. Please be advised that any data collected by AdMob is
+        only used to prevent you with better ads.\n\n
+    </string>
 
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="test_keyboard">Test Keyboard</string>
+    <string name="enable_keyboard">Enable Keyboard</string>
+    <string name="select_keyboard">Select Keyboard</string>
+    <string name="themes">Themes</string>
+    <string name="change_language">Change Language</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share</string>
+    <string name="theme_applied">Theme applied successfully</string>
+    <string name="recomendation">\nLet me recommend you this application\n</string>
+    <string name="typehere">Type here…</string>
+
+    <!-- new updates -->
     <string name="dialog_text">Voice Recognition</string>
     <string name="premium">Premium</string>
     <string name="how_to_use">How to use</string>
     <string name="keyboard_themes">Keyboard Themes</string>
     <string name="help">Help</string>
-    <string name="is_purchsed" translatable="false">IS_PURCHASED</string>
-    <string name="MY_PREF" translatable="false">MY_PREF</string>
+
     <string name="why_do_you_see_ads">Why do you see ads?</string>
     <string name="revenue_from_adds">Revenue from ads help us to continuously improve our app for you. After buying premium, ads will remove from your app</string>
     <string name="support_us">Support us</string>
@@ -229,125 +314,27 @@
     <string name="open_settings_and_allow_themall">for this action. Please open settings, go to permissions and allow them.</string>
     <string name="install_failed">Installation Failed!</string>
 
-    <string name="please_wait_for_a_while">Please wait For a while</string>
-    <string name="exit">Exit</string>
-    <string name="rate_us">Rate us</string>
-    <string name="would_you_like_to_rateus">Would you like to rate us?</string>
-    <string name="terms_title">German Keyboard - End User License Agreement</string>
 
-    <string name="decline">Decline</string>
-    <string name="accept">Accept</string>
-    <string name="close">Close</string>
-    <string name="open">Open</string>
-    <string name="test_keyboard">Test Keyboard</string>
-    <string name="enable_keyboard">Enable Keyboard</string>
-    <string name="language">Select Language</string>
-    <string name="select_keyboard">Choose Keyboard</string>
-    <string name="themes">Themes</string>
-    <string name="change_language">Change Language</string>
-    <string name="communicate">Communicate</string>
-    <string name="share">Share</string>
-    <string name="theme_applied">Theme applied successfully</string>
-    <string name="recomendation">\nLet me recommend you this application\n</string>
-    <string name="typehere">Type here…</string>
-    <string name="Burmese">German</string>
-    <string name="english">English</string>
-    <string name="terms_details">
-        German Keyboard - German Typing &amp; Emoji app is useful to write
-        German language characters quickly and easily. Beautiful and multiple background themes
-        are also included that will decorate your keyboard. You can insert stylish emoji in your
-        message to make your message clearer to understand. Word suggestions will also appear while typing,
-        this feature is used to write more characters in less time. German Keyboard - German Typing &amp; Emoji
-        is used to write a message, email, post, blog.\n\n\n
-        <b>Permissions:</b>\n\n
-        Internet\n\n
-        Record Audio\n\n
-        Information we get from your use of the application is primarily non-personally identifying
-        information of the sort that service like Google Analytics typically make available, such as the operating
-        system name and version, device manufacturer,device model and identifier etc.\n\nWe may use this data to
-        analyze how the application is being used. Other non-identifying information that we might have access
-        to includes how you use the application.\n\nIn order to help support further development of the application
-        we might include some non intrusive ads from AdMob. Please be advised that any data collected by AdMob is
-        only used to prevent you with better ads.\n\n
-    </string>
-
-
-
-
-    <string name="selected_list">SELECTED_LIST</string>
-    <string name="rotate">Rotate</string>
+    <string name="prefs_keyboard_height_settings">Keyboard height</string>
+    <string name="keyboard_color">Set custom keyboard color</string>
+    <string name="hide_special_chars">Hide special characters</string>
+    <string name="hide_language_switch_key">Hide language switch key</string>
+    <string name="show_number_row">Show separate number row</string>
+    <string name="space_swipe">Space swipe cursor move</string>
+    <string name="delete_swipe">Delete swipe</string>
+    <string name="matching_navbar_color">Use matching navigation bar color</string>
+    <string name="setup_message">LokiBoard Keyboard is not enabled. Click OK to open Languages &amp; Input settings. You will need to select LokiBoard Keyboard in your current keyboard to use it.</string>
+    <string name="theme">themes</string>
+    <string name="settngs">Settings</string>
     <string name="fil_saved">File Saved</string>
+    <string name="cancel">Cancel</string>
+    <string name="rotate">Rotate</string>
+    <string name="selected_list">SELECTED_LIST</string>
     <string name="images">Images</string>
 
-    <string name="mi_content_description_skip">Skip</string>
-    <string name="mi_content_description_back">Back</string>
-    <string name="mi_content_description_next">Next</string>
-    <string name="mi_content_description_next_finish">Next/Finish</string>
-    <plurals name="mi_label_grant_permission">
-        <item quantity="one">Grant permission</item>
-        <item quantity="other">Grant permissions</item>
-    </plurals>
-    <string name="mi_label_button_cta">Get started</string>
-    <string name="title_menu_github">View on GitHub</string>
-    <string name="title_menu_reset_first_start">Reset "First start" flag</string>
 
-    <string name="label_options">Options:</string>
-    <string name="label_option_fullscreen">Enable fullscreen</string>
-    <string name="label_option_scrollable">Scrollable slides</string>
-    <string name="label_option_custom_fragments">Enable custom fragments</string>
-    <string name="label_option_permissions">Enable permission request</string>
-    <string name="label_option_show_back">Show back button</string>
-    <string name="label_option_show_next">Show next button</string>
-    <string name="label_option_skip_enabled">Enable skip button</string>
-    <string name="label_option_finish_enabled">Enable finish button</string>
-    <string name="label_option_get_started_enabled">Enable \"Get Started\" button</string>
-    <string name="label_start_intro">Start intro</string>
-    <string name="label_or">or</string>
-    <string name="label_demos">Demos: </string>
-    <string name="label_start_canteen">\"Canteen\" intro</string>
-    <string name="label_start_splash">Splash screen</string>
+    <!-- Standard message to dismiss a dialog box -->
+    <!-- Title of the button in a dialog box. The button takes the user to the keyboard settings. [CHAR LIMIT=15] -->
 
-    <string name="title_material_metaphor">Material is the metaphor</string>
-    <string name="title_material_bold">Bold, graphic, intentional</string>
-    <string name="title_material_motion">Motion provides meaning</string>
-    <string name="title_material_shadow">Light and shadow</string>
-
-    <string name="description_material_metaphor">A material metaphor is the unifying theory of a rationalized space and a system of motion. The material is grounded in tactile reality, inspired by the study of paper and ink, yet technologically advanced and open to imagination and magic.</string>
-    <string name="description_material_bold">The foundational elements of print-based design – typography, grids, space, scale, color, and use of imagery – guide visual treatments.</string>
-    <string name="description_material_motion">Motion respects and reinforces the user as the prime mover. Primary user actions are inflection points that initiate motion, transforming the whole design.</string>
-    <string name="description_material_shadow">Within the material environment, virtual lights illuminate the scene. Key lights create directional shadows, while ambient light creates soft shadows from all angles.</string>
-
-    <string name="title_permissions">Requesting permissions was never easier.</string>
-    <string name="description_permissions">This app needs the camera and storage permission.\nIt\'s only to show how permission requests work in this library and we won\'t do anything with the granted permissions.</string>
-    <string name="label_grant_permissions">Please grant the permissions before proceeding.</string>
-
-    <string name="label_button_cta">Click me!</string>
-    <string name="toast_button_cta">Hey, that\'s how custom CTA buttons work in material-intro!</string>
-
-    <string name="title_fragment_login">This is a custom fragment.</string>
-    <string name="hint_fake_username">Fake username</string>
-    <string name="hint_fake_password">Fake password</string>
-    <string name="label_fake_login">Fake login</string>
-    <string name="label_fake_login_loading">Loading…</string>
-    <string name="label_fake_login_success">Logged in ☺</string>
-    <string name="label_fake_login_success_message">Successfully faked login.</string>
-    <string name="label_fill_out_form">Please fill out the form before proceeding.</string>
-
-    <string name="title_fragment_custom">Take off!</string>
-
-    <string name="label_activity_finish">Nothing here…\n…just a demo how to create a splash screen intro.</string>
-
-    <string name="title_canteen_intro1" translatable="false">Menus right on your screen</string>
-    <string name="title_canteen_intro2" translatable="false">Cash on delivery</string>
-    <string name="title_canteen_intro3" translatable="false">Choose what you like</string>
-    <string name="description_canteen_intro1" translatable="false">Looking for something to eat? Just browse the feed wherever you are.</string>
-    <string name="description_canteen_intro2" translatable="false">Order and we\'ll deliver the menu right in front of your door.</string>
-    <string name="description_canteen_intro3" translatable="false">Bookmark a menu you wanted to save and keep track of its status whether it\'s available or not.</string>
-    <string name="label_button_cta_canteen_intro" translatable="false">Get started</string>
-    <string name="settings">Keyboard Settings</string>
-    <string name="choose_keyboard">Enable keyboard first</string>
-    <string name="gradient">Gradient</string>
-    <string name="choose_keyboard1">Choose Keyboard</string>
-    <string name="emoji">Emoji</string>
-    <string name="custom_label_next_key">Next</string>
+    <!-- Version text [CHAR LIMIT=30]-->
 </resources>

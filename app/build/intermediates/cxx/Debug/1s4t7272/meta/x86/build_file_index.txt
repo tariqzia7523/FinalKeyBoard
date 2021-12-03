@@ -1,0 +1,2 @@
+C:\Users\line\Desktop\OtobiKeyboard\FinalKeyBoard\app\src\main\jni\Android.mk
+C:\Users\line\Desktop\OtobiKeyboard\FinalKeyBoard\app\src\main\jni\Application.mk

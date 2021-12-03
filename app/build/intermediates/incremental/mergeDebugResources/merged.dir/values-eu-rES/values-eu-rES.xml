@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="abbreviation_unit_milliseconds">"<ns1:g id="MILLISECONDS">%s</ns1:g> ms"</string>
+    <string name="add">"Gehitu"</string>
+    <string name="add_style">"Gehitu estiloa"</string>
+    <string name="auto_cap">"Maiuskula automatikoak"</string>
+    <string name="auto_cap_summary">"Ezarri esaldi bakoitzaren lehenengo hizkia maiuskulaz"</string>
+    <string name="button_default">"Lehenetsia"</string>
+    <string name="custom_input_style_already_exists">"Idazketa-estilo hori badago lehendik ere: <ns1:g id="INPUT_STYLE_NAME">%s</ns1:g>"</string>
+    <string name="custom_input_style_note_message">"Idazketa-estilo pertsonalizatua gaitu behar duzu erabiltzen hasi aurretik. Estiloa gaitu nahi duzu?"</string>
+    <string name="custom_input_styles_title">"Idazketa-estilo pertsonalizatuak"</string>
+    <string name="delete_swipe">Ezabatzeko keinua</string>
+    <string name="enable">"Gaitu"</string>
+    <string name="english_ime_input_options">"Idazketa-aukerak"</string>
+    <string name="hide_language_switch_key">Ezkutatu hizkuntza aldatzeko tekla</string>
+    <string name="hide_special_chars">Ezkutatu karaktere bereziak</string>
+    <string name="keyboard_color">Ezarri teklatuaren kolore pertsonalizatua</string>
+    <string name="keyboard_layout_set">"Diseinua"</string>
+    <string name="language_selection_title">"Hizkuntzak"</string>
+    <string name="matching_navbar_color">Erabili bat datorren nabigazio-barraren kolorea</string>
+    <string name="not_now">"Orain ez"</string>
+    <string name="popup_on_keypress">"Handitu teklak, sakatzean"</string>
+    <string name="prefs_key_longpress_timeout_settings">"Luze sakatzearen atzerapena"</string>
+    <string name="prefs_keyboard_height_settings">Teklatuaren altuera</string>
+    <string name="prefs_keypress_sound_volume_settings">"Tekla sakatzearen bolumena"</string>
+    <string name="prefs_keypress_vibration_duration_settings">"Tekla sakatzearen dardararen iraupena"</string>
+    <string name="remove">"Kendu"</string>
+    <string name="save">"Gorde"</string>
+    <string name="select_language">"Hizkuntzak"</string>
+    <string name="settings_screen_advanced">"Ezarpen aurreratuak"</string>
+    <string name="settings_screen_appearance">"Itxura eta diseinuak"</string>
+    <string name="settings_screen_preferences">"Hobespenak"</string>
+    <string name="settings_screen_theme">"Gaia"</string>
+    <string name="settings_system_default">"Sistemaren lehenespena"</string>
+    <string name="setup_message">LokiBoard Keyboard gaitu gabe dago. Sakatu Ados Hizkuntzak eta idazketa ezarpenak irekitzeko. LokiBoard Keyboard aukeratu behar duzu uneko teklatu gisa hau erabili ahal izateko.</string>
+    <string name="show_number_row">Erakutsi aparteko zenbakien errenkada</string>
+    <string name="sound_on_keypress">"Soinua teklak sakatzean"</string>
+    <string name="space_swipe">Espazioan hatza pasatzean mugitu kurtsorea</string>
+    <string name="subtype_en_GB">"Ingelesa (Erresuma Batua)"</string>
+    <string name="subtype_en_US">"Ingelesa (AEB)"</string>
+    <string name="subtype_es_US">"Gaztelania (AEB)"</string>
+    <string name="subtype_generic_compact">"<ns1:g id="LANGUAGE_NAME">%s</ns1:g> (trinkoa)"</string>
+    <string name="subtype_generic_traditional">"<ns1:g id="LANGUAGE_NAME">%s</ns1:g> (tradizionala)"</string>
+    <string name="subtype_locale">"Hizkuntza"</string>
+    <string name="subtype_no_language">"Ez dago hizkuntzarik (alfabetoa)"</string>
+    <string name="subtype_no_language_qwerty">"alfabetoa (QWERTY)"</string>
+    <string name="subtype_sr_ZZ">"Serbiarra (latindarra)"</string>
+    <string name="vibrate_on_keypress">"Egin dar-dar sakatzean"</string>
+</resources>

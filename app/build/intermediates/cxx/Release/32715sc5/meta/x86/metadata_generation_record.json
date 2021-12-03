@@ -1,0 +1,44 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 19 min SDK version: x86",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1073845834
+  },
+  {
+    "level_": 0,
+    "message_": "JSON \u0027C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\build\\.cxx\\Release\\32715sc5\\x86\\android_gradle_build.json\u0027 was up-to-date",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1234217038
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1516759456
+  }
+]

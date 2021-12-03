@@ -1,0 +1,198 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 19 min SDK version: x86_64",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 279183028
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\build\\.cxx\\Debug\\2o3t594r\\x86_64\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1421766478
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\build\\.cxx\\Debug\\2o3t594r\\x86_64\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 638073562
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\build\\.cxx\\Debug\\2o3t594r\\x86_64\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 504524568
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1725603010
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\build\\.cxx\\Debug\\2o3t594r\\x86_64\u0027",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -53829994
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\build\\.cxx\\Debug\\2o3t594r\\x86_64\u0027",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1162970890
+  },
+  {
+    "level_": 0,
+    "message_": "executing ndkBuild Executable : C:\\Users\\line\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dC:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003dx86_64\nNDK_ALL_ABIS\u003dx86_64\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dC:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\build\\intermediates\\cxx\\Debug\\2o3t594r/obj\nNDK_LIBS_OUT\u003dC:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\build\\intermediates\\cxx\\Debug\\2o3t594r/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -358204233
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\line\\AppData\\Local\\Android\\Sdk\\ndk\\21.3.6528147\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dC:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk\nNDK_APPLICATION_MK\u003dC:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Application.mk\nAPP_ABI\u003dx86_64\nNDK_ALL_ABIS\u003dx86_64\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-19\nNDK_OUT\u003dC:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\build\\intermediates\\cxx\\Debug\\2o3t594r/obj\nNDK_LIBS_OUT\u003dC:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\build\\intermediates\\cxx\\Debug\\2o3t594r/lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1167045060
+  },
+  {
+    "level_": 0,
+    "message_": "parse and convert ndk-build output to build configuration JSON",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 168119697
+  },
+  {
+    "level_": 0,
+    "message_": "found application make file C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Application.mk",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 444367955
+  },
+  {
+    "level_": 0,
+    "message_": "done executing ndkBuild",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2032966263
+  },
+  {
+    "level_": 0,
+    "message_": "write command file C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\build\\.cxx\\Debug\\2o3t594r\\x86_64\\metadata_generation_command.txt",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 78192636
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\jni\\Android.mk",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -943637453
+  }
+]

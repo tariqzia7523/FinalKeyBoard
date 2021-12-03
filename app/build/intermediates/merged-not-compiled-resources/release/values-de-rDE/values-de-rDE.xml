@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mi_label_grant_permission">
+        <item quantity="one">Erlaubnis erteilen</item>
+        <item quantity="other">Berechtigungen erteilen</item>
+    </plurals>
+    <string name="Burmese">Deutsch</string>
+    <string name="MY_PREF" translatable="false">MY_PREF</string>
+    <string name="_1_enable_keyboard">1: Tastatur aktivieren</string>
+    <string name="_2_select_keyboard">2: Wählen Sie Tastatur</string>
+    <string name="_3_change_language">Sprache ändern</string>
+    <string name="_4_change_themes">4: Themen ändern</string>
+    <string name="_5_voice_to_text">Stimme zu Text</string>
+    <string name="abbreviation_unit_milliseconds"><ns1:g id="MILLISECONDS">%s</ns1:g>ms</string>
+    <string name="accept">Akzeptieren</string>
+    <string name="account_select_cancel">Abbrechen</string>
+    <string name="account_select_ok">OK</string>
+    <string name="account_select_sign_out">Abmelden</string>
+    <string name="account_select_title">Wählen Sie ein zu verwendendes Konto aus</string>
+    <string name="account_selected">Wird gerade verwendet <ns1:g example="someone@example.com" id="EMAIL_ADDRESS">%1$s</ns1:g></string>
+    <string name="ad_will_display_hare">Anzeige wird geladen</string>
+    <string name="add">Hinzufügen</string>
+    <string name="add_style">Stil einfügen</string>
+    <string name="android_spell_checker_settings">Einstellungen für die Rechtschreibprüfung der deutschen Tastatur</string>
+    <string name="app_name">Deutsche Tastatur</string>
+    <string name="auto_cap">Automatische Kapitalisierung</string>
+    <string name="auto_cap_summary">Schreiben Sie das erste Wort jedes Satzes groß</string>
+    <string name="auto_correction">Autokorrektur</string>
+    <string name="auto_correction_summary">Leertaste und Satzzeichen korrigieren automatisch Tippfehler</string>
+    <string name="auto_correction_threshold_mode_aggressive">Aggressive</string>
+    <string name="auto_correction_threshold_mode_modest">Bescheiden</string>
+    <string name="auto_correction_threshold_mode_off">Aus</string>
+    <string name="auto_correction_threshold_mode_very_aggressive">Sehr aggressiv</string>
+    <string name="bigram_prediction">Vorschläge für das nächste Wort</string>
+    <string name="bigram_prediction_summary">Verwenden Sie das vorherige Wort, um Vorschläge zu machen</string>
+    <string name="button_default">Standard</string>
+    <string name="buy_premium">Kaufen Sie hier Premium, um Anzeigen für immer zu entfernen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="cancel_dialog">Abbrechen</string>
+    <string name="cancel_download_dict">Abbrechen</string>
+    <string name="cannot_connect_to_dict_service">Problem beim Verbinden mit dem Wörterbuchdienst</string>
+    <string name="change_language">Sprache ändern</string>
+    <string name="check_for_updates_now">Aktualisieren</string>
+    <string name="choose_keyboard">Zuerst Tastatur aktivieren</string>
+    <string name="choose_keyboard1">Wählen Sie Tastatur</string>
+    <string name="close">Schließen</string>
+    <string name="colors">Farben</string>
+    <string name="communicate">Kommunizieren</string>
+    <string name="configure_dictionaries_title">Zusatzwörterbücher</string>
+    <string name="configure_input_method">Eingabemethoden konfigurieren</string>
+    <string name="custom_input_style_already_exists">&amp;quot;Der gleiche Eingabestil existiert bereits: <ns1:g example="English (Dvorak)" id="INPUT_STYLE_NAME">%s</ns1:g>"</string>
+    <string name="custom_input_style_note_message">&amp;quot;Ihr benutzerdefinierter Eingabestil muss aktiviert werden, bevor Sie ihn verwenden können. Möchten Sie es jetzt aktivieren?&amp;quot;</string>
+    <string name="custom_input_styles_title">Benutzerdefinierte Eingabestile</string>
+    <string name="custom_label_next_key">Weiter</string>
+    <string name="decline">Ablehnen</string>
+    <string name="default_user_dict_pref_name">Benutzerwörterbuch</string>
+    <string name="delete_dict">Löschen</string>
+    <string name="description_canteen_intro1" translatable="false">Suchen Sie etwas zu essen? Durchsuchen Sie einfach den Feed, wo immer Sie sind.</string>
+    <string name="description_canteen_intro2" translatable="false">Bestellen Sie und wir liefern das Menü direkt vor Ihre Tür.</string>
+    <string name="description_canteen_intro3" translatable="false">Setzen Sie ein Lesezeichen für ein Menü, das Sie speichern möchten, und behalten Sie den Status im Auge, ob es verfügbar ist oder nicht.</string>
+    <string name="description_material_bold">Die grundlegenden Elemente des druckbasierten Designs – Typografie, Raster, Raum, Maßstab, Farbe und Verwendung von Bildern – leiten die visuellen Behandlungen.</string>
+    <string name="description_material_metaphor">Eine materielle Metapher ist die vereinheitlichende Theorie eines rationalisierten Raums und eines Bewegungssystems. Das Material basiert auf der taktilen Realität, inspiriert durch das Studium von Papier und Tinte, ist jedoch technologisch fortschrittlich und offen für Fantasie und Magie.</string>
+    <string name="description_material_motion">Motion respektiert und stärkt den Benutzer als Hauptantrieb. Primäre Benutzeraktionen sind Wendepunkte, die eine Bewegung initiieren und das gesamte Design verändern.</string>
+    <string name="description_material_shadow">Innerhalb der materiellen Umgebung beleuchten virtuelle Lichter die Szene. Key Lights erzeugen gerichtete Schatten, während Umgebungslicht weiche Schatten aus allen Blickwinkeln erzeugt.</string>
+    <string name="description_permissions">Diese App benötigt die Kamera- und Speicherberechtigung.\nSie dient nur dazu, zu zeigen, wie Berechtigungsanfragen in dieser Bibliothek funktionieren, und wir werden nichts mit den gewährten Berechtigungen tun.</string>
+    <string name="dialog_text">Spracherkennung</string>
+    <string name="dictionary_available">Kein Wörterbuch verfügbar</string>
+    <string name="dictionary_disabled">Installiert, deaktiviert</string>
+    <string name="dictionary_downloading">Wird gerade heruntergeladen</string>
+    <string name="dictionary_installed">Installiert</string>
+    <string name="dictionary_provider_name">Deutsche Tastatur</string>
+    <string name="dictionary_service_name">Wörterbuchdienst</string>
+    <string name="dictionary_settings_summary">Einstellungen für Wörterbücher</string>
+    <string name="dictionary_settings_title">Zusatzwörterbücher</string>
+    <string name="download_description">Informationen zur Wörterbuchaktualisierung</string>
+    <string name="edit_personal_dictionary">Persönliches Wörterbuch</string>
+    <string name="emoji">Emojis</string>
+    <string name="enable">Aktivieren</string>
+    <string name="enable_dialog">Aktivieren</string>
+    <string name="enable_keyboard">Tastatursteuerung</string>
+    <string name="enable_metrics_logging">verbessern <ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string name="enable_split_keyboard">Geteilte Tastatur aktivieren</string>
+    <string name="english">Englisch</string>
+    <string name="english_ime_input_options">Eingabemöglichkeiten</string>
+    <string name="english_ime_name">Deutsche Tastatur</string>
+    <string name="english_ime_settings">Deutsche Tastatureinstellungen</string>
+    <string name="exit">Ende</string>
+    <string name="feedback">Feedback</string>
+    <string name="fil_saved">Datei gespeichert</string>
+    <string name="gesture_floating_preview_text">Dynamische schwebende Vorschau</string>
+    <string name="gesture_floating_preview_text_summary">Sehen Sie sich das vorgeschlagene Wort an, während Sie gestikulieren</string>
+    <string name="gesture_input">Gesteneingabe aktivieren</string>
+    <string name="gesture_input_summary">Geben Sie ein Wort ein, indem Sie durch die Buchstaben gleiten</string>
+    <string name="gesture_preview_trail">Gestenspur anzeigen</string>
+    <string name="gesture_space_aware">Phrasengeste</string>
+    <string name="gesture_space_aware_summary">Geben Sie Leerzeichen während der Gesten ein, indem Sie zur Leertaste gleiten</string>
+    <string name="go_to_settings">Einstellung</string>
+    <string name="go_to_settings_and_allow">Gehe zu den Einstellungen und erlaube die verweigerte Berechtigung\n\n</string>
+    <string name="gradient">Farbverlauf</string>
+    <string name="has_dictionary">Kein Wörterbuch verfügbar</string>
+    <string name="help">Hilfe</string>
+    <string name="help_and_feedback">Hilfe und Feedback</string>
+    <string name="hint_add_to_dictionary">Tippen Sie erneut, um zu speichern</string>
+    <string name="hint_add_to_dictionary_without_word">Tippen Sie hier, um zu speichern.</string>
+    <string name="hint_fake_password">Gefälschtes Passwort</string>
+    <string name="hint_fake_username">Gefälschter Benutzername</string>
+    <string name="how_to_use">Gebrauchsanweisung</string>
+    <string name="if_you_cancel_application_cloase">Wenn Sie die Anwendung stornieren, wird sie geschlossen</string>
+    <string name="images">Bilder</string>
+    <string name="include_other_imes_in_language_switch_list">Wechseln Sie zu anderen Eingabemethoden</string>
+    <string name="include_other_imes_in_language_switch_list_summary">Die Sprachumschalttaste deckt auch andere Eingabemethoden ab</string>
+    <string name="install_dict">Installieren</string>
+    <string name="install_failed">Die Installation ist fehlgeschlagen!</string>
+    <string name="is_purchsed" translatable="false">IS_PURCHASED</string>
+    <string name="key_preview_popup_dismiss_default_delay">Standard</string>
+    <string name="key_preview_popup_dismiss_delay">Verzögerung beim Schließen des Tasten-Popups</string>
+    <string name="key_preview_popup_dismiss_no_delay">Keine Verzögerung</string>
+    <string name="keyboard_layout">Tastaturthema</string>
+    <string name="keyboard_layout_set">Layout</string>
+    <string name="keyboard_theme">Tastaturthema</string>
+    <string name="keyboard_theme_dark_border" translatable="false">Material dunkler Rand</string>
+    <string name="keyboard_theme_light_border" translatable="false">Material heller Rand</string>
+    <string name="keyboard_theme_material_dark" translatable="false">Material dunkel (AMOLED)</string>
+    <string name="keyboard_theme_material_light" translatable="false">Materielles Licht</string>
+    <string name="keyboard_themes">Tastaturthemen</string>
+    <string name="label_activity_finish">Nichts hier…\n…nur eine Demo zum Erstellen eines Begrüßungsbildschirm-Intros.</string>
+    <string name="label_button_cta">Klick mich!</string>
+    <string name="label_button_cta_canteen_intro" translatable="false">Los geht’s</string>
+    <string name="label_demos">Demos: </string>
+    <string name="label_fake_login">Gefälschte Anmeldung</string>
+    <string name="label_fake_login_loading">Lädt…</string>
+    <string name="label_fake_login_success">Eingeloggt</string>
+    <string name="label_fake_login_success_message">Anmeldung erfolgreich gefälscht.</string>
+    <string name="label_fill_out_form">Bitte füllen Sie das Formular aus, bevor Sie fortfahren.</string>
+    <string name="label_grant_permissions">Erteilen Sie die Berechtigungen, bevor Sie fortfahren.</string>
+    <string name="label_option_custom_fragments">Benutzerdefinierte Fragmente aktivieren</string>
+    <string name="label_option_finish_enabled">Schaltfläche zum Beenden aktivieren</string>
+    <string name="label_option_fullscreen">Vollbild aktivieren</string>
+    <string name="label_option_get_started_enabled">Schaltfläche \&amp;quot;Erste Schritte\&amp;quot; aktivieren</string>
+    <string name="label_option_permissions">Berechtigungsanfrage aktivieren</string>
+    <string name="label_option_scrollable">Scrollbare Folien</string>
+    <string name="label_option_show_back">Button zurück anzeigen</string>
+    <string name="label_option_show_next">Schaltfläche weiter anzeigen</string>
+    <string name="label_option_skip_enabled">Schaltfläche zum Überspringen aktivieren</string>
+    <string name="label_options">Optionen:</string>
+    <string name="label_or">oder</string>
+    <string name="label_start_canteen">Einführung in die \&amp;quot;Kantine\&amp;quot;</string>
+    <string name="label_start_intro">Einführung starten</string>
+    <string name="label_start_splash">Begrüßungsbildschirm</string>
+    <string name="language">Sprache wählen</string>
+    <string name="language_selection_title">Sprachkenntnisse</string>
+    <string name="last_update">Zuletzt aktualisiert</string>
+    <string name="loading_ad">Anzeige wird geladen Bitte warten</string>
+    <string name="main_dict_description">Hauptwörterbuch</string>
+    <string name="main_dictionary">Hauptwörterbuch</string>
+    <string name="message_loading">Lädt…</string>
+    <string name="message_updating">Prüfen auf Updates</string>
+    <string name="mi_content_description_back">Zurück</string>
+    <string name="mi_content_description_next">Weiter</string>
+    <string name="mi_content_description_next_finish">Weiter/Fertig</string>
+    <string name="mi_content_description_skip">Überspringen</string>
+    <string name="mi_label_button_cta">Los geht’s</string>
+    <string name="more_keys_strip_description">Mehr TastenThe escape key on a keyboard</string>
+    <string name="moreapps">Weitere Apps:</string>
+    <string name="no_accounts_selected">Keine Konten ausgewählt</string>
+    <string name="no_ads">Keine Werbung</string>
+    <string name="no_dictionaries_available">Keine Wörterbücher verfügbar</string>
+    <string name="not_now">Jetzt nicht</string>
+    <string name="number_row">Zahlenreihe</string>
+    <string name="number_row_summary">Zahlenreihe immer anzeigen</string>
+    <string name="open">Öffnen</string>
+    <string name="open_settings_and_allow_themall">Diese Aktion Bitte öffnen Sie die Einstellungen, gehen Sie zu Berechtigungen und erlauben Sie sie.</string>
+    <string name="otherwise_application_will_not_work">\nAndernfalls funktioniert die Anwendung nicht richtig\n</string>
+    <string name="please_first_enable_keyboard">Bitte aktivieren Sie zuerst die Tastatur, indem Sie auf Tastatur aktivieren klicken</string>
+    <string name="please_wait_for_a_while">Bitte warte eine Weile</string>
+    <string name="popup_on_keypress">Popup bei Tastendruck</string>
+    <string name="prefs_block_potentially_offensive_summary">Schlagen Sie keine potenziell beleidigenden Wörter vor</string>
+    <string name="prefs_block_potentially_offensive_title">Anstößige Worte blockieren</string>
+    <string name="prefs_enable_emoji_alt_physical_key_summary">Die physische Alt-Taste zeigt die Emoji-Palette an</string>
+    <string name="prefs_force_incognito_mode">Inkognito-Modus erzwingen</string>
+    <string name="prefs_force_incognito_mode_summary">Lernen neuer Wörter deaktivieren</string>
+    <string name="prefs_key_longpress_timeout_settings">Verzögerung bei langem Tastendruck</string>
+    <string name="prefs_keyboard_height_scale">Tastatur-Höhenskala</string>
+    <string name="prefs_keypress_sound_volume_settings">Lautstärke bei Tastendruck</string>
+    <string name="prefs_keypress_vibration_duration_settings">Dauer der Tastendruckvibration</string>
+    <string name="prefs_resize_keyboard">Tastaturgröße ändern aktivieren</string>
+    <string name="prefs_show_suggestions">Korrekturvorschläge anzeigen</string>
+    <string name="prefs_show_suggestions_summary">Vorgeschlagene Wörter während der Eingabe anzeigen</string>
+    <string name="premium">Premium</string>
+    <string name="privacy_policy">Datenschutzerklärkung</string>
+    <string name="rate_us">Bewerten Sie uns</string>
+    <string name="recomendation">\nIch empfehle Ihnen diese Anwendung\n</string>
+    <string name="remove">Entfernen</string>
+    <string name="revenue_from_adds">Einnahmen aus Anzeigen helfen uns, unsere App kontinuierlich für Sie zu verbessern. Nach dem Kauf von Premium werden Anzeigen aus Ihrer App entfernt</string>
+    <string name="rotate">Rotieren</string>
+    <string name="save">Speichern</string>
+    <string name="select_keyboard">Wählen Sie Tastatur</string>
+    <string name="select_language">Sprachkenntnisse</string>
+    <string name="select_the_keyboard">Tastatur bereits aktiviert\nWählen Sie die Tastatur aus, indem Sie auf &amp;quot;Tastatur auswählen&amp;quot; drücken</string>
+    <string name="selected_list">SELECTED_LIST</string>
+    <string name="settings">Tastatureinstellungen</string>
+    <string name="settings_screen_accounts">Konten &amp; Datenschutz</string>
+    <string name="settings_screen_advanced">Erweitert</string>
+    <string name="settings_screen_appearance">Tastaturgröße ändern</string>
+    <string name="settings_screen_correction">Textkorrektur</string>
+    <string name="settings_screen_gesture">Gesteneingabe</string>
+    <string name="settings_screen_preferences">Einstellungen</string>
+    <string name="settings_screen_theme">Tastaturbelegungen</string>
+    <string name="settings_system_default">Systemstandard</string>
+    <string name="setup_finish_action">Erledigt</string>
+    <string name="setup_next_action">Nächster Schritt</string>
+    <string name="setup_start_action">Los geht’s</string>
+    <string name="setup_step1_action">Aktivieren in den Einstellungen</string>
+    <string name="setup_step1_bullet" translatable="false">1</string>
+    <string name="setup_step1_finished_instruction">"<ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>ist in Ihren Sprachen &amp; Eingabeeinstellungen bereits aktiviert, also ist dieser Schritt erledigt. Am Rand Der Stadt</string>
+    <string name="setup_step1_title">Aktivieren <ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string name="setup_step2_action">Eingabemethoden wechseln</string>
+    <string name="setup_step2_bullet" translatable="false">22</string>
+    <string name="setup_step2_instruction">&amp;quot;Als nächstes wählen Sie \&amp;quot;<ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>\&amp;quot; als aktive Texteingabemethode.&amp;quot;</string>
+    <string name="setup_step2_title">Wechseln zu <ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string name="setup_step3_action">Zusätzliche Sprachen konfigurieren</string>
+    <string name="setup_step3_bullet" translatable="false">3</string>
+    <string name="setup_step3_instruction">Jetzt können Sie alle Ihre Lieblings-Apps mit eingeben <ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>.</string>
+    <string name="setup_step3_title">Herzlichen Glückwunsch! Alles eingerichtet!</string>
+    <string name="setup_steps_title">Einrichtung <ns1:g example="Android Keyboard" id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string name="share">Teilen</string>
+    <string name="show_language_switch_key">Sprache umschalten</string>
+    <string name="show_language_switch_key_summary">Anzeigen, wenn mehrere Eingabesprachen aktiviert sind</string>
+    <string name="sound_on_keypress">Ton bei Tastendruck</string>
+    <string name="space_trackpad">Trackpad mit Leertaste</string>
+    <string name="space_trackpad_summary">Wischen Sie auf der Leertaste, um den Cursor zu bewegen</string>
+    <string name="spell_checker_service_name">Rechtschreibprüfung für deutsche Tastaturen</string>
+    <string name="subtype_bn_BD">Bangla</string>
+    <string name="subtype_emoji">Emojis</string>
+    <string name="subtype_en_GB">English (GB)</string>
+    <string name="subtype_en_US">Englisch</string>
+    <string name="subtype_es_US">Spanisch (USA)</string>
+    <string name="subtype_generic_compact"><ns1:g example="Hindi" id="LANGUAGE_NAME">%s</ns1:g>COMPACT</string>
+    <string name="subtype_generic_traditional"><ns1:g example="Nepali" id="LANGUAGE_NAME">%s</ns1:g>TRADITIONELL</string>
+    <string name="subtype_hi_ZZ">Hinglish</string>
+    <string name="subtype_locale">Sprachkenntnisse</string>
+    <string name="subtype_no_language">Keine Sprache (Alphabet)</string>
+    <string name="subtype_no_language_azerty">Alphabet (AZERTY)</string>
+    <string name="subtype_no_language_colemak">Alphabet (Colemak)</string>
+    <string name="subtype_no_language_dvorak">Alphabet (Dvorak)</string>
+    <string name="subtype_no_language_pcqwerty">Alphabet (PC)</string>
+    <string name="subtype_no_language_qwerty">Alphabet (QWERTZ)</string>
+    <string name="subtype_no_language_qwertz">Alphabet (QWERTZ)</string>
+    <string name="subtype_sr_ZZ">Serbisch (Latein)</string>
+    <string name="subtype_with_layout_en_GB">English (UK)<ns1:g example="QWERTY" id="KEYBOARD_LAYOUT">%s</ns1:g>)</string>
+    <string name="subtype_with_layout_en_US">English (US)<ns1:g example="QWERTY" id="KEYBOARD_LAYOUT">%s</ns1:g>)</string>
+    <string name="subtype_with_layout_es_US">Spanisch (USA)<ns1:g example="QWERTY" id="KEYBOARD_LAYOUT">%s</ns1:g>)</string>
+    <string name="subtype_with_layout_hi_ZZ">Hinglish<ns1:g example="QWERTY" id="KEYBOARD_LAYOUT">%s</ns1:g>)</string>
+    <string name="subtype_with_layout_sr_ZZ">Serbisch<ns1:g example="QWERTY" id="KEYBOARD_LAYOUT">%s</ns1:g>)</string>
+    <string name="support_us">Unterstütze uns</string>
+    <string name="switch_accounts">Konten wechseln</string>
+    <string name="terms_details">
+Deutsche Tastatur - Die deutsche Tipp- und Emoji-App ist nützlich zum Schreiben
+ Deutschsprachige Zeichen schnell und einfach. Schöne und vielfältige Hintergrundthemen
+ sind auch enthalten, die Ihre Tastatur schmücken. Du kannst stylische Emojis in dein . einfügen
+ Nachricht, um Ihre Nachricht verständlicher zu machen. Wortvorschläge werden auch während der Eingabe angezeigt,
+ Diese Funktion wird verwendet, um mehr Zeichen in kürzerer Zeit zu schreiben. Deutsche Tastatur - Deutsches Tippen &amp; Emoji
+ wird verwendet, um eine Nachricht, E-Mail, einen Beitrag oder einen Blog zu schreiben.\n\n\n
+ <b>Berechtigungen:</b>\n\n
+ Internet\n\n
+ Audio aufnehmen\n\n
+ Informationen, die wir durch Ihre Nutzung der Anwendung erhalten, sind in erster Linie nicht personenbezogen
+ Informationen der Art, die ein Dienst wie Google Analytics normalerweise zur Verfügung stellt, wie z
+ Systemname und -version, Gerätehersteller, Gerätemodell und -kennung usw.\n\nWir können diese Daten verwenden, um
+ analysieren, wie die Anwendung verwendet wird. Andere nicht identifizierende Informationen, auf die wir möglicherweise Zugriff haben
+ enthält, wie Sie die Anwendung verwenden.\n\nUm die Weiterentwicklung der Anwendung zu unterstützen
+ wir können einige nicht aufdringliche Anzeigen von AdMob einschließen. Bitte beachten Sie, dass alle von AdMob erfassten Daten
+ nur verwendet, um Sie mit besseren Anzeigen zu verhindern.\n\n
+ </string>
+    <string name="terms_title">Deutsche Tastatur - Endbenutzer-Lizenzvereinbarung</string>
+    <string name="test_keyboard">Testtastatur</string>
+    <string name="theme_applied">Theme erfolgreich angewendet</string>
+    <string name="themes">Themen</string>
+    <string name="title_canteen_intro1" translatable="false">Menüs direkt auf Ihrem Bildschirm</string>
+    <string name="title_canteen_intro2" translatable="false">Per Nachnahme</string>
+    <string name="title_canteen_intro3" translatable="false">Wählen Sie, was Ihnen gefällt.</string>
+    <string name="title_enable_keyboard">Tastatursteuerung</string>
+    <string name="title_fragment_custom">Auf geht&amp;apos!</string>
+    <string name="title_fragment_login">Dies ist ein benutzerdefiniertes Fragment.</string>
+    <string name="title_material_bold">Fett, grafisch, absichtlich</string>
+    <string name="title_material_metaphor">Material ist die Metapher</string>
+    <string name="title_material_motion">Bewegung gibt Bedeutung</string>
+    <string name="title_material_shadow">Licht und Schatten</string>
+    <string name="title_menu_github">Auf Github anschauen</string>
+    <string name="title_menu_reset_first_start">Flag &amp;quot;Erster Start&amp;quot; zurücksetzen</string>
+    <string name="title_permission_required_dialog">Erforderliche Berechtigungen</string>
+    <string name="title_permissions">Das Anfordern von Berechtigungen war noch nie so einfach.</string>
+    <string name="toast_button_cta">Hey, so funktionieren benutzerdefinierte CTA-Buttons im Material-Intro!</string>
+    <string name="typehere">Hier eingeben</string>
+    <string name="unlock_premium">PREMIUM ENTSPERREN</string>
+    <string name="use_contacts_dict">Kontaktnamen vorschlagen</string>
+    <string name="use_contacts_dict_summary">Verwenden Sie Namen aus den Kontakten für Vorschläge und Korrekturen</string>
+    <string name="use_contacts_for_spellchecking_option_summary">Die Rechtschreibprüfung verwendet Einträge aus Ihrer Kontaktliste</string>
+    <string name="use_contacts_for_spellchecking_option_title">Kontaktnamen nachschlagen</string>
+    <string name="use_double_space_period">Doppelter Zeitraum</string>
+    <string name="use_double_space_period_summary">Doppeltippen auf die Leertaste fügt einen Punkt gefolgt von einem Leerzeichen ein</string>
+    <string name="use_personalized_dicts">Personalisierte Vorschläge</string>
+    <string name="user_dict_fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="user_dict_settings_add_dialog_confirm">OK</string>
+    <string name="user_dict_settings_add_dialog_less_options">Weniger Details</string>
+    <string name="user_dict_settings_add_dialog_more_options">Weitere Optionen</string>
+    <string name="user_dict_settings_add_dialog_title">Zu Wörterbuch hinzufügen</string>
+    <string name="user_dict_settings_add_locale_option_name">Sprache:</string>
+    <string name="user_dict_settings_add_menu_title">Hinzufügen</string>
+    <string name="user_dict_settings_add_screen_title">Ausdruck</string>
+    <string name="user_dict_settings_add_shortcut_hint">Optionale Verknüpfung</string>
+    <string name="user_dict_settings_add_shortcut_option_name">Verknüpfung:</string>
+    <string name="user_dict_settings_add_word_hint">Geben Sie ein Wort ein</string>
+    <string name="user_dict_settings_add_word_option_name">Word:</string>
+    <string name="user_dict_settings_all_languages">Gleichermaßen für alle Sprachen</string>
+    <string name="user_dict_settings_context_menu_delete_title">Löschen</string>
+    <string name="user_dict_settings_context_menu_edit_title">Bearbeiten</string>
+    <string name="user_dict_settings_delete">Löschen</string>
+    <string name="user_dict_settings_edit_dialog_title">Wort bearbeiten</string>
+    <string name="user_dict_settings_empty_text">Sie haben keine Wörter im Benutzerwörterbuch. Um ein Wort hinzuzufügen, tippen Sie auf die Schaltfläche Hinzufügen (+).</string>
+    <string name="user_dict_settings_more_languages">Weitere Sprachen</string>
+    <string name="user_dict_settings_summary" translatable="false">""</string>
+    <string name="user_dictionaries">Benutzerwörterbücher</string>
+    <string name="version_text">Version <ns1:g example="1.0" id="VERSION_NUMBER">1,0</ns1:g></string>
+    <string name="vibrate_on_keypress">Vibrieren auf Knopfdruck</string>
+    <string name="voice_input">Spracheingabe</string>
+    <string name="voice_input_disabled_summary">Keine Spracheingabemethoden aktiviert. Überprüfen Sie die Sprachen &amp; Eingabeeinstellungen.</string>
+    <string name="why_do_you_see_ads">Warum sehen Sie Anzeigen?</string>
+    <string name="would_you_like_to_rateus">Hätten Sie etwas dagegen, uns zu bewerten?</string>
+    <string name="you_force_fully_denied_permissions">Sie haben einige der erforderlichen Berechtigungen gewaltsam verweigert</string>
+    <string name="you_must_allow_permission">Sie müssen die Erlaubnis zulassen</string>
+</resources>

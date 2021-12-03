@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<merge
+    xmlns:latin="http://schemas.android.com/apk/res-auto"
+>
+    <Key
+        latin:keySpec="~" />
+    <Key
+        latin:keySpec="!"
+        latin:additionalMoreKeys="!text/morekeys_exclamation" />
+    <Key
+        latin:keySpec="\@" />
+    <Key
+        latin:keySpec="\#" />
+    <Key
+        latin:keySpec="$"
+        latin:additionalMoreKeys="!text/morekeys_currency_dollar" />
+    <Key
+        latin:keySpec="%"
+        latin:additionalMoreKeys="!text/morekeys_symbols_percent" />
+    <Key
+        latin:keySpec="^" />
+    <Key
+        latin:keySpec="&amp;" />
+    <Key
+        latin:keySpec="*"
+        latin:additionalMoreKeys="!text/morekeys_star" />
+    <Key
+        latin:keySpec="(" />
+    <Key
+        latin:keySpec=")" />
+    <Key
+        latin:keySpec="_" />
+    <!-- U+00D7: "×" MULTIPLICATION SIGN
+         U+00F7: "÷" DIVISION SIGN
+         U+221A: "√" SQUARE ROOT -->
+    <Key
+        latin:keySpec="+"
+        latin:additionalMoreKeys="!text/morekeys_plus"
+        latin:moreKeys="&#x00D7;,&#x00F7;,&#x221A;" />
+</merge>

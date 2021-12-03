@@ -9,7 +9,7 @@ object AddIds {
             id = if (BuildConfig.DEBUG) {
                 "ca-app-pub-3940256099942544/6300978111" // test id
             } else {
-                "ca-app-pub-8046980262605578/8088415068" // orignal id
+                "ca-app-pub-6247650642874574/7261223015" // orignal id
             }
             return id
         }// orignal id
@@ -21,7 +21,7 @@ object AddIds {
             id = if (BuildConfig.DEBUG) {
                 "ca-app-pub-3940256099942544/1033173712" // test id
             } else {
-                "ca-app-pub-8046980262605578/4149170052" // orignal id
+                "ca-app-pub-6247650642874574/5948141343" // orignal id
             }
             return id
         }// orignal id
@@ -33,7 +33,7 @@ object AddIds {
             id = if (BuildConfig.DEBUG) {
                 "ca-app-pub-3940256099942544/2247696110" // test id
             } else {
-                "ca-app-pub-8046980262605578/9209925042" // orignal id
+                "ca-app-pub-6247650642874574/3328866805" // orignal id
             }
             return id
         }// orignal id
@@ -46,7 +46,7 @@ object AddIds {
             id = if (BuildConfig.DEBUG) {
                 "ca-app-pub-3940256099942544/3419835294" // test id
             } else {
-                "ca-app-pub-8046980262605578/5270680030" // orignal id
+                "ca-app-pub-6247650642874574/2015785132" // orignal id
             }
             return id
         }

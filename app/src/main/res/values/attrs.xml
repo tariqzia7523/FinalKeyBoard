@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><!--
+<?xml version="1.0" encoding="utf-8"?>
+<!--
 /*
 **
 ** Copyright 2015, The Android Open Source Project
@@ -18,24 +19,6 @@
 -->
 
 <resources>
-
-
-    <declare-styleable name="GifTextureView">
-
-        <attr name="gifSource" format="reference|string" />
-
-        <attr name="isOpaque" format="boolean" />
-
-    </declare-styleable>
-
-
-    <declare-styleable name="GifView">
-
-        <attr name="freezesAnimation" format="boolean" />
-
-        <attr name="loopCount" format="integer" />
-
-    </declare-styleable>
     <declare-styleable name="KeyboardTheme">
         <!-- InputView style -->
         <attr name="inputViewStyle" format="reference" />
@@ -45,18 +28,10 @@
         <attr name="keyboardViewStyle" format="reference" />
         <!-- MainKeyboardView style -->
         <attr name="mainKeyboardViewStyle" format="reference" />
-        <!-- EmojiPalettesView style -->
-        <attr name="emojiPalettesViewStyle" format="reference" />
         <!-- MoreKeysKeyboard style -->
         <attr name="moreKeysKeyboardStyle" format="reference" />
         <!-- MoreKeysKeyboardView style -->
         <attr name="moreKeysKeyboardViewStyle" format="reference" />
-        <!-- MoreKeysKeyboardView style for action key -->
-        <attr name="moreKeysKeyboardViewForActionStyle" format="reference" />
-        <!-- Suggestions strip style -->
-        <attr name="suggestionStripViewStyle" format="reference" />
-        <!-- Suggestion word style -->
-        <attr name="suggestionWordStyle" format="reference" />
     </declare-styleable>
 
     <declare-styleable name="KeyboardView">
@@ -76,19 +51,10 @@
         <attr name="spacebarIconWidthRatio" format="float" />
         <!-- Right padding of hint letter to the edge of the key.-->
         <attr name="keyHintLetterPadding" format="dimension" />
-        <!-- Popup hint letter string-->
-        <attr name="keyPopupHintLetter" format="string" />
         <!-- Bottom padding of popup hint letter to the edge of the key.-->
-        <attr name="keyPopupHintLetterPadding" format="dimension" />
-        <!-- Right padding of shifted letter hint to the edge of the key.-->
         <attr name="keyShiftedLetterHintPadding" format="dimension" />
         <!-- Blur radius of key text shadow. -->
         <attr name="keyTextShadowRadius" format="float" />
-
-        <!-- Key preview background states -->
-        <attr name="state_left_edge" format="boolean" />
-        <attr name="state_right_edge" format="boolean" />
-        <attr name="state_has_morekeys" format="boolean" />
 
         <!-- Amount to offset the touch Y coordinate by, for bias correction. -->
         <attr name="verticalCorrection" format="dimension" />
@@ -98,8 +64,6 @@
         <!-- Size of the text for spacebar language label, in the proportion of key height. -->
         <attr name="languageOnSpacebarTextRatio" format="fraction" />
         <attr name="languageOnSpacebarTextColor" format="color" />
-        <attr name="languageOnSpacebarTextShadowRadius" format="float" />
-        <attr name="languageOnSpacebarTextShadowColor" format="color" />
         <!-- Fadeout animator for spacebar language label. -->
         <attr name="languageOnSpacebarFinalAlpha" format="integer" />
         <attr name="languageOnSpacebarFadeoutAnimator" format="reference" />
@@ -137,127 +101,27 @@
         <!-- TODO: consolidate key preview linger timeout with the key preview animation parameters. -->
         <!-- Delay after key releasing and key press feedback dismissing in millisecond -->
         <attr name="keyPreviewLingerTimeout" format="integer" />
-        <!-- Key preview show up animator -->
-        <attr name="keyPreviewShowUpAnimator" format="reference" />
         <!-- Key preview dismiss animator -->
         <attr name="keyPreviewDismissAnimator" format="reference" />
         <!-- Layout resource for more keys keyboard -->
         <attr name="moreKeysKeyboardLayout" format="reference" />
-        <!-- Layout resource for more keys keyboard of action key -->
-        <attr name="moreKeysKeyboardForActionLayout" format="reference" />
         <attr name="backgroundDimAlpha" format="integer" />
         <!-- More keys keyboard will shown at touched point. -->
         <attr name="showMoreKeysKeyboardAtTouchedPoint" format="boolean" />
-        <!-- Minimum distance between gesture trail sampling points. -->
-        <attr name="gestureTrailMinSamplingDistance" format="dimension" />
-        <!-- Maximum angular threshold between gesture trail interpolation segments in degree. -->
-        <attr name="gestureTrailMaxInterpolationAngularThreshold" format="integer" />
-        <!-- Maximum distance threshold between gesture trail interpolation segments. -->
-        <attr name="gestureTrailMaxInterpolationDistanceThreshold" format="dimension" />
-        <!-- Maximum number of gesture trail interpolation segments. -->
-        <attr name="gestureTrailMaxInterpolationSegments" format="integer" />
-        <!-- Delay after gesture trail starts fading out in millisecond. -->
-        <attr name="gestureTrailFadeoutStartDelay" format="integer" />
-        <!-- Duration while gesture trail is fading out in millisecond. -->
-        <attr name="gestureTrailFadeoutDuration" format="integer" />
-        <!-- Interval of updating gesture trail in millisecond. -->
-        <attr name="gestureTrailUpdateInterval" format="integer" />
-        <attr name="gestureTrailColor" format="color" />
-        <attr name="gestureTrailStartWidth" format="dimension" />
-        <attr name="gestureTrailEndWidth" format="dimension" />
-        <attr name="gestureTrailBodyRatio" format="integer" />
-        <attr name="gestureTrailShadowRatio" format="integer" />
-        <!-- Delay after gesture input and gesture floating preview text dismissing in millisecond -->
-        <attr name="gestureFloatingPreviewTextLingerTimeout" format="integer" />
-        <!-- Attributes for GestureFloatingPreviewText -->
-        <attr name="gestureFloatingPreviewTextSize" format="dimension" />
-        <attr name="gestureFloatingPreviewTextColor" format="color" />
-        <attr name="gestureFloatingPreviewTextOffset" format="dimension" />
-        <attr name="gestureFloatingPreviewColor" format="color" />
-        <attr name="gestureFloatingPreviewHorizontalPadding" format="dimension" />
-        <attr name="gestureFloatingPreviewVerticalPadding" format="dimension" />
-        <attr name="gestureFloatingPreviewRoundRadius" format="dimension" />
-        <!-- Static threshold for gesture after fast typing (msec) -->
-        <attr name="gestureStaticTimeThresholdAfterFastTyping" format="integer" />
-        <!-- Static threshold for starting gesture detection (keyWidth%/sec) -->
-        <attr name="gestureDetectFastMoveSpeedThreshold" format="fraction" />
-        <!-- Dynamic threshold for gesture after fast typing (msec) -->
-        <attr name="gestureDynamicThresholdDecayDuration" format="integer" />
-        <!-- Time based threshold values for gesture detection (msec) -->
-        <attr name="gestureDynamicTimeThresholdFrom" format="integer" />
-        <attr name="gestureDynamicTimeThresholdTo" format="integer" />
-        <!-- Distance based threshold values for gesture detection (keyWidth%/sec) -->
-        <attr name="gestureDynamicDistanceThresholdFrom" format="fraction" />
-        <attr name="gestureDynamicDistanceThresholdTo" format="fraction" />
-        <!-- Parameter for gesture sampling (keyWidth%/sec) -->
-        <attr name="gestureSamplingMinimumDistance" format="fraction" />
-        <!-- Parameters for gesture recognition (msec) and (keyWidth%/sec) -->
-        <attr name="gestureRecognitionMinimumTime" format="integer" />
-        <attr name="gestureRecognitionUpdateTime" format="integer" />
-        <attr name="gestureRecognitionSpeedThreshold" format="fraction" />
-        <!-- Suppress showing key preview duration after batch input in millisecond -->
-        <attr name="suppressKeyPreviewAfterBatchInputDuration" format="integer" />
     </declare-styleable>
 
     <declare-styleable name="MoreKeysKeyboardView">
-        <attr name="divider" format="reference" />
-    </declare-styleable>
-
-    <declare-styleable name="EmojiPalettesView">
-        <attr name="categoryIndicatorEnabled" format="boolean" />
-        <attr name="categoryIndicatorDrawable" format="reference" />
-        <attr name="categoryIndicatorBackground" format="reference" />
-        <attr name="categoryPageIndicatorColor" format="color" />
-        <attr name="categoryPageIndicatorBackground" format="color" />
-        <attr name="iconEmojiRecentsTab" format="reference" />
-        <attr name="iconEmojiCategory1Tab" format="reference" />
-        <attr name="iconEmojiCategory2Tab" format="reference" />
-        <attr name="iconEmojiCategory3Tab" format="reference" />
-        <attr name="iconEmojiCategory4Tab" format="reference" />
-        <attr name="iconEmojiCategory5Tab" format="reference" />
-        <attr name="iconEmojiCategory6Tab" format="reference" />
-        <attr name="iconEmojiCategory7Tab" format="reference" />
-        <attr name="iconEmojiCategory8Tab" format="reference" />
-        <attr name="iconEmojiCategory9Tab" format="reference" />
-        <attr name="iconEmojiCategory10Tab" format="reference" />
-        <attr name="iconEmojiCategory11Tab" format="reference" />
-        <attr name="iconEmojiCategory12Tab" format="reference" />
-        <attr name="iconEmojiCategory13Tab" format="reference" />
-        <attr name="iconEmojiCategory14Tab" format="reference" />
-        <attr name="iconEmojiCategory15Tab" format="reference" />
-        <attr name="iconEmojiCategory16Tab" format="reference" />
-    </declare-styleable>
-
-    <declare-styleable name="SuggestionStripView">
-        <attr name="suggestionStripOptions" format="integer">
-            <!-- This should be aligned with
-                 {@link com.german.keyboard.app.free.suggestions.SuggestionStripLayoutHelper.AUTO_CORRECT_BOLD} etc. -->
-            <flag name="autoCorrectBold" value="0x01" />
-            <flag name="autoCorrectUnderline" value="0x02" />
-            <flag name="validTypedWordBold" value="0x04" />
-        </attr>
-        <attr name="colorValidTypedWord" format="color" />
-        <attr name="colorTypedWord" format="color" />
-        <attr name="colorAutoCorrect" format="color" />
-        <attr name="colorSuggested" format="color" />
-        <attr name="alphaObsoleted" format="fraction" />
-        <attr name="suggestionsCountInStrip" format="integer" />
-        <attr name="centerSuggestionPercentile" format="fraction" />
-        <attr name="maxMoreSuggestionsRow" format="integer" />
-        <attr name="minMoreSuggestionsWidth" format="float" />
     </declare-styleable>
 
     <declare-styleable name="Keyboard">
         <attr name="themeId" format="enum">
-             <enum name="ICS" value="0" />
-            <enum name="KLP" value="2" />
+            <!-- This should be aligned with
+                 {@link abifogthod.keyboard.KeyboardTheme#THEME_ID_ICS} etc. -->
+            <enum name="LXXLightBorder" value="1" />
+            <enum name="LXXDarkBorder" value="2" />
             <enum name="LXXLight" value="3" />
             <enum name="LXXDark" value="4" />
-            <enum name="LXXLightBorder" value="5" />
-            <enum name="LXXDarkBorder" value="6" />
         </attr>
-        <!-- Touch position correction -->
-        <attr name="touchPositionCorrectionData" format="reference" />
         <!-- Keyboard top, bottom, left, right edges paddings, in propotion of keyboard height. -->
         <attr name="keyboardTopPadding" format="fraction" />
         <attr name="keyboardBottomPadding" format="fraction" />
@@ -272,7 +136,9 @@
         <attr name="verticalGap" format="fraction" />
         <!-- More keys keyboard layout template -->
         <attr name="moreKeysTemplate" format="reference" />
-       <attr name="iconShiftKey" format="reference" />
+        <!-- Icon set for key top and key preview. These should be aligned with
+             {@link abifogthod.keyboard.internal.KeyboardIconsSet#NAMES_AND_ATTR_IDS} -->
+        <attr name="iconShiftKey" format="reference" />
         <attr name="iconDeleteKey" format="reference" />
         <attr name="iconSettingsKey" format="reference" />
         <attr name="iconSpaceKey" format="reference" />
@@ -284,17 +150,12 @@
         <attr name="iconDoneKey" format="reference" />
         <attr name="iconPreviousKey" format="reference" />
         <attr name="iconTabKey" format="reference" />
-        <attr name="iconShortcutKey" format="reference" />
-        <attr name="iconIncognitoKey" format="reference" />
         <attr name="iconSpaceKeyForNumberLayout" format="reference" />
         <attr name="iconShiftKeyShifted" format="reference" />
-        <attr name="iconShortcutKeyDisabled" format="reference" />
         <attr name="iconLanguageSwitchKey" format="reference" />
         <attr name="iconZwnjKey" format="reference" />
         <attr name="iconZwjKey" format="reference" />
-        <attr name="iconImeKey" format="reference" />
-        <attr name="iconEmojiActionKey" format="reference" />
-        <attr name="iconEmojiNormalKey" format="reference" />
+        <attr name="iconthemeskey" format="reference" />
     </declare-styleable>
 
     <declare-styleable name="Keyboard_GridRows">
@@ -318,7 +179,9 @@
         <!-- Maximum column of more keys keyboard -->
         <attr name="maxMoreKeysColumn" format="integer" />
         <attr name="backgroundType" format="enum">
-           <enum name="empty" value="0" />
+            <!-- This should be aligned with
+                 {@link abifogthod.keyboard.Key#BACKGROUND_TYPE_NORMAL} etc. -->
+            <enum name="empty" value="0" />
             <enum name="normal" value="1" />
             <enum name="functional" value="2" />
             <enum name="stickyOff" value="3" />
@@ -328,6 +191,8 @@
         </attr>
         <!-- The key action flags. -->
         <attr name="keyActionFlags" format="integer">
+            <!-- This should be aligned with
+                 {@link abifogthod.keyboard.Key#ACTION_FLAGS_IS_REPEATABLE} etc. -->
             <flag name="isRepeatable" value="0x01" />
             <flag name="noKeyPreview" value="0x02" />
             <flag name="altCodeWhileTyping" value="0x04" />
@@ -335,12 +200,15 @@
         </attr>
         <!-- The label, icon to display on the key. And code, outputText of the key. -->
         <attr name="keySpec" format="string" />
+        <attr name="id" format="reference"/>
         <!-- The hint label to display on the key in conjunction with the label. -->
         <attr name="keyHintLabel" format="string" />
         <!-- The vertical adjustment of key hint label in proportion to its height. -->
         <attr name="keyHintLabelVerticalAdjustment" format="fraction" />
         <!-- The key label flags. -->
         <attr name="keyLabelFlags" format="integer">
+            <!-- This should be aligned with
+                 {@link abifogthod.keyboard.Key#LABEL_FLAGS_FONT_NORMAL} etc. -->
             <flag name="alignHintLabelToBottom" value="0x02" />
             <flag name="alignIconToBottom" value="0x04" />
             <flag name="alignLabelOffCenter" value="0x08" />
@@ -368,8 +236,6 @@
             <!-- If true, use functionalTextColor instead of ketTextColor to drawing the label on
                  the key -->
             <flag name="followFunctionalTextColor" value="0x80000" />
-            <!-- Keep aspect ratio of key background. -->
-            <flag name="keepBackgroundAspectRatio" value="0x100000" />
             <!-- If true, disable keyHintLabel. -->
             <flag name="disableKeyHintLabel" value="0x40000000" />
             <!-- If true, disable additionalMoreKeys. -->
@@ -382,12 +248,21 @@
         <!-- Visual insets, in the proportion of keyboard width. -->
         <attr name="visualInsetsLeft" format="fraction" />
         <attr name="visualInsetsRight" format="fraction" />
-            <attr name="keyWidth" format="fraction|enum">
+        <!-- Width of the key, in the proportion of keyboard width.
+             If the value is fillRight, the actual key width will be determined to fill out the
+             area up to the right edge of the keyboard. -->
+        <!-- This should be aligned with
+             {@link abifogthod.keyboard.internal.KeyboardRow#KEYWIDTH_FILL_RIGHT}. -->
+        <attr name="keyWidth" format="fraction|enum">
             <enum name="fillRight" value="-1" />
         </attr>
-         <attr name="keyXPos" format="fraction" />
+        <!-- The X-coordinate of upper right corner of this key including horizontal gap, in the
+             proportion of keyboard width.
+             If the value is negative, the origin is the right edge of the keyboard. -->
+        <attr name="keyXPos" format="fraction" />
 
-          <attr name="keyTypeface" format="enum">
+        <!-- Key top visual attributes -->
+        <attr name="keyTypeface" format="enum">
             <!-- This should be aligned with {@link android.graphics.Typeface#NORMAL} etc. -->
             <enum name="normal" value="0" />
             <enum name="bold" value="1" />
@@ -411,11 +286,11 @@
         <attr name="keyShiftedLetterHintRatio" format="fraction" />
         <!-- The label's horizontal offset to the center of the key. Negative is to left and
              positive is to right. The value is in proportion of the width of
-             {@link com.german.keyboard.app.free.utils.TypefaceUtils#KEY_LABEL_REFERENCE_CHAR}. -->
+             {@link abifogthod.utils.TypefaceUtils#KEY_LABEL_REFERENCE_CHAR}. -->
         <attr name="keyLabelOffCenterRatio" format="fraction" />
         <!-- The hint label's horizontal offset to the center of the key. Negative is to left and
              positive is to right. The value is in proportion of the width of
-             {@link com.german.keyboard.app.free.utils.TypefaceUtils#KEY_LABEL_REFERENCE_CHAR}. -->
+             {@link abifogthod.utils.TypefaceUtils#KEY_LABEL_REFERENCE_CHAR}. -->
         <attr name="keyHintLabelOffCenterRatio" format="fraction" />
         <!-- Color to use for the label in a key. -->
         <attr name="keyTextColor" format="color" />
@@ -445,7 +320,8 @@
 
     <declare-styleable name="Keyboard_Case">
         <attr name="keyboardLayoutSet" format="string" />
-
+        <!-- This should be aligned with
+             {@link abifogthod.keyboard.KeyboardId#ELEMENT_ALPHABET} etc. -->
         <attr name="keyboardLayoutSetElement" format="enum|string">
             <enum name="alphabet" value="0" />
             <enum name="alphabetManualShifted" value="1" />
@@ -453,36 +329,22 @@
             <enum name="alphabetShiftLocked" value="3" />
             <enum name="alphabetShiftLockShifted" value="4" />
             <enum name="symbols" value="5" />
-            <enum name="symbolsShifted" value="6" />
-            <enum name="phone" value="7" />
-            <enum name="phoneSymbols" value="8" />
-            <enum name="number" value="9" />
-            <enum name="emojiRecents" value="10" />
-            <enum name="emojiCategory1" value="11" />
-            <enum name="emojiCategory2" value="12" />
-            <enum name="emojiCategory3" value="13" />
-            <enum name="emojiCategory4" value="14" />
-            <enum name="emojiCategory5" value="15" />
-            <enum name="emojiCategory6" value="16" />
-            <enum name="emojiCategory7" value="17" />
-            <enum name="emojiCategory8" value="18" />
-            <enum name="emojiCategory9" value="19" />
-            <enum name="emojiCategory10" value="20" />
-            <enum name="emojiCategory11" value="21" />
-            <enum name="emojiCategory12" value="22" />
-            <enum name="emojiCategory13" value="23" />
-            <enum name="emojiCategory14" value="24" />
-            <enum name="emojiCategory15" value="25" />
-            <enum name="emojiCategory16" value="26" />
+            <enum name="symbolsShifted" value="6"  />
+            <enum name="phone" value="7"  />
+            <enum name="phoneSymbols" value="8"  />
+            <enum name="number" value="9"  />
         </attr>
-
+        <!-- This should be aligned with Keyboard.themeId and
+             {@link abifogthod.keyboard.KeyboardTheme#THEME_ID_ICS} etc. -->
         <attr name="keyboardTheme" format="enum|string">
-            <enum name="ICS" value="0" />
-            <enum name="KLP" value="2" />
+            <enum name="LXXLightBorder" value="1" />
+            <enum name="LXXDarkBorder" value="2" />
             <enum name="LXXLight" value="3" />
             <enum name="LXXDark" value="4" />
         </attr>
-          <attr name="mode" format="enum|string">
+        <!-- This should be aligned with
+             {@link abifogthod.keyboard.KeyboardId#MODE_TEXT} etc. -->
+        <attr name="mode" format="enum|string">
             <enum name="text" value="0" />
             <enum name="url" value="1" />
             <enum name="email" value="2" />
@@ -496,11 +358,10 @@
         <attr name="clobberSettingsKey" format="boolean" />
         <attr name="hasShortcutKey" format="boolean" />
         <attr name="languageSwitchKeyEnabled" format="boolean" />
-        <attr name="numberRowEnabled" format="boolean" />
         <attr name="isMultiLine" format="boolean" />
         <attr name="imeAction" format="enum">
             <!-- This should be aligned with
-                 {@link android.view.inputmethod.EditorInfo#IME_ACTION_GO} etc. -->
+                 {@link android.view.lokiboard.EditorInfo#IME_ACTION_GO} etc. -->
             <enum name="actionUnspecified" value="0" />
             <enum name="actionNone" value="1" />
             <enum name="actionGo" value="2" />
@@ -510,15 +371,15 @@
             <enum name="actionDone" value="6" />
             <enum name="actionPrevious" value="7" />
             <!-- This should be aligned with
-                 {@link com.german.keyboard.app.free.utils.InputTypeUtils#IME_ACTION_CUSTOM_LABEL}. -->
+                 {@link abifogthod.utils.InputTypeUtils#IME_ACTION_CUSTOM_LABEL}. -->
             <enum name="actionCustomLabel" value="0x100" />
         </attr>
         <attr name="isIconDefined" format="string" />
         <attr name="localeCode" format="string" />
         <attr name="languageCode" format="string" />
         <attr name="countryCode" format="string" />
-        <!-- Enable split keyboard layout. Disabled by default. -->
-        <attr name="isSplitLayout" format="boolean" />
+        <attr name="showExtraChars" format="boolean" />
+        <attr name="showNumberRow" format="boolean" />
     </declare-styleable>
 
     <declare-styleable name="Keyboard_KeyStyle">
@@ -527,6 +388,8 @@
     </declare-styleable>
 
     <declare-styleable name="KeyboardLayoutSet_Element">
+        <!-- This should be aligned with
+             {@link abifogthod.keyboard.KeyboardId#ELEMENT_ALPHABET} etc. -->
         <attr name="elementName" format="enum">
             <enum name="alphabet" value="0" />
             <enum name="alphabetManualShifted" value="1" />
@@ -534,60 +397,16 @@
             <enum name="alphabetShiftLocked" value="3" />
             <enum name="alphabetShiftLockShifted" value="4" />
             <enum name="symbols" value="5" />
-            <enum name="symbolsShifted" value="6" />
-            <enum name="phone" value="7" />
-            <enum name="phoneSymbols" value="8" />
-            <enum name="number" value="9" />
-            <enum name="emojiRecents" value="10" />
-            <enum name="emojiCategory1" value="11" />
-            <enum name="emojiCategory2" value="12" />
-            <enum name="emojiCategory3" value="13" />
-            <enum name="emojiCategory4" value="14" />
-            <enum name="emojiCategory5" value="15" />
-            <enum name="emojiCategory6" value="16" />
-            <enum name="emojiCategory7" value="17" />
-            <enum name="emojiCategory8" value="18" />
-            <enum name="emojiCategory9" value="19" />
-            <enum name="emojiCategory10" value="20" />
-            <enum name="emojiCategory11" value="21" />
-            <enum name="emojiCategory12" value="22" />
-            <enum name="emojiCategory13" value="23" />
-            <enum name="emojiCategory14" value="24" />
-            <enum name="emojiCategory15" value="25" />
-            <enum name="emojiCategory16" value="26" />
+            <enum name="symbolsShifted" value="6"  />
+            <enum name="phone" value="7"  />
+            <enum name="phoneSymbols" value="8"  />
+            <enum name="number" value="9"  />
         </attr>
-        <attr name="elementKeyboard" format="reference" />
+        <attr name="elementKeyboard" format="reference"/>
         <!-- Enable proximity characters correction. Disabled by default. -->
         <attr name="enableProximityCharsCorrection" format="boolean" />
         <!-- Indicates if the keyboard layout supports being split or not. false by default -->
-        <attr name="supportsSplitLayout" format="boolean" />
-        <!-- Allow redundant more keys when they are in the base layout. true by default. -->
         <attr name="allowRedundantMoreKeys" format="boolean" />
-    </declare-styleable>
-
-    <declare-styleable name="KeyboardLayoutSet_Feature">
-        <!-- This should be aligned with
-             {@link com.german.keyboard.app.free.utils.ScriptUtils#SCRIPT_ARABIC} etc. -->
-        <attr name="supportedScript" format="enum">
-            <enum name="arabic" value="0" />
-            <enum name="armenian" value="1" />
-            <enum name="bengali" value="2" />
-            <enum name="cyrillic" value="3" />
-            <enum name="devanagari" value="4" />
-            <enum name="georgian" value="5" />
-            <enum name="greek" value="6" />
-            <enum name="hebrew" value="7" />
-            <enum name="kannada" value="8" />
-            <enum name="khmer" value="9" />
-            <enum name="lao" value="10" />
-            <enum name="latin" value="11" />
-            <enum name="malayalam" value="12" />
-            <!-- Myanmar is disabled. <enum name="myanmar" value="13" /> -->
-            <enum name="sinhala" value="14" />
-            <enum name="tamil" value="15" />
-            <enum name="telugu" value="16" />
-            <enum name="thai" value="17" />
-        </attr>
     </declare-styleable>
 
     <declare-styleable name="SeekBarDialogPreference">
@@ -595,33 +414,4 @@
         <attr name="minValue" format="integer" />
         <attr name="stepValue" format="integer" />
     </declare-styleable>
-
-    <declare-styleable name="advDrawerLayout">
-
-        <attr name="adl_customBehavior" format="boolean" />
-
-        <attr name="adl_viewScale" format="float" />
-
-        <attr name="adl_viewScrimColor" format="color" />
-
-        <attr name="adl_viewElevation" format="dimension" />
-
-        <attr name="adl_drawerElevation" format="dimension" />
-
-        <attr name="adl_cardBackgroundColor" format="reference|color" />
-
-    </declare-styleable>
-
-    <declare-styleable name="InkPageIndicator">
-        <attr name="dotDiameter" format="dimension" />
-        <attr name="dotGap" format="dimension" />
-        <attr name="animationDuration" format="integer" />
-        <attr name="pageIndicatorColor" format="color" />
-        <attr name="currentPageIndicatorColor" format="color" />
-    </declare-styleable>
-
-    <declare-styleable name="ParallaxLayout_Layout">
-        <attr name="layout_parallaxFactor" format="float" />
-    </declare-styleable>
-
 </resources>

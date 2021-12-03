@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl-rBE\\values-nl-rBE.xml",
+            "outputFile": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nl-rBE\\values-nl-rBE.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\line\\Desktop\\Keyboard\\Bangaldesh-Keyboard\\app\\src\\main\\res\\values-nl-rBE\\bools.xml",
+                    "source": "C:\\Users\\line\\Desktop\\01_DEC_2021\\FinalKeyBoard\\app\\src\\main\\res\\values-nl-rBE\\bools.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "4",
